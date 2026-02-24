@@ -13,7 +13,7 @@ CLIPPING_THRESHOLD = 5000
 ECHO_GAIN = .6
 DELAY = 200
 FEEDBACK = .5
-# Tremello Configs
+# Tremolo Configs
 RATE = 5
 DEPTH = .5
 
@@ -74,7 +74,7 @@ def echo(audio, gain, delay_ms, feedback, sample_rate):
 
     return out.astype(np.int16)
 
-def sin_tremello(audio, rate, depth, sample_rate):
+def sin_tremolo(audio, rate, depth, sample_rate):
     out = np.empty_like(audio)
     
     for i in range(len(audio)):
@@ -97,14 +97,14 @@ def main():
     echo_effect = echo(data, ECHO_GAIN, DELAY, FEEDBACK, sample_rate)
     echo_stop = time.perf_counter()
     print(f"Time taken for Delay: {echo_stop - soft_clipped_stop} seconds")
-    sin_tremello_effect = sin_tremello(data, RATE, DEPTH, sample_rate)
-    sin_tremello_stop = time.perf_counter()
-    print(f"Time taken for Sin Tremello: {sin_tremello_stop - echo_stop} seconds")
+    sin_tremolo_effect = sin_tremolo(data, RATE, DEPTH, sample_rate)
+    sin_tremolo_stop = time.perf_counter()
+    print(f"Time taken for Sin Tremello: {sin_tremolo_stop - echo_stop} seconds")
 
     plot_sounds(echo_effect, sample_rate)
-    plot_sounds(sin_tremello_effect, sample_rate)
+    plot_sounds(sin_tremolo_effect, sample_rate)
     play_audio(echo_effect, sample_rate)
-    play_audio(sin_tremello_effect, sample_rate)
+    play_audio(sin_tremolo_effect, sample_rate)
     
 
 
