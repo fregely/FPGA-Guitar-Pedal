@@ -13,9 +13,14 @@ CLIPPING_THRESHOLD = 5000
 ECHO_GAIN = .6
 DELAY = 200
 FEEDBACK = .5
-# Tremolo Configs
+# Tremolo/Chorus Configs
 RATE = 5
 DEPTH = .5
+# Chorus Configs
+CHORUS_DELAY = 25
+CHORUS_DEPTH = 20
+CHORUS_RATE = 5
+MIX = .7
 
 
 def load_audio(filepath):
@@ -83,11 +88,33 @@ def sin_tremolo(audio, rate, depth, sample_rate):
         out[i] = temp
     return out
 
+def chorus(audio, rate, depth, mix, base_delay, sample_rate):
+    delay_samples = int(sample_rate * base_delay / 1000)
+    out = np.zeros(len(audio) + delay_samples)
+    buffer = np.zeros(delay_samples)
+    buf_idx = 0
+    for i in range(len(out)):
+        if i < len(audio):
+            current = audio[i]
+        else:
+            current = 0  
+        lfo = np.sin(2 * np.pi * rate * (i / sample_rate)) # Low frequency Oscillator
 
+        # You get a clicking sound sometimes, this helps to smooth it out 
+        pos = (buf_idx + depth * lfo) % delay_samples
+        pos_floor = int(pos) # Making it an int floors it. 
+        pos_ceil = (pos_floor + 1) % delay_samples # This then takes the higher 
+        fraction = pos - pos_floor # This finds the ratio that you have between the pos and floor, to better represent the values
+        delayed = buffer[pos_floor] * (1 - fraction) + buffer[pos_ceil] * fraction
+      
+        out[i] = (1 - mix) * current + mix * delayed
+        buffer[buf_idx] = current
+        buf_idx = (buf_idx + 1) % delay_samples
+    return out.astype(np.int16)
 
 def main():
-    start = time.perf_counter()
     sample_rate, data = load_audio(INPUT_FILE)
+    start = time.perf_counter()
     hard_clipped = hard_clipping_distortion(data, GAIN, CLIPPING_THRESHOLD)
     hard_clipped_stop = time.perf_counter()
     print(f"Time taken for Hard Clip: {hard_clipped_stop - start} seconds")
@@ -99,12 +126,21 @@ def main():
     print(f"Time taken for Delay: {echo_stop - soft_clipped_stop} seconds")
     sin_tremolo_effect = sin_tremolo(data, RATE, DEPTH, sample_rate)
     sin_tremolo_stop = time.perf_counter()
-    print(f"Time taken for Sin Tremello: {sin_tremolo_stop - echo_stop} seconds")
+    print(f"Time taken for Sin Tremolo: {sin_tremolo_stop - echo_stop} seconds")
+    chorus_effect = chorus(data, CHORUS_RATE, CHORUS_DEPTH, MIX, CHORUS_DELAY, sample_rate )
+    chorus_stop = time.perf_counter()
+    print(f"Time taken for Chorus: {chorus_stop - sin_tremolo_stop} seconds")
+    print(f"Total Time taken: {chorus_stop - start} seconds")
 
-    plot_sounds(echo_effect, sample_rate)
-    plot_sounds(sin_tremolo_effect, sample_rate)
+    # plot_sounds(echo_effect, sample_rate)
+    # plot_sounds(chorus_effect, sample_rate)
+
+    play_audio(data, sample_rate)
+    play_audio(hard_clipped, sample_rate)
+    play_audio(soft_clipped, sample_rate)
     play_audio(echo_effect, sample_rate)
     play_audio(sin_tremolo_effect, sample_rate)
+    play_audio(chorus_effect, sample_rate)
     
 
 
