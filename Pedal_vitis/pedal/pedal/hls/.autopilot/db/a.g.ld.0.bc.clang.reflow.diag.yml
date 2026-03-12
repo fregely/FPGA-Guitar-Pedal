@@ -1,0 +1,38 @@
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: pedal.cpp, Line: 15, Column: 22 }
+Function:        _Z17audio_passthroughRN3hls6streamINS_4axisI6ap_intILi32EELm0ELm0ELm0ELh56ELb0EEELi0EEES6_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          ' '
+  - LoopLoc:         'pedal.cpp:15:22'
+  - String:          ' '
+  - Function:        'audio_passthrough(hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)'
+    DebugLoc:        { File: pedal.cpp, Line: 9, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: pedal.cpp, Line: 15, Column: 22 }
+Function:        _Z17audio_passthroughRN3hls6streamINS_4axisI6ap_intILi32EELm0ELm0ELm0ELh56ELb0EEELi0EEES6_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          '''('
+  - LoopLoc:         'pedal.cpp:15:22'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          '> at '
+  - LoopLoc:         'pedal.cpp:15:22'
+  - String:          ' '
+...
