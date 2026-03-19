@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "E:\\FPGA-Guitar-Pedal\\Pedal_vitis\\pedal",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "E:\\FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal.cpp"
+    ],
+    "file": "E:\\FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal.cpp"
+  }
+]

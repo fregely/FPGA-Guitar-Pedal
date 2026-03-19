@@ -1,0 +1,14 @@
+{
+    "0": {
+        "name": "audio_passthrough",
+        "file": "pedal.cpp",
+        "fileloc": "9",
+        "instructions": "25",
+        "total_instructions": "25",
+        "calls": "",
+        "basicblocks": "3",
+        "loops": {
+            "L": "1"
+        }
+    }
+}
