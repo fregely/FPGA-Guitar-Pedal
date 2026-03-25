@@ -1,0 +1,20 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+make: 'csim.exe' is up to date.
+--- Testing Hard Clipping (Threshold: 5000) ---
+In:      0 | Out:      0
+In:    626 | Out:   1252
+In:   1250 | Out:   2500
+In:   1869 | Out:   3738
+In:   2481 | Out:   4962
+In:   3083 | Out:   5000
+In:   3673 | Out:   5000
+In:   4248 | Out:   5000
+In:   4807 | Out:   5000
+In:   5347 | Out:   5000
+
+--- Testing Echo ---
+Total samples with delay: 2237
+Sample at end of echo: 5587
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

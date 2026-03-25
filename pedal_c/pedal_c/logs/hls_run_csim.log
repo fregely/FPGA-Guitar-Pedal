@@ -1,0 +1,55 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Users/small.cl/Documents/pedal_c/pedal_c\pedal_c.hlsrun_csim_summary, at 03/25/26 16:19:39
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Users/small.cl/Documents/pedal_c/pedal_c -config C:/Users/small.cl/Documents/pedal_c/hls_config.cfg -cmdlineconfig C:/Users/small.cl/Documents/pedal_c/pedal_c/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Mar 25 16:19:41 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'small.cl' on host 'wfxb07b250a434c.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Wed Mar 25 16:19:42 -0400 2026
+INFO: [HLS 200-10] In directory 'C:/Users/small.cl/Documents/pedal_c'
+INFO: [HLS 200-2005] Using work_dir C:/Users/small.cl/Documents/pedal_c/pedal_c 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-2001] file not found 'oedal_c.cpp' see [hls] from C:/Users/small.cl/Documents/pedal_c/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'syn.file=oedal_c.cpp' from C:/Users/small.cl/Documents/pedal_c/hls_config.cfg(9)
+WARNING: [HLS 200-40] Cannot find design file 'oedal_c.cpp'
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.h' from C:/Users/small.cl/Documents/pedal_c/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'C:/Users/small.cl/Documents/pedal_c/pedal_c.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=pedal_c.cpp' from C:/Users/small.cl/Documents/pedal_c/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/small.cl/Documents/pedal_c/pedal_c.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=pedal_c_tb.cpp' from C:/Users/small.cl/Documents/pedal_c/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/small.cl/Documents/pedal_c/pedal_c_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/small.cl/Documents/pedal_c/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Users/small.cl/Documents/pedal_c/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/small.cl/Documents/pedal_c/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+make: 'csim.exe' is up to date.
+--- Testing Hard Clipping (Threshold: 5000) ---
+In:      0 | Out:      0
+In:    626 | Out:   1252
+In:   1250 | Out:   2500
+In:   1869 | Out:   3738
+In:   2481 | Out:   4962
+In:   3083 | Out:   5000
+In:   3673 | Out:   5000
+In:   4248 | Out:   5000
+In:   4807 | Out:   5000
+In:   5347 | Out:   5000
+
+--- Testing Echo ---
+Total samples with delay: 2237
+Sample at end of echo: 5587
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.889 seconds; peak allocated memory: 246.449 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 8s

@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\small.cl\\Documents\\pedal_c\\pedal_c\\pedal_c.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/25/26 16:19:39",
+ "timestampMillis": "648486543",
+ "buildStep": {
+  "cmdId": "9ee52ae1-f9e7-4b95-8e03-74d8289387ad",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\small.cl\\Documents\\pedal_c\\pedal_c\\logs\\pedal_c.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\small.cl\\Documents\\pedal_c\\hls_config.cfg --work_dir pedal_c ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\small.cl\\Documents\\pedal_c\\hls_config.cfg",
+   "--work_dir",
+   "pedal_c"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\small.cl\\Documents\\pedal_c"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/25/26 16:19:39",
+ "timestampMillis": "648486544",
+ "status": {
+  "cmdId": "9ee52ae1-f9e7-4b95-8e03-74d8289387ad",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/25/26 16:19:44",
+ "timestampMillis": "648491494",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\small.cl\\Documents\\pedal_c\\oedal_c.cpp",
+     "C:/Users\\small.cl\\Documents\\pedal_c\\pedal_c.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/25/26 16:19:44",
+ "timestampMillis": "648491495",
+ "buildStep": {
+  "cmdId": "c89f78fe-71f3-45a3-920b-0d4a0d584d69",
+  "name": "csim_design",
+  "logFile": "C:/Users\\small.cl\\Documents\\pedal_c\\pedal_c\\hls\\hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\small.cl\\Documents\\pedal_c"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/25/26 16:19:44",
+ "timestampMillis": "648491496",
+ "status": {
+  "cmdId": "c89f78fe-71f3-45a3-920b-0d4a0d584d69",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/25/26 16:19:45",
+ "timestampMillis": "648492248",
+ "status": {
+  "cmdId": "c89f78fe-71f3-45a3-920b-0d4a0d584d69",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/25/26 16:19:45",
+ "timestampMillis": "648492383",
+ "status": {
+  "cmdId": "9ee52ae1-f9e7-4b95-8e03-74d8289387ad",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/25/26 16:19:45",
+ "timestampMillis": "648492383",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/25/26 16:19:45",
+ "timestampMillis": "648492383",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

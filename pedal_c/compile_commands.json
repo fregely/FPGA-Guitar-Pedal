@@ -1,0 +1,50 @@
+[
+  {
+    "directory": "C:\\Users\\small.cl\\Documents\\pedal_c",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\small.cl\\Documents\\pedal_c\\oedal_c.cpp"
+    ],
+    "file": "C:\\Users\\small.cl\\Documents\\pedal_c\\oedal_c.cpp"
+  },
+  {
+    "directory": "C:\\Users\\small.cl\\Documents\\pedal_c",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\small.cl\\Documents\\pedal_c\\pedal_top.cpp"
+    ],
+    "file": "C:\\Users\\small.cl\\Documents\\pedal_c\\pedal_top.cpp"
+  },
+  {
+    "directory": "C:\\Users\\small.cl\\Documents\\pedal_c",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
+      "",
+      "-c",
+      "C:\\Users\\small.cl\\Documents\\pedal_c\\pedal_c.cpp"
+    ],
+    "file": "C:\\Users\\small.cl\\Documents\\pedal_c\\pedal_c.cpp"
+  },
+  {
+    "directory": "C:\\Users\\small.cl\\Documents\\pedal_c",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
+      "",
+      "-c",
+      "C:\\Users\\small.cl\\Documents\\pedal_c\\pedal_c_tb.cpp"
+    ],
+    "file": "C:\\Users\\small.cl\\Documents\\pedal_c\\pedal_c_tb.cpp"
+  }
+]
