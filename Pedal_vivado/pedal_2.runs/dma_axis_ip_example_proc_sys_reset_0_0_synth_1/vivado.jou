@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Mar 25 17:37:11 2026
+# Process ID: 16960
+# Current directory: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_proc_sys_reset_0_0_synth_1
+# Command line: vivado.exe -log dma_axis_ip_example_proc_sys_reset_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_axis_ip_example_proc_sys_reset_0_0.tcl
+# Log file: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_proc_sys_reset_0_0_synth_1/dma_axis_ip_example_proc_sys_reset_0_0.vds
+# Journal file: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_proc_sys_reset_0_0_synth_1\vivado.jou
+# Running On        :WFXB07B250A3A85
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+# CPU Frequency     :2904 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :34059 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36207 MB
+# Available Virtual :13285 MB
+#-----------------------------------------------------------
+source dma_axis_ip_example_proc_sys_reset_0_0.tcl -notrace

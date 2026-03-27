@@ -1,0 +1,360 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Mar 25 17:23:45 2026
+# Process ID: 9476
+# Current directory: E:/FPGA-Guitar-Pedal/pedal_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14948 E:\FPGA-Guitar-Pedal\pedal_2\pedal_2.xpr
+# Log file: E:/FPGA-Guitar-Pedal/pedal_2/vivado.log
+# Journal file: E:/FPGA-Guitar-Pedal/pedal_2\vivado.jou
+# Running On        :WFXB07B250A3A85
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+# CPU Frequency     :2904 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :34059 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36207 MB
+# Available Virtual :19856 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'E:/FPGA-Guitar-Pedal/Pedal_vivado/pedal_2' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'E:/Pedal_vitis'; using path 'E:/FPGA-Guitar-Pedal/Pedal_vitis' instead.
+WARNING: [BD 41-2576] File 'E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0.xci' referenced by design 'dma_axis_ip_example' could not be found.
+WARNING: [BD 41-2576] File 'E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0.xci' referenced by design 'dma_axis_ip_example' could not be found.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/FPGA-Guitar-Pedal/Pedal_vitis'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:14 . Memory (MB): peak = 1713.582 ; gain = 441.129
+update_compile_order -fileset sources_1
+open_bd_design {E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example.bd}
+Reading block design file <E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example.bd>...
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+INFO: [BD 41-434] Could not find an IP with XCI file by name: dma_axis_ip_example_auto_ds_0 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+INFO: [BD 41-434] Could not find an IP with XCI file by name: dma_axis_ip_example_auto_pc_0 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Successfully read diagram <dma_axis_ip_example> from block design file <E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1753.707 ; gain = 0.000
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0
+INFO: [Device 21-403] Loading part xczu3eg-sfvc784-2-e
+create_bd_cell: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 3134.195 ; gain = 1342.812
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:audio_passthrough:1.0 audio_passthrough_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:i2s_transmitter:1.0 i2s_transmitter_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_FPD} Slave {/audio_passthrough_0/s_axi_control} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins audio_passthrough_0/s_axi_control]
+Slave segment '/audio_passthrough_0/s_axi_control/Reg' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA000_0000 [ 64K ]>.
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Clk {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Manual_Source {Auto}}  [get_bd_pins clk_wiz_0/clk_in1]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {New External Port (ACTIVE_HIGH)}}  [get_bd_pins clk_wiz_0/reset]
+INFO: [BoardRule 102-10] create_bd_port -dir I reset_rtl_0 -type rst
+INFO: [BoardRule 102-7] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0
+INFO: [BoardRule 102-15] connect_bd_net /reset_rtl_0 /clk_wiz_0/reset
+INFO: [BoardRule 102-19] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_FPD} Slave {/i2s_transmitter_0/s_axi_ctrl} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins i2s_transmitter_0/s_axi_ctrl]
+Slave segment '/i2s_transmitter_0/s_axi_ctrl/Reg' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA001_0000 [ 64K ]>.
+endgroup
+connect_bd_net [get_bd_pins i2s_transmitter_0/s_axis_aud_aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+connect_bd_net [get_bd_pins i2s_transmitter_0/s_axis_aud_aresetn] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn]
+startgroup
+make_bd_pins_external  [get_bd_pins i2s_transmitter_0/irq]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins i2s_transmitter_0/lrclk_out]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins i2s_transmitter_0/sclk_out]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins i2s_transmitter_0/sdata_0_out]
+endgroup
+delete_bd_objs [get_bd_nets reset_rtl_0_1]
+delete_bd_objs [get_bd_ports reset_rtl_0]
+connect_bd_net [get_bd_pins clk_wiz_0/reset] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn]
+startgroup
+connect_bd_net [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins i2s_transmitter_0/aud_mclk]
+endgroup
+connect_bd_intf_net [get_bd_intf_pins audio_passthrough_0/out_stream] [get_bd_intf_pins i2s_transmitter_0/s_axis_aud]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 proc_sys_reset_0
+endgroup
+set_property location {4 1024 -152} [get_bd_cells proc_sys_reset_0]
+connect_bd_net [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins proc_sys_reset_0/slowest_sync_clk]
+connect_bd_net [get_bd_pins clk_wiz_0/locked] [get_bd_pins proc_sys_reset_0/dcm_locked]
+startgroup
+connect_bd_net [get_bd_pins proc_sys_reset_0/ext_reset_in] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn]
+endgroup
+connect_bd_net [get_bd_pins proc_sys_reset_0/peripheral_reset] [get_bd_pins i2s_transmitter_0/aud_mrst]
+regenerate_bd_layout
+startgroup
+set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {299.507} \
+  CONFIG.CLKOUT1_PHASE_ERROR {189.550} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {11.2896} \
+  CONFIG.MMCM_CLKFBOUT_MULT_F {31.625} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {93.375} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {3} \
+] [get_bd_cells clk_wiz_0]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_0
+endgroup
+set_property location {4 1496 584} [get_bd_cells util_vector_logic_0]
+set_property -dict [list \
+  CONFIG.C_OPERATION {not} \
+  CONFIG.C_SIZE {1} \
+] [get_bd_cells util_vector_logic_0]
+set_property location {5 1765 581} [get_bd_cells clk_wiz_0]
+disconnect_bd_net /rst_ps7_0_100M_peripheral_aresetn [get_bd_pins clk_wiz_0/reset]
+connect_bd_net [get_bd_pins clk_wiz_0/reset] [get_bd_pins util_vector_logic_0/Res]
+connect_bd_net [get_bd_pins util_vector_logic_0/Op1] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn]
+save_bd_design
+Wrote  : <E:\FPGA-Guitar-Pedal\pedal_2\pedal_2.srcs\sources_1\bd\dma_axis_ip_example\dma_axis_ip_example.bd> 
+Wrote  : <E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/ui/bd_cd482fe9.ui> 
+save_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3299.008 ; gain = 0.000
+make_wrapper -files [get_files E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example.bd] -top
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH> is excluded from all addressing paths.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-11] /axi_dma
+                   #################################### 
+                   S_AXIS_S2MM interface is unconnected
+                   ####################################
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /axi_dma/M_AXI_MM2S(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /axi_dma/M_AXI_MM2S(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps7_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps7_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/audio_passthrough_0/in_stream_TVALID
+
+Wrote  : <E:\FPGA-Guitar-Pedal\pedal_2\pedal_2.srcs\sources_1\bd\dma_axis_ip_example\dma_axis_ip_example.bd> 
+Verilog Output written to : e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v
+Verilog Output written to : e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/sim/dma_axis_ip_example.v
+Verilog Output written to : e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 3299.008 ; gain = 0.000
+add_files -norecurse e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v
+file mkdir E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1
+file mkdir E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new
+close [ open E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new/pedal2.xdc w ]
+add_files -fileset constrs_1 E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new/pedal2.xdc
+delete_bd_objs [get_bd_nets clk_wiz_0_clk_out1]
+delete_bd_objs [get_bd_nets clk_wiz_0_locked]
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets clk_wiz_0_locked]'
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets clk_wiz_0_clk_out1]'
+delete_bd_objs [get_bd_nets clk_wiz_0_clk_out1]
+delete_bd_objs [get_bd_nets clk_wiz_0_locked]
+startgroup
+make_bd_pins_external  [get_bd_pins clk_wiz_0/locked]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins clk_wiz_0/clk_out1]
+endgroup
+connect_bd_net [get_bd_pins clk_wiz_0/locked] [get_bd_pins proc_sys_reset_0/dcm_locked]
+connect_bd_net [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins proc_sys_reset_0/slowest_sync_clk]
+connect_bd_net [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins i2s_transmitter_0/aud_mclk]
+save_bd_design
+Wrote  : <E:\FPGA-Guitar-Pedal\pedal_2\pedal_2.srcs\sources_1\bd\dma_axis_ip_example\dma_axis_ip_example.bd> 
+Wrote  : <E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/ui/bd_cd482fe9.ui> 
+validate_bd_design
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH> is excluded from all addressing paths.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_HIGH from address space /axi_dma/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_dma/Data_MM2S.
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-11] /axi_dma
+                   #################################### 
+                   S_AXIS_S2MM interface is unconnected
+                   ####################################
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /axi_dma/M_AXI_MM2S(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /axi_dma/M_AXI_MM2S(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps7_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps7_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/audio_passthrough_0/in_stream_TVALID
+
+save_bd_design
+Wrote  : <E:\FPGA-Guitar-Pedal\pedal_2\pedal_2.srcs\sources_1\bd\dma_axis_ip_example\dma_axis_ip_example.bd> 
+Wrote  : <E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/ui/bd_cd482fe9.ui> 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [BD 41-1662] The design 'dma_axis_ip_example.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/audio_passthrough_0/in_stream_TVALID
+
+Verilog Output written to : e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v
+Verilog Output written to : e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/sim/dma_axis_ip_example.v
+Verilog Output written to : e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma .
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.5-0] dma_axis_ip_example_zynq_ultra_ps_e_0_0: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Amd's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Amd's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP2_FPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block audio_passthrough_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block i2s_transmitter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hw_handoff/dma_axis_ip_example.hwh
+Generated Hardware Definition File e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_audio_passthrough_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_auto_ds_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_auto_us_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_axi_dma_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_clk_wiz_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_i2s_transmitter_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_proc_sys_reset_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_rst_ps7_0_100M_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_util_vector_logic_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_xbar_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dma_axis_ip_example_zynq_ultra_ps_e_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_audio_passthrough_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_auto_ds_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_xbar_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_zynq_ultra_ps_e_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_auto_us_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_axi_dma_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_clk_wiz_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_i2s_transmitter_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_proc_sys_reset_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_rst_ps7_0_100M_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_util_vector_logic_0_0
+[Wed Mar 25 17:37:07 2026] Launched dma_axis_ip_example_auto_ds_0_synth_1, dma_axis_ip_example_axi_dma_0_synth_1, dma_axis_ip_example_clk_wiz_0_0_synth_1, dma_axis_ip_example_xbar_0_synth_1, dma_axis_ip_example_i2s_transmitter_0_0_synth_1, dma_axis_ip_example_proc_sys_reset_0_0_synth_1, dma_axis_ip_example_audio_passthrough_0_0_synth_1, dma_axis_ip_example_zynq_ultra_ps_e_0_0_synth_1, dma_axis_ip_example_rst_ps7_0_100M_0_synth_1, dma_axis_ip_example_util_vector_logic_0_0_synth_1, dma_axis_ip_example_auto_pc_0_synth_1, dma_axis_ip_example_auto_us_0_synth_1, synth_1...
+Run output will be captured here:
+dma_axis_ip_example_auto_ds_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_auto_ds_0_synth_1/runme.log
+dma_axis_ip_example_axi_dma_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/runme.log
+dma_axis_ip_example_clk_wiz_0_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_clk_wiz_0_0_synth_1/runme.log
+dma_axis_ip_example_xbar_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_xbar_0_synth_1/runme.log
+dma_axis_ip_example_i2s_transmitter_0_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_i2s_transmitter_0_0_synth_1/runme.log
+dma_axis_ip_example_proc_sys_reset_0_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_proc_sys_reset_0_0_synth_1/runme.log
+dma_axis_ip_example_audio_passthrough_0_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_audio_passthrough_0_0_synth_1/runme.log
+dma_axis_ip_example_zynq_ultra_ps_e_0_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_zynq_ultra_ps_e_0_0_synth_1/runme.log
+dma_axis_ip_example_rst_ps7_0_100M_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_rst_ps7_0_100M_0_synth_1/runme.log
+dma_axis_ip_example_util_vector_logic_0_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_util_vector_logic_0_0_synth_1/runme.log
+dma_axis_ip_example_auto_pc_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_auto_pc_0_synth_1/runme.log
+dma_axis_ip_example_auto_us_0_synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_auto_us_0_synth_1/runme.log
+synth_1: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/runme.log
+[Wed Mar 25 17:37:07 2026] Launched impl_1...
+Run output will be captured here: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:43 ; elapsed = 00:01:49 . Memory (MB): peak = 3540.016 ; gain = 178.574
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 25 18:03:37 2026...

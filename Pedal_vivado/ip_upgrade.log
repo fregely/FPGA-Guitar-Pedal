@@ -1,37 +1,16 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date         : Wed Mar 11 16:08:57 2026
-| Host         : WFXB07B250A3A85 running 64-bit major release  (build 9200)
+| Date         : Fri Mar 27 14:52:52 2026
+| Host         : Theodore running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xczu3eg-sfvc784-2-e
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-Upgrade Log for IP 'pedal_passthrough_audio_passthrough_0_0'
+Upgrade Log for IP 'dma_axis_ip_example_audio_passthrough_0_0'
 
 1. Summary
 ----------
 
-CAUTION (success, with warnings) in the upgrade of pedal_passthrough_audio_passthrough_0_0 (xilinx.com:hls:audio_passthrough:1.0) from (Rev. 2114516422) to (Rev. 2114516466)
-
-After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
-
-2. Connection Warnings
-----------------------
-
-Detected external port differences while upgrading 'pedal_passthrough_audio_passthrough_0_0'. These changes may impact your design.
-
-
--Upgraded port 'in_stream_TDATA' width 32 differs from original width 16
-
--Upgraded port 'in_stream_TKEEP' width 4 differs from original width 2
-
--Upgraded port 'in_stream_TSTRB' width 4 differs from original width 2
-
--Upgraded port 'out_stream_TDATA' width 32 differs from original width 16
-
--Upgraded port 'out_stream_TKEEP' width 4 differs from original width 2
-
--Upgraded port 'out_stream_TSTRB' width 4 differs from original width 2
-
+SUCCESS in the upgrade of dma_axis_ip_example_audio_passthrough_0_0 (xilinx.com:hls:audio_passthrough:1.0) from (Rev. 2114536358) to (Rev. 2114516466)
 
