@@ -3,9 +3,7 @@
   "mapping": {
     "pedal\\pedal_c.cpp": "pedal",
     "pedal\\pedal_c_tb.cpp": "pedal",
-    "D:\\FPGA-Guitar-Pedal\\pedal_c\\pedal_c.cpp": "pedal",
-    "D:\\FPGA-Guitar-Pedal\\pedal_c\\pedal_top.cpp": "pedal",
-    "D:\\FPGA-Guitar-Pedal\\pedal_c\\pedal_c_tb.cpp": "pedal",
+    "pedal\\pedal_c.h": "pedal",
     "pedal\\pedal_top.cpp": "pedal",
     "pedal\\pedal.cpp": "pedal"
   }
