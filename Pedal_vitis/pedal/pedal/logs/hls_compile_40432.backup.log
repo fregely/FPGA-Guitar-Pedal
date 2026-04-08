@@ -1,0 +1,32 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal\pedal.hlscompile_summary, at 04/08/26 10:44:52
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal -config D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg -cmdlineconfig D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/config.cmdline
+INFO: [HLS 200-10] For user 'gunne' on host 'theodore' (Windows NT_amd64 version 10.0) on Wed Apr 08 10:44:55 -0400 2026
+INFO: [HLS 200-10] In directory 'D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal'
+INFO: [HLS 200-2005] Using work_dir D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal.cpp' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.cpp' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.h' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_top.cpp' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_top.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=pedal_c_tb.cpp' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding test bench file 'D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=pedal_top' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'clock=15ns' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(13)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 15ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from D:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 2 seconds. Elapsed time: 20.479 seconds; current allocated memory: 138.359 MB.
+INFO: [HLS 200-10] Analyzing design file 'pedal_top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'pedal_c.cpp' ... 
+ERROR: [HLS 207-796] empty filename (pedal_c.cpp:6:10)
+ERROR: 
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 4 seconds. Total elapsed time: 60.18 seconds; peak allocated memory: 145.262 MB.

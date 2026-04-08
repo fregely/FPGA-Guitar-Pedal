@@ -1,0 +1,4 @@
+2 warnings and 27 errors generated.
+Error while processing E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp.
+clang-tidy applied 131 of 131 suggested fixes.
+Suppressed 2 warnings (2 with check filters).

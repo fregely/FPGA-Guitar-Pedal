@@ -1,0 +1,1318 @@
+---
+MainSourceFile:  'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/.autopilot/db/pedal_top.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1223_1:  '
+    FileOffset:      1223
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          55306
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1223_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          282671
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          283135
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          283600
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          566915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      91
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      92
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      93
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      94
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      125
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      126
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      127
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      128
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      129
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      130
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      131
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      132
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      133
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      134
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      184
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      185
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      186
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      213
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      214
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      215
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      216
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      217
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      218
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      254
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      255
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_61_1:  '
+    FileOffset:      61
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1227277
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_61_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_1:  '
+    FileOffset:      117
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1228091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_1:  '
+    FileOffset:      289
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1230738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_449_1:  '
+    FileOffset:      449
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1233461
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_449_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_1:  '
+    FileOffset:      629
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1236622
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_633_2:  '
+    FileOffset:      633
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1236703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_633_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_743_1:  '
+    FileOffset:      743
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1239012
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_743_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_840_1:  '
+    FileOffset:      840
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1240506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_840_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_859_2:  '
+    FileOffset:      859
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1240736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_859_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1173_1:  '
+    FileOffset:      1173
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1246918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1173_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1256_1:  '
+    FileOffset:      1256
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1248521
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_68_1:  '
+    FileOffset:      68
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1256369
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_68_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_2:  '
+    FileOffset:      74
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1256519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1256616
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_4:  '
+    FileOffset:      145
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1258476
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_5:  '
+    FileOffset:      151
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1258626
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_6:  '
+    FileOffset:      155
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1258723
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_7:  '
+    FileOffset:      170
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1259104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_178_8:  '
+    FileOffset:      178
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1259335
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_178_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_9:  '
+    FileOffset:      243
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1262782
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_10:  '
+    FileOffset:      249
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1262934
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_11:  '
+    FileOffset:      253
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1263034
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_12:  '
+    FileOffset:      268
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1263416
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_13:  '
+    FileOffset:      276
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1263654
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_14:  '
+    FileOffset:      505
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1279209
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_15:  '
+    FileOffset:      511
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1279361
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_515_16:  '
+    FileOffset:      515
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1279460
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_515_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_525_17:  '
+    FileOffset:      525
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1279637
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_525_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_529_18:  '
+    FileOffset:      529
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1279735
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_529_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_539_19:  '
+    FileOffset:      539
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1280020
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_539_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_547_20:  '
+    FileOffset:      547
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1280275
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_547_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_908_21:  '
+    FileOffset:      908
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1312514
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_908_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_22:  '
+    FileOffset:      914
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1312666
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_22: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_918_23:  '
+    FileOffset:      918
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1312766
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_918_23: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1034_1:  '
+    FileOffset:      1034
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1315442
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1040_2:  '
+    FileOffset:      1040
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1315592
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1040_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1044_3:  '
+    FileOffset:      1044
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1315690
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1044_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_4:  '
+    FileOffset:      1131
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1319160
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_5:  '
+    FileOffset:      1137
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1319311
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1141_6:  '
+    FileOffset:      1141
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1319410
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1160_7:  '
+    FileOffset:      1160
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1319890
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1160_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1167_8:  '
+    FileOffset:      1167
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1320132
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1167_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1283_9:  '
+    FileOffset:      1283
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1325704
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1283_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1289_10:  '
+    FileOffset:      1289
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1325856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1289_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1293_11:  '
+    FileOffset:      1293
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1325955
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1293_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_12:  '
+    FileOffset:      1313
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1326464
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1320_13:  '
+    FileOffset:      1320
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1326713
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1320_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1582_14:  '
+    FileOffset:      1582
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1344070
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1582_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_15:  '
+    FileOffset:      1588
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1344222
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1592_16:  '
+    FileOffset:      1592
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1344322
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1592_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1616_17:  '
+    FileOffset:      1616
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1344796
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1616_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1623_18:  '
+    FileOffset:      1623
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1345063
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1623_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_19:  '
+    FileOffset:      2053
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1383634
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2059_20:  '
+    FileOffset:      2059
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1383786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2059_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2063_21:  '
+    FileOffset:      2063
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1383886
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2063_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2193_1:  '
+    FileOffset:      2193
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1386506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2200_2:  '
+    FileOffset:      2200
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1386669
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2200_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2204_3:  '
+    FileOffset:      2204
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1386761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2204_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2251_4:  '
+    FileOffset:      2251
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1388370
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2258_5:  '
+    FileOffset:      2258
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1388532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2262_6:  '
+    FileOffset:      2262
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1388624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2262_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2280_7:  '
+    FileOffset:      2280
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1388997
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2280_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2335_8:  '
+    FileOffset:      2335
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1391463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2335_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2342_9:  '
+    FileOffset:      2342
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1391630
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2342_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2346_10:  '
+    FileOffset:      2346
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1391723
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2346_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2364_11:  '
+    FileOffset:      2364
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1392104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2364_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2453_12:  '
+    FileOffset:      2453
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1397545
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2453_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2460_13:  '
+    FileOffset:      2460
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1397713
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2460_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2464_14:  '
+    FileOffset:      2464
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1397807
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2464_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2474_15:  '
+    FileOffset:      2474
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1397978
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2474_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2478_16:  '
+    FileOffset:      2478
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1398069
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2478_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2489_17:  '
+    FileOffset:      2489
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1398351
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2489_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2497_18:  '
+    FileOffset:      2497
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1398538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2497_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2822_19:  '
+    FileOffset:      2822
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1433008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2822_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2829_20:  '
+    FileOffset:      2829
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1433176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2829_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2833_21:  '
+    FileOffset:      2833
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1433270
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2833_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2921_1:  '
+    FileOffset:      2921
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1435072
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2928_2:  '
+    FileOffset:      2928
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1435180
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2928_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2932_3:  '
+    FileOffset:      2932
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1435251
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2932_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2947_4:  '
+    FileOffset:      2947
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1435539
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2947_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2979_5:  '
+    FileOffset:      2979
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1436753
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2979_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2986_6:  '
+    FileOffset:      2986
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1436864
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2986_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2990_7:  '
+    FileOffset:      2990
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1436937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2990_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3005_8:  '
+    FileOffset:      3005
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1437232
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3005_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_9:  '
+    FileOffset:      3055
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1440565
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3062_10:  '
+    FileOffset:      3062
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1440676
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3062_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3066_11:  '
+    FileOffset:      3066
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1440749
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3066_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3081_12:  '
+    FileOffset:      3081
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1441045
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3081_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3218_13:  '
+    FileOffset:      3218
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1460357
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3218_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3225_14:  '
+    FileOffset:      3225
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1460471
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3225_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3229_15:  '
+    FileOffset:      3229
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1460546
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3229_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3244_16:  '
+    FileOffset:      3244
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1460833
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3244_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3404_17:  '
+    FileOffset:      3404
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1486443
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3404_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3411_18:  '
+    FileOffset:      3411
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1486557
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3411_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3415_19:  '
+    FileOffset:      3415
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1486634
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3415_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1520702
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_921_1:  '
+    FileOffset:      921
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1529091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1345_1:  '
+    FileOffset:      1345
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1548064
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1345_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1562920
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_2:  '
+    FileOffset:      268
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1563441
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_1:  '
+    FileOffset:      48
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1579355
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1580505
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_3:  '
+    FileOffset:      123
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1580814
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_4:  '
+    FileOffset:      153
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1581324
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_281_1:  '
+    FileOffset:      281
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1583238
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_281_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1583603
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_3:  '
+    FileOffset:      315
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1583911
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_433_1:  '
+    FileOffset:      433
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1585739
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_433_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_447_2:  '
+    FileOffset:      447
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1586064
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_447_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_33_1:  '
+    FileOffset:      33
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1588717
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_33_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_183_1:  '
+    FileOffset:      183
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1591609
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_183_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_1:  '
+    FileOffset:      248
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1592896
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1603795
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1603970
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_1:  '
+    FileOffset:      38
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1604131
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1604293
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_60_1:  '
+    FileOffset:      60
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1604467
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_60_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1604642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_1:  '
+    FileOffset:      82
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1604803
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1604965
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_26_1:  '
+    FileOffset:      26
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_mad_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1676455
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_26_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cbrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1678199
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1682706
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_2:  '
+    FileOffset:      81
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1683437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_169_3:  '
+    FileOffset:      169
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1685122
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_169_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ram_2p + bram is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      12
+    FilePath:        pedal_top.cpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_1:  '
+    FileOffset:      32
+    FilePath:        pedal_top.cpp
+    Replacements:    
+      - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal_top.pp.0.cpp'
+        Offset:          1739095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_1: '
+...

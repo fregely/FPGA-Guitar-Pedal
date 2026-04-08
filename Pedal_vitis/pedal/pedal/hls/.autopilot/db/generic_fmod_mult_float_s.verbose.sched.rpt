@@ -1,0 +1,297 @@
+
+
+================================================================
+== Vitis HLS Report for 'generic_fmod_mult_float_s'
+================================================================
+* Date:           Wed Apr  8 16:18:05 2026
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        pedal
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xczu3eg-sfvc784-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+-----------+------------+
+    |  Clock |  Target  | Estimated | Uncertainty|
+    +--------+----------+-----------+------------+
+    |ap_clk  |  15.00 ns|  10.908 ns|     4.05 ns|
+    +--------+----------+-----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       12|       12|  0.180 us|  0.180 us|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 13
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 13
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 13, States = { 1 2 3 4 5 6 7 8 9 10 11 12 13 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.38>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%x_read = read i32 @_ssdm_op_Read.ap_auto.float, i32 %x" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:288->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127]   --->   Operation 14 'read' 'x_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%ret_5 = bitcast i32 %x_read" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:288->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127]   --->   Operation 15 'bitcast' 'ret_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%fz_exp = partselect i8 @_ssdm_op_PartSelect.i8.i32.i32.i32, i32 %ret_5, i32 23, i32 30" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:295->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127]   --->   Operation 16 'partselect' 'fz_exp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%fz_sig = trunc i32 %ret_5" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:296->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127]   --->   Operation 17 'trunc' 'fz_sig' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.76ns)   --->   "%isF_e_x = icmp_eq  i8 %fz_exp, i8 255" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:135]   --->   Operation 18 'icmp' 'isF_e_x' <Predicate = true> <Delay = 0.76> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 19 [1/1] (0.76ns)   --->   "%isyBx_e = icmp_ult  i8 %fz_exp, i8 137" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:145]   --->   Operation 19 'icmp' 'isyBx_e' <Predicate = true> <Delay = 0.76> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%br_ln153 = br i1 %isF_e_x, void %if.end, void %if.then" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:153]   --->   Operation 20 'br' 'br_ln153' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.62ns)   --->   "%br_ln160 = br i1 %isyBx_e, void %if.else, void %cleanup204" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:160]   --->   Operation 21 'br' 'br_ln160' <Predicate = (!isF_e_x)> <Delay = 0.62>
+ST_1 : Operation 22 [1/1] (0.76ns)   --->   "%icmp_ln164 = icmp_ne  i8 %fz_exp, i8 137" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:164]   --->   Operation 22 'icmp' 'icmp_ln164' <Predicate = (!isF_e_x & !isyBx_e)> <Delay = 0.76> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (0.92ns)   --->   "%icmp_ln164_1 = icmp_ugt  i23 %fz_sig, i23 638975" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:164]   --->   Operation 23 'icmp' 'icmp_ln164_1' <Predicate = (!isF_e_x & !isyBx_e)> <Delay = 0.92> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.92> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 24 [1/1] (0.28ns)   --->   "%or_ln164 = or i1 %icmp_ln164, i1 %icmp_ln164_1" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:164]   --->   Operation 24 'or' 'or_ln164' <Predicate = (!isF_e_x & !isyBx_e)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%br_ln164 = br i1 %or_ln164, void %if.then70, void %if.else76" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:164]   --->   Operation 25 'br' 'br_ln164' <Predicate = (!isF_e_x & !isyBx_e)> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.92ns)   --->   "%icmp_ln168 = icmp_ne  i23 %fz_sig, i23 638976" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:168]   --->   Operation 26 'icmp' 'icmp_ln168' <Predicate = (!isF_e_x & !isyBx_e & or_ln164)> <Delay = 0.92> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.92> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 27 [1/1] (0.28ns)   --->   "%or_ln168 = or i1 %icmp_ln164, i1 %icmp_ln168" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:168]   --->   Operation 27 'or' 'or_ln168' <Predicate = (!isF_e_x & !isyBx_e & or_ln164)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%br_ln168 = br i1 %or_ln168, void %if.then82, void %if.end89_ifconv" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:168]   --->   Operation 28 'br' 'br_ln168' <Predicate = (!isF_e_x & !isyBx_e & or_ln164)> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%fz_exp_cast = partselect i7 @_ssdm_op_PartSelect.i7.i32.i32.i32, i32 %ret_5, i32 23, i32 29" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:181]   --->   Operation 29 'partselect' 'fz_exp_cast' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.77ns)   --->   "%n = add i7 %fz_exp_cast, i7 119" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:194]   --->   Operation 30 'add' 'n' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+
+State 2 <SV = 1> <Delay = 10.4>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%ap_mx = bitconcatenate i24 @_ssdm_op_BitConcatenate.i24.i1.i23, i1 1, i23 %fz_sig" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:181]   --->   Operation 31 'bitconcatenate' 'ap_mx' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 0.00>
+ST_2 : Operation 32 [11/11] (10.4ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 32 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.4> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 10.7>
+ST_3 : Operation 33 [10/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 33 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 10.7>
+ST_4 : Operation 34 [9/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 34 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 5 <SV = 4> <Delay = 10.7>
+ST_5 : Operation 35 [8/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 35 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 10.7>
+ST_6 : Operation 36 [7/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 36 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 7 <SV = 6> <Delay = 10.7>
+ST_7 : Operation 37 [6/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 37 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 8 <SV = 7> <Delay = 10.7>
+ST_8 : Operation 38 [5/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 38 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 9 <SV = 8> <Delay = 10.7>
+ST_9 : Operation 39 [4/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 39 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 10 <SV = 9> <Delay = 10.7>
+ST_10 : Operation 40 [3/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 40 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 11 <SV = 10> <Delay = 10.7>
+ST_11 : Operation 41 [2/11] (10.7ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 41 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 10.7> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 12 <SV = 11> <Delay = 10.9>
+ST_12 : Operation 42 [1/1] (0.00ns)   --->   "%tmp_153 = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %ret_5, i32 31" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:311->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:167]   --->   Operation 42 'bitselect' 'tmp_153' <Predicate = (!isF_e_x & !isyBx_e & !or_ln164)> <Delay = 0.00>
+ST_12 : Operation 43 [1/1] (0.00ns)   --->   "%t_6 = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i1.i8.i23, i1 %tmp_153, i8 137, i23 %fz_sig" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:167]   --->   Operation 43 'bitconcatenate' 't_6' <Predicate = (!isF_e_x & !isyBx_e & !or_ln164)> <Delay = 0.00>
+ST_12 : Operation 44 [1/1] (0.62ns)   --->   "%br_ln167 = br void %cleanup204" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:167]   --->   Operation 44 'br' 'br_ln167' <Predicate = (!isF_e_x & !isyBx_e & !or_ln164)> <Delay = 0.62>
+ST_12 : Operation 45 [1/1] (0.00ns)   --->   "%tmp_154 = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %ret_5, i32 31" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:311->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:171]   --->   Operation 45 'bitselect' 'tmp_154' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & !or_ln168)> <Delay = 0.00>
+ST_12 : Operation 46 [1/1] (0.00ns)   --->   "%t_7 = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i1.i31, i1 %tmp_154, i31 0" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:171]   --->   Operation 46 'bitconcatenate' 't_7' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & !or_ln168)> <Delay = 0.00>
+ST_12 : Operation 47 [1/1] (0.62ns)   --->   "%br_ln171 = br void %cleanup204" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:171]   --->   Operation 47 'br' 'br_ln171' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & !or_ln168)> <Delay = 0.62>
+ST_12 : Operation 48 [1/11] (9.97ns)   --->   "%res = call i24 @mod_rcp_mult<24, 36, 8>, i24 %ap_mx, i7 %n" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200]   --->   Operation 48 'call' 'res' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 9.97> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_12 : Operation 49 [1/1] (0.93ns)   --->   "%icmp_ln206 = icmp_eq  i24 %res, i24 0" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:206]   --->   Operation 49 'icmp' 'icmp_ln206' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 0.93> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.93> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 50 [1/1] (0.00ns)   --->   "%br_ln206 = br i1 %icmp_ln206, void %if.end173_ifconv, void %if.then167" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:206]   --->   Operation 50 'br' 'br_ln206' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 0.00>
+ST_12 : Operation 51 [1/1] (0.00ns)   --->   "%tmp = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %ret_5, i32 31" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:311->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:158]   --->   Operation 51 'bitselect' 'tmp' <Predicate = (isF_e_x)> <Delay = 0.00>
+ST_12 : Operation 52 [1/1] (0.00ns)   --->   "%t = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i1.i31, i1 %tmp, i31 2147483647" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:158]   --->   Operation 52 'bitconcatenate' 't' <Predicate = (isF_e_x)> <Delay = 0.00>
+ST_12 : Operation 53 [1/1] (0.62ns)   --->   "%br_ln158 = br void %cleanup204" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:158]   --->   Operation 53 'br' 'br_ln158' <Predicate = (isF_e_x)> <Delay = 0.62>
+
+State 13 <SV = 12> <Delay = 5.49>
+ST_13 : Operation 54 [1/1] (0.00ns)   --->   "%zext_ln204 = zext i24 %res" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:204]   --->   Operation 54 'zext' 'zext_ln204' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168)> <Delay = 0.00>
+ST_13 : Operation 55 [1/1] (0.00ns)   --->   "%tmp_s = partselect i25 @llvm.part.select.i25, i25 %zext_ln204, i32 24, i32 0" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:211]   --->   Operation 55 'partselect' 'tmp_s' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 56 [1/1] (0.00ns)   --->   "%tmp_132 = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i1.i25, i1 1, i25 %tmp_s" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:211]   --->   Operation 56 'bitconcatenate' 'tmp_132' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 57 [1/1] (0.00ns)   --->   "%sext_ln211 = sext i26 %tmp_132" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:211]   --->   Operation 57 'sext' 'sext_ln211' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 58 [1/1] (0.54ns)   --->   "%tmp_133 = cttz i32 @llvm.cttz.i32, i32 %sext_ln211, i1 1" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:211]   --->   Operation 58 'cttz' 'tmp_133' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.54> <CoreInst = "cttz">   --->   Core 145 'cttz' <Latency = 0> <II = 1> <Delay = 0.54> <FuncUnit> <Opcode : 'cttz'> <InPorts = 1> <OutPorts = 1>
+ST_13 : Operation 59 [1/1] (0.00ns)   --->   "%trunc_ln211 = trunc i32 %tmp_133" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:211]   --->   Operation 59 'trunc' 'trunc_ln211' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 60 [1/1] (0.77ns)   --->   "%iy = sub i9 11, i9 %trunc_ln211" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:211]   --->   Operation 60 'sub' 'iy' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 61 [1/1] (1.01ns)   --->   "%add_ln212 = add i32 %tmp_133, i32 4294967295" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 61 'add' 'add_ln212' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 1.01> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.01> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 62 [1/1] (1.01ns)   --->   "%icmp_ln212 = icmp_ne  i32 %tmp_133, i32 0" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 62 'icmp' 'icmp_ln212' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 1.01> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.01> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 63 [1/1] (0.00ns)   --->   "%zext_ln212 = zext i24 %res" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 63 'zext' 'zext_ln212' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 64 [1/1] (1.38ns)   --->   "%shl_ln212 = shl i32 %zext_ln212, i32 %add_ln212" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 64 'shl' 'shl_ln212' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 1.38> <CoreInst = "Shifter">   --->   Core 75 'Shifter' <Latency = 0> <II = 1> <Delay = 1.38> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 65 [1/1] (1.01ns)   --->   "%sub_ln212 = sub i32 1, i32 %tmp_133" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 65 'sub' 'sub_ln212' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 1.01> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.01> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 66 [1/1] (1.38ns)   --->   "%lshr_ln212 = lshr i32 %zext_ln212, i32 %sub_ln212" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 66 'lshr' 'lshr_ln212' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 1.38> <CoreInst = "Shifter">   --->   Core 75 'Shifter' <Latency = 0> <II = 1> <Delay = 1.38> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 67 [1/1] (0.44ns)   --->   "%select_ln212 = select i1 %icmp_ln212, i32 %shl_ln212, i32 %lshr_ln212" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 67 'select' 'select_ln212' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.44> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_13 : Operation 68 [1/1] (0.00ns)   --->   "%ap_mx_2_1 = trunc i32 %select_ln212" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 68 'trunc' 'ap_mx_2_1' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 69 [1/1] (0.77ns)   --->   "%icmp_ln213 = icmp_sgt  i9 %iy, i9 385" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:213]   --->   Operation 69 'icmp' 'icmp_ln213' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.77> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 70 [1/1] (0.00ns)   --->   "%trunc_ln214 = trunc i9 %iy" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:214]   --->   Operation 70 'trunc' 'trunc_ln214' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 71 [1/1] (0.76ns)   --->   "%fz_exp_1 = add i8 %trunc_ln214, i8 127" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:214]   --->   Operation 71 'add' 'fz_exp_1' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 72 [1/1] (0.00ns)   --->   "%sext_ln217 = sext i9 %iy" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:217]   --->   Operation 72 'sext' 'sext_ln217' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 73 [1/1] (0.77ns)   --->   "%n_1 = sub i10 898, i10 %sext_ln217" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:217]   --->   Operation 73 'sub' 'n_1' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 74 [1/1] (0.00ns) (grouped into LUT with out node fz_sig_1)   --->   "%tmp_156 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %n_1, i32 9" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 74 'bitselect' 'tmp_156' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 75 [1/1] (0.00ns)   --->   "%zext_ln218 = zext i25 %ap_mx_2_1" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 75 'zext' 'zext_ln218' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 76 [1/1] (0.78ns)   --->   "%sub_ln218 = sub i10 0, i10 %n_1" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 76 'sub' 'sub_ln218' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 77 [1/1] (0.00ns)   --->   "%zext_ln218_1 = zext i10 %sub_ln218" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 77 'zext' 'zext_ln218_1' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 78 [1/1] (1.14ns)   --->   "%shl_ln218 = shl i32 %zext_ln218, i32 %zext_ln218_1" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 78 'shl' 'shl_ln218' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 1.14> <CoreInst = "Shifter">   --->   Core 75 'Shifter' <Latency = 0> <II = 1> <Delay = 1.14> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 79 [1/1] (0.00ns)   --->   "%zext_ln218_2 = zext i10 %n_1" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 79 'zext' 'zext_ln218_2' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 80 [1/1] (1.14ns)   --->   "%lshr_ln218 = lshr i32 %zext_ln218, i32 %zext_ln218_2" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 80 'lshr' 'lshr_ln218' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 1.14> <CoreInst = "Shifter">   --->   Core 75 'Shifter' <Latency = 0> <II = 1> <Delay = 1.14> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 81 [1/1] (0.39ns)   --->   "%fz_exp_2 = select i1 %icmp_ln213, i8 %fz_exp_1, i8 0" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:213]   --->   Operation 81 'select' 'fz_exp_2' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_13 : Operation 82 [1/1] (0.00ns) (grouped into LUT with out node fz_sig_1)   --->   "%empty = trunc i32 %select_ln212" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212]   --->   Operation 82 'trunc' 'empty' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 83 [1/1] (0.00ns) (grouped into LUT with out node fz_sig_1)   --->   "%empty_81 = trunc i32 %shl_ln218" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 83 'trunc' 'empty_81' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 84 [1/1] (0.00ns) (grouped into LUT with out node fz_sig_1)   --->   "%empty_82 = trunc i32 %lshr_ln218" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 84 'trunc' 'empty_82' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 85 [1/1] (0.00ns) (grouped into LUT with out node fz_sig_1)   --->   "%empty_83 = select i1 %tmp_156, i23 %empty_81, i23 %empty_82" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218]   --->   Operation 85 'select' 'empty_83' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_13 : Operation 86 [1/1] (0.33ns) (out node of the LUT)   --->   "%fz_sig_1 = select i1 %icmp_ln213, i23 %empty, i23 %empty_83" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:213]   --->   Operation 86 'select' 'fz_sig_1' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.33> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_13 : Operation 87 [1/1] (0.00ns)   --->   "%tmp_157 = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %ret_5, i32 31" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:311->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:222]   --->   Operation 87 'bitselect' 'tmp_157' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 88 [1/1] (0.00ns)   --->   "%t_9 = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i1.i8.i23, i1 %tmp_157, i8 %fz_exp_2, i23 %fz_sig_1" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:222]   --->   Operation 88 'bitconcatenate' 't_9' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 89 [1/1] (0.62ns)   --->   "%br_ln222 = br void %cleanup204" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:222]   --->   Operation 89 'br' 'br_ln222' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & !icmp_ln206)> <Delay = 0.62>
+ST_13 : Operation 90 [1/1] (0.00ns)   --->   "%tmp_155 = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %ret_5, i32 31" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:311->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:209]   --->   Operation 90 'bitselect' 'tmp_155' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 91 [1/1] (0.00ns)   --->   "%t_8 = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i1.i31, i1 %tmp_155, i31 0" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:209]   --->   Operation 91 'bitconcatenate' 't_8' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & icmp_ln206)> <Delay = 0.00>
+ST_13 : Operation 92 [1/1] (0.62ns)   --->   "%br_ln209 = br void %cleanup204" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:209]   --->   Operation 92 'br' 'br_ln209' <Predicate = (!isF_e_x & !isyBx_e & or_ln164 & or_ln168 & icmp_ln206)> <Delay = 0.62>
+ST_13 : Operation 93 [1/1] (0.00ns)   --->   "%retval_1_in = phi i32 %t, void %if.then, i32 %t_6, void %if.then70, i32 %t_7, void %if.then82, i32 %t_8, void %if.then167, i32 %t_9, void %if.end173_ifconv, i32 %ret_5, void %if.end"   --->   Operation 93 'phi' 'retval_1_in' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 94 [1/1] (0.00ns)   --->   "%bitcast_ln327 = bitcast i32 %retval_1_in" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:327->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:222]   --->   Operation 94 'bitcast' 'bitcast_ln327' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 95 [1/1] (0.00ns)   --->   "%ret_ln223 = ret i32 %bitcast_ln327" [C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:223]   --->   Operation 95 'ret' 'ret_ln223' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 15.000ns, clock uncertainty: 4.050ns.
+
+ <State 1>: 1.388ns
+The critical path consists of the following:
+	wire read operation ('x_read', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:288->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127) on port 'x' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:288->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127) [2]  (0.000 ns)
+	'icmp' operation 1 bit ('isF_e_x', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:135) [6]  (0.765 ns)
+	multiplexor before 'phi' operation 32 bit ('t') with incoming values : ('ret', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:288->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:167) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:171) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:222) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:209) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:158) [81]  (0.623 ns)
+
+ <State 2>: 10.410ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.410 ns)
+
+ <State 3>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 4>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 5>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 6>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 7>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 8>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 9>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 10>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 11>: 10.732ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (10.732 ns)
+
+ <State 12>: 10.908ns
+The critical path consists of the following:
+	'call' operation 24 bit ('res', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:200) to 'mod_rcp_mult<24, 36, 8>' [32]  (9.974 ns)
+	'icmp' operation 1 bit ('icmp_ln206', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:206) [34]  (0.934 ns)
+
+ <State 13>: 5.493ns
+The critical path consists of the following:
+	'cttz' operation 32 bit ('tmp_133', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:211) [40]  (0.541 ns)
+	'sub' operation 32 bit ('sub_ln212', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212) [47]  (1.016 ns)
+	'lshr' operation 32 bit ('lshr_ln212', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212) [48]  (1.388 ns)
+	'select' operation 32 bit ('select_ln212', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:212) [49]  (0.449 ns)
+	'shl' operation 32 bit ('shl_ln218', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218) [60]  (1.144 ns)
+	'select' operation 23 bit ('empty_83', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:218) [67]  (0.000 ns)
+	'select' operation 23 bit ('fz.sig', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:213) [68]  (0.332 ns)
+	multiplexor before 'phi' operation 32 bit ('t') with incoming values : ('ret', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:288->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:167) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:171) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:222) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:209) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:158) [81]  (0.623 ns)
+	'phi' operation 32 bit ('t') with incoming values : ('ret', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:288->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:127) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:167) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:171) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:222) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:209) ('t', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:313->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:326->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:347->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_fmod_rem_quo.h:158) [81]  (0.000 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
