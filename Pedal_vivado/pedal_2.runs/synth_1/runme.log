@@ -8,17 +8,17 @@
   **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Fri Mar 27 14:59:18 2026
+  **** Start of session at: Wed Apr  8 15:43:29 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source dma_axis_ip_example_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 507.898 ; gain = 200.125
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 647.789 ; gain = 201.793
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA-Guitar-Pedal/Pedal_vitis'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/FPGA-Guitar-Pedal/Pedal_vitis'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
-Command: read_checkpoint -auto_incremental -incremental D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/utils_1/imports/synth_1/dma_axis_ip_example_wrapper.dcp
-INFO: [Vivado 12-5825] Read reference checkpoint from D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/utils_1/imports/synth_1/dma_axis_ip_example_wrapper.dcp for incremental synthesis
+Command: read_checkpoint -auto_incremental -incremental E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/utils_1/imports/synth_1/dma_axis_ip_example_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/utils_1/imports/synth_1/dma_axis_ip_example_wrapper.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top dma_axis_ip_example_wrapper -part xczu3eg-sfvc784-2-e
 Starting synth_design
@@ -29,110 +29,129 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 36848
+INFO: [Synth 8-7075] Helper process launched with PID 16432
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1887.121 ; gain = 396.348
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2025.734 ; gain = 395.473
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_wrapper' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v:13]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:13]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_audio_passthrough_0_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_audio_passthrough_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_audio_passthrough_0_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_audio_passthrough_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'interrupt' of module 'dma_axis_ip_example_audio_passthrough_0_0' is unconnected for instance 'audio_passthrough_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:221]
-WARNING: [Synth 8-7023] instance 'audio_passthrough_0' of module 'dma_axis_ip_example_audio_passthrough_0_0' has 32 connections declared, but only 31 given [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:221]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axi_dma_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_axi_dma_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axi_dma_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_axi_dma_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:253]
-WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:253]
-WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:253]
-WARNING: [Synth 8-7071] port 's2mm_introut' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:253]
-WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:253]
-WARNING: [Synth 8-7023] instance 'axi_dma' of module 'dma_axis_ip_example_axi_dma_0' has 64 connections declared, but only 59 given [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:253]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axi_mem_intercon_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:678]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1I4LYQ' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2075]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_auto_us_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_auto_us_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_auto_us_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_auto_us_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'm_axi_awregion' of module 'dma_axis_ip_example_auto_us_0' is unconnected for instance 'auto_us' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2226]
-WARNING: [Synth 8-7023] instance 'auto_us' of module 'dma_axis_ip_example_auto_us_0' has 40 connections declared, but only 39 given [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2226]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1I4LYQ' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2075]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axi_mem_intercon_0' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:678]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axi_mem_intercon_1_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:878]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_AEAWSB' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2268]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_AEAWSB' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2268]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axi_mem_intercon_1_0' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:878]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axis_broadcaster_0_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_axis_broadcaster_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axis_broadcaster_0_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_axis_broadcaster_0_0_stub.v:6]
-WARNING: [Synth 8-689] width (4) of port connection 'm_axis_tkeep' does not match port width (8) of module 'dma_axis_ip_example_axis_broadcaster_0_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:391]
-WARNING: [Synth 8-689] width (1) of port connection 'm_axis_tlast' does not match port width (2) of module 'dma_axis_ip_example_axis_broadcaster_0_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:392]
-WARNING: [Synth 8-7071] port 'm_axis_tstrb' of module 'dma_axis_ip_example_axis_broadcaster_0_0' is unconnected for instance 'axis_broadcaster_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:387]
-WARNING: [Synth 8-7023] instance 'axis_broadcaster_0' of module 'dma_axis_ip_example_axis_broadcaster_0_0' has 14 connections declared, but only 13 given [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:387]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axis_data_fifo_0_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_axis_data_fifo_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axis_data_fifo_0_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_axis_data_fifo_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_clk_wiz_0_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_clk_wiz_0_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_i2s_transmitter_0_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_i2s_transmitter_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_i2s_transmitter_0_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_i2s_transmitter_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_proc_sys_reset_0_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_proc_sys_reset_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_proc_sys_reset_0_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_proc_sys_reset_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'dma_axis_ip_example_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:452]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'dma_axis_ip_example_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:452]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'dma_axis_ip_example_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:452]
-WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'dma_axis_ip_example_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:452]
-WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'dma_axis_ip_example_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:452]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_ps7_0_axi_periph_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1038]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1JVAPJJ' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1693]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1JVAPJJ' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1693]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1B9OXD7' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1818]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1B9OXD7' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1818]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_4956DJ' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1950]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_4956DJ' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1950]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_WTLA5T' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2372]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_auto_ds_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_auto_ds_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_auto_ds_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_auto_ds_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_auto_pc_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_auto_pc_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_WTLA5T' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2372]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_xbar_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_xbar_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_xbar_0_stub.v:6]
-WARNING: [Synth 8-689] width (8) of port connection 'm_axi_wstrb' does not match port width (12) of module 'dma_axis_ip_example_xbar_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1670]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'dma_axis_ip_example_xbar_0' is unconnected for instance 'xbar' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1652]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'dma_axis_ip_example_xbar_0' is unconnected for instance 'xbar' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1652]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'dma_axis_ip_example_xbar_0' has 40 connections declared, but only 38 given [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1652]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_ps7_0_axi_periph_0' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1038]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_rst_ps7_0_100M_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_rst_ps7_0_100M_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_rst_ps7_0_100M_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:556]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:556]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:556]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:556]
-WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:556]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_util_vector_logic_0_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_util_vector_logic_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_util_vector_logic_0_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_util_vector_logic_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_xlconstant_0_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xlconstant_0_0/synth/dma_axis_ip_example_xlconstant_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
-INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_xlconstant_0_0' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xlconstant_0_0/synth/dma_axis_ip_example_xlconstant_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_zynq_ultra_ps_e_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/.Xil/Vivado-25052-Theodore/realtime/dma_axis_ip_example_zynq_ultra_ps_e_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp2_bid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp2_arready' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp2_rid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp2_rdata' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp2_rresp' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp2_rlast' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp2_rvalid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp4_awready' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp4_wready' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp4_bid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp4_bresp' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp4_bvalid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7071] port 'saxigp4_rid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' has 122 connections declared, but only 107 given [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:568]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example' (0#1) [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_wrapper' (0#1) [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_wrapper' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:13]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axi_dma_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_axi_dma_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axi_dma_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_axi_dma_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:235]
+WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:235]
+WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:235]
+WARNING: [Synth 8-7071] port 's2mm_introut' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:235]
+WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'dma_axis_ip_example_axi_dma_0' is unconnected for instance 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:235]
+WARNING: [Synth 8-7023] instance 'axi_dma' of module 'dma_axis_ip_example_axi_dma_0' has 64 connections declared, but only 59 given [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:235]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axi_gpio_0_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axi_gpio_0_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axi_mem_intercon_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:713]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1I4LYQ' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2662]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_auto_us_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_auto_us_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_auto_us_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_auto_us_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awregion' of module 'dma_axis_ip_example_auto_us_0' is unconnected for instance 'auto_us' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2813]
+WARNING: [Synth 8-7023] instance 'auto_us' of module 'dma_axis_ip_example_auto_us_0' has 40 connections declared, but only 39 given [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2813]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1I4LYQ' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2662]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axi_mem_intercon_0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:713]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_axi_mem_intercon_1_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:913]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_AEAWSB' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2855]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_AEAWSB' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2855]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_axi_mem_intercon_1_0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:913]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_clk_wiz_0_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_clk_wiz_0_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_i2s_transmitter_0_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_i2s_transmitter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_i2s_transmitter_0_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_i2s_transmitter_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 's_axis_aud_tready' of module 'dma_axis_ip_example_i2s_transmitter_0_0' is unconnected for instance 'i2s_transmitter_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:397]
+WARNING: [Synth 8-7023] instance 'i2s_transmitter_0' of module 'dma_axis_ip_example_i2s_transmitter_0_0' has 30 connections declared, but only 29 given [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:397]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_pedal_top_0_1' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_pedal_top_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_pedal_top_0_1' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_pedal_top_0_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'dma_axis_ip_example_pedal_top_0_1' is unconnected for instance 'pedal_top_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:427]
+WARNING: [Synth 8-7071] port 'out_stream_TSTRB' of module 'dma_axis_ip_example_pedal_top_0_1' is unconnected for instance 'pedal_top_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:427]
+WARNING: [Synth 8-7023] instance 'pedal_top_0' of module 'dma_axis_ip_example_pedal_top_0_1' has 32 connections declared, but only 30 given [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:427]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_proc_sys_reset_0_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_proc_sys_reset_0_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_proc_sys_reset_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'dma_axis_ip_example_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:458]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'dma_axis_ip_example_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:458]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'dma_axis_ip_example_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:458]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'dma_axis_ip_example_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:458]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'dma_axis_ip_example_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:458]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_ps7_0_axi_periph_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1073]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1JVAPJJ' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2002]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1JVAPJJ' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2002]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1B9OXD7' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2127]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1B9OXD7' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2127]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_4956DJ' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2259]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_4956DJ' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2259]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_U2109V' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2384]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_U2109V' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2384]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_17WALNI' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2516]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_17WALNI' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2516]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_WTLA5T' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2959]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_auto_ds_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_auto_ds_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_auto_pc_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_auto_pc_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_WTLA5T' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:2959]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_xbar_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_xbar_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_ps7_0_axi_periph_0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:1073]
+WARNING: [Synth 8-7071] port 'M04_AXI_araddr' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_arprot' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_arvalid' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_awaddr' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_awprot' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_awvalid' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_bready' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_rready' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_wdata' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_wstrb' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7071] port 'M04_AXI_wvalid' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+WARNING: [Synth 8-7023] instance 'ps7_0_axi_periph' of module 'dma_axis_ip_example_ps7_0_axi_periph_0' has 136 connections declared, but only 125 given [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:465]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_rst_ps7_0_100M_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_rst_ps7_0_100M_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_rst_ps7_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:591]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:591]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:591]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:591]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'dma_axis_ip_example_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:591]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_util_vector_logic_0_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_util_vector_logic_0_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_xlconstant_0_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xlconstant_0_0/synth/dma_axis_ip_example_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_xlconstant_0_0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xlconstant_0_0/synth/dma_axis_ip_example_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/.Xil/Vivado-14280-WFXB07B250A3A85/realtime/dma_axis_ip_example_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp2_bid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp2_arready' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp2_rid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp2_rdata' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp2_rresp' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp2_rlast' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp2_rvalid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp4_awready' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp4_wready' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp4_bid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp4_bresp' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp4_bvalid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7071] port 'saxigp4_rid' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'dma_axis_ip_example_zynq_ultra_ps_e_0_0' has 122 connections declared, but only 107 given [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:603]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/synth/dma_axis_ip_example.v:13]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:78209]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [C:/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:78209]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_wrapper' (0#1) [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v:13]
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_WTLA5T is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_WTLA5T is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m04_couplers_imp_17WALNI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m04_couplers_imp_17WALNI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m04_couplers_imp_17WALNI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m04_couplers_imp_17WALNI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m03_couplers_imp_U2109V is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m03_couplers_imp_U2109V is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m03_couplers_imp_U2109V is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m03_couplers_imp_U2109V is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ACLK in module m02_couplers_imp_4956DJ is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module m02_couplers_imp_4956DJ is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_ACLK in module m02_couplers_imp_4956DJ is either unconnected or has no load
@@ -151,6 +170,10 @@ WARNING: [Synth 8-7129] Port M01_ACLK in module dma_axis_ip_example_ps7_0_axi_pe
 WARNING: [Synth 8-7129] Port M01_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M02_ACLK in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M02_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ACLK in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ACLK in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ACLK in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_AEAWSB is either unconnected or has no load
@@ -164,68 +187,69 @@ WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1I4LYQ is eith
 WARNING: [Synth 8-7129] Port ACLK in module dma_axis_ip_example_axi_mem_intercon_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ARESETN in module dma_axis_ip_example_axi_mem_intercon_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2008.477 ; gain = 517.703
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 2147.117 ; gain = 516.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2008.477 ; gain = 517.703
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 2147.117 ; gain = 516.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2008.477 ; gain = 517.703
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 2147.117 ; gain = 516.855
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2008.477 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2147.117 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_dma'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_dma'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_mem_intercon/s00_couplers/auto_us'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_mem_intercon/s00_couplers/auto_us'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/zynq_ultra_ps_e_0'
-create_clock: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2022.797 ; gain = 10.938
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/zynq_ultra_ps_e_0'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/xbar'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/xbar'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/s00_couplers/auto_ds'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/s00_couplers/auto_ds'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0_in_context.xdc] for cell 'dma_axis_ip_example_i/rst_ps7_0_100M'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0_in_context.xdc] for cell 'dma_axis_ip_example_i/rst_ps7_0_100M'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/clk_wiz_0'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/clk_wiz_0'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_audio_passthrough_0_0/dma_axis_ip_example_audio_passthrough_0_0/dma_axis_ip_example_audio_passthrough_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/audio_passthrough_0'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_audio_passthrough_0_0/dma_axis_ip_example_audio_passthrough_0_0/dma_axis_ip_example_audio_passthrough_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/audio_passthrough_0'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/i2s_transmitter_0'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/i2s_transmitter_0'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/proc_sys_reset_0'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/proc_sys_reset_0'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_util_vector_logic_0_0/dma_axis_ip_example_util_vector_logic_0_0/dma_axis_ip_example_util_vector_logic_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/util_vector_logic_0'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_util_vector_logic_0_0/dma_axis_ip_example_util_vector_logic_0_0/dma_axis_ip_example_util_vector_logic_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/util_vector_logic_0'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axis_broadcaster_0_0/dma_axis_ip_example_axis_broadcaster_0_0/dma_axis_ip_example_axis_broadcaster_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axis_broadcaster_0'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axis_broadcaster_0_0/dma_axis_ip_example_axis_broadcaster_0_0/dma_axis_ip_example_axis_broadcaster_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axis_broadcaster_0'
-Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axis_data_fifo_0_0/dma_axis_ip_example_axis_data_fifo_0_0/dma_axis_ip_example_axis_data_fifo_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axis_data_fifo_0'
-Finished Parsing XDC File [d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axis_data_fifo_0_0/dma_axis_ip_example_axis_data_fifo_0_0/dma_axis_ip_example_axis_data_fifo_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axis_data_fifo_0'
-Parsing XDC File [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new/pedal2.xdc]
-Finished Parsing XDC File [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new/pedal2.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new/pedal2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dma_axis_ip_example_wrapper_propImpl.xdc].
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_dma'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_dma'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_mem_intercon/s00_couplers/auto_us'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_mem_intercon/s00_couplers/auto_us'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/zynq_ultra_ps_e_0'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/xbar'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/xbar'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0_in_context.xdc] for cell 'dma_axis_ip_example_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0_in_context.xdc] for cell 'dma_axis_ip_example_i/rst_ps7_0_100M'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0_in_context.xdc] for cell 'dma_axis_ip_example_i/rst_ps7_0_100M'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/clk_wiz_0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/clk_wiz_0'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/i2s_transmitter_0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/i2s_transmitter_0'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/proc_sys_reset_0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/proc_sys_reset_0'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_util_vector_logic_0_0/dma_axis_ip_example_util_vector_logic_0_0/dma_axis_ip_example_util_vector_logic_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/util_vector_logic_0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_util_vector_logic_0_0/dma_axis_ip_example_util_vector_logic_0_0/dma_axis_ip_example_util_vector_logic_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/util_vector_logic_0'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_gpio_0_0/dma_axis_ip_example_axi_gpio_0_0/dma_axis_ip_example_axi_gpio_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_gpio_0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_gpio_0_0/dma_axis_ip_example_axi_gpio_0_0/dma_axis_ip_example_axi_gpio_0_0_in_context.xdc] for cell 'dma_axis_ip_example_i/axi_gpio_0'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_pedal_top_0_1/dma_axis_ip_example_pedal_top_0_1/dma_axis_ip_example_pedal_top_0_1_in_context.xdc] for cell 'dma_axis_ip_example_i/pedal_top_0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_pedal_top_0_1/dma_axis_ip_example_pedal_top_0_1/dma_axis_ip_example_pedal_top_0_1_in_context.xdc] for cell 'dma_axis_ip_example_i/pedal_top_0'
+Parsing XDC File [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/constrs_1/new/pedal2.xdc]
+Finished Parsing XDC File [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/constrs_1/new/pedal2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/constrs_1/new/pedal2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dma_axis_ip_example_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/dma_axis_ip_example_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2022.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2198.090 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 8 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 8 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 2022.797 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 2198.090 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '15.000' specified during out-of-context synthesis of instance 'dma_axis_ip_example_i/pedal_top_0' at clock pin 'ap_clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:37 . Memory (MB): peak = 2022.797 ; gain = 532.023
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 2198.090 ; gain = 567.828
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -233,7 +257,7 @@ Start Loading Part and Timing Information
 Loading part: xczu3eg-sfvc784-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:37 . Memory (MB): peak = 2022.797 ; gain = 532.023
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 2198.090 ; gain = 567.828
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -250,18 +274,17 @@ Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/ps7_0_axi_p
 Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/ps7_0_axi_periph. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/rst_ps7_0_100M. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/clk_wiz_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/audio_passthrough_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/i2s_transmitter_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/proc_sys_reset_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/util_vector_logic_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/xlconstant_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/axis_broadcaster_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/axis_data_fifo_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for dma_axis_ip_example_i/pedal_top_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:37 . Memory (MB): peak = 2022.797 ; gain = 532.023
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 2198.090 ; gain = 567.828
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:44 . Memory (MB): peak = 2022.797 ; gain = 532.023
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 2198.090 ; gain = 567.828
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -289,6 +312,10 @@ WARNING: [Synth 8-7129] Port M01_ACLK in module dma_axis_ip_example_ps7_0_axi_pe
 WARNING: [Synth 8-7129] Port M01_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M02_ACLK in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M02_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ACLK in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ACLK in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ACLK in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module dma_axis_ip_example_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ACLK in module dma_axis_ip_example_axi_mem_intercon_1_0 is either unconnected or has no load
@@ -302,25 +329,25 @@ WARNING: [Synth 8-7129] Port ARESETN in module dma_axis_ip_example_axi_mem_inter
 WARNING: [Synth 8-7129] Port M00_ACLK in module dma_axis_ip_example_axi_mem_intercon_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M00_ARESETN in module dma_axis_ip_example_axi_mem_intercon_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:56 . Memory (MB): peak = 2022.797 ; gain = 532.023
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:40 . Memory (MB): peak = 2198.090 ; gain = 567.828
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:01:09 . Memory (MB): peak = 2484.816 ; gain = 994.043
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:51 . Memory (MB): peak = 2618.965 ; gain = 988.703
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:01:09 . Memory (MB): peak = 2485.336 ; gain = 994.562
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:51 . Memory (MB): peak = 2619.484 ; gain = 989.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:01:09 . Memory (MB): peak = 2495.660 ; gain = 1004.887
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:51 . Memory (MB): peak = 2629.977 ; gain = 999.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -338,37 +365,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:01:13 . Memory (MB): peak = 2510.441 ; gain = 1019.668
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 2643.781 ; gain = 1013.520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:01:13 . Memory (MB): peak = 2510.441 ; gain = 1019.668
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 2643.781 ; gain = 1013.520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:01:13 . Memory (MB): peak = 2510.441 ; gain = 1019.668
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 2643.781 ; gain = 1013.520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:01:13 . Memory (MB): peak = 2510.441 ; gain = 1019.668
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 2643.781 ; gain = 1013.520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:01:13 . Memory (MB): peak = 2510.441 ; gain = 1019.668
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 2643.781 ; gain = 1013.520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:01:13 . Memory (MB): peak = 2510.441 ; gain = 1019.668
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 2643.781 ; gain = 1013.520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -378,63 +405,64 @@ Report BlackBoxes:
 +------+------------------------------------------+----------+
 |      |BlackBox name                             |Instances |
 +------+------------------------------------------+----------+
-|1     |dma_axis_ip_example_audio_passthrough_0_0 |         1|
-|2     |dma_axis_ip_example_axi_dma_0             |         1|
+|1     |dma_axis_ip_example_axi_dma_0             |         1|
+|2     |dma_axis_ip_example_axi_gpio_0_0          |         1|
 |3     |dma_axis_ip_example_auto_us_0             |         1|
-|4     |dma_axis_ip_example_axis_broadcaster_0_0  |         1|
-|5     |dma_axis_ip_example_axis_data_fifo_0_0    |         1|
-|6     |dma_axis_ip_example_clk_wiz_0_0           |         1|
-|7     |dma_axis_ip_example_i2s_transmitter_0_0   |         1|
-|8     |dma_axis_ip_example_proc_sys_reset_0_0    |         1|
-|9     |dma_axis_ip_example_xbar_0                |         1|
-|10    |dma_axis_ip_example_auto_ds_0             |         1|
-|11    |dma_axis_ip_example_auto_pc_0             |         1|
-|12    |dma_axis_ip_example_rst_ps7_0_100M_0      |         1|
-|13    |dma_axis_ip_example_util_vector_logic_0_0 |         1|
-|14    |dma_axis_ip_example_zynq_ultra_ps_e_0_0   |         1|
+|4     |dma_axis_ip_example_clk_wiz_0_0           |         1|
+|5     |dma_axis_ip_example_i2s_transmitter_0_0   |         1|
+|6     |dma_axis_ip_example_pedal_top_0_1         |         1|
+|7     |dma_axis_ip_example_proc_sys_reset_0_0    |         1|
+|8     |dma_axis_ip_example_xbar_0                |         1|
+|9     |dma_axis_ip_example_auto_ds_0             |         1|
+|10    |dma_axis_ip_example_auto_pc_0             |         1|
+|11    |dma_axis_ip_example_rst_ps7_0_100M_0      |         1|
+|12    |dma_axis_ip_example_util_vector_logic_0_0 |         1|
+|13    |dma_axis_ip_example_zynq_ultra_ps_e_0_0   |         1|
 +------+------------------------------------------+----------+
 
 Report Cell Usage: 
 +------+----------------------------------------+------+
 |      |Cell                                    |Count |
 +------+----------------------------------------+------+
-|1     |dma_axis_ip_example_audio_passthrough_0 |     1|
-|2     |dma_axis_ip_example_auto_ds             |     1|
-|3     |dma_axis_ip_example_auto_pc             |     1|
-|4     |dma_axis_ip_example_auto_us             |     1|
-|5     |dma_axis_ip_example_axi_dma             |     1|
-|6     |dma_axis_ip_example_axis_broadcaster_0  |     1|
-|7     |dma_axis_ip_example_axis_data_fifo_0    |     1|
-|8     |dma_axis_ip_example_clk_wiz_0           |     1|
-|9     |dma_axis_ip_example_i2s_transmitter_0   |     1|
-|10    |dma_axis_ip_example_proc_sys_reset_0    |     1|
-|11    |dma_axis_ip_example_rst_ps7_0_100M      |     1|
-|12    |dma_axis_ip_example_util_vector_logic_0 |     1|
-|13    |dma_axis_ip_example_xbar                |     1|
-|14    |dma_axis_ip_example_zynq_ultra_ps_e_0   |     1|
+|1     |dma_axis_ip_example_auto_ds             |     1|
+|2     |dma_axis_ip_example_auto_pc             |     1|
+|3     |dma_axis_ip_example_auto_us             |     1|
+|4     |dma_axis_ip_example_axi_dma             |     1|
+|5     |dma_axis_ip_example_axi_gpio_0          |     1|
+|6     |dma_axis_ip_example_clk_wiz_0           |     1|
+|7     |dma_axis_ip_example_i2s_transmitter_0   |     1|
+|8     |dma_axis_ip_example_pedal_top_0         |     1|
+|9     |dma_axis_ip_example_proc_sys_reset_0    |     1|
+|10    |dma_axis_ip_example_rst_ps7_0_100M      |     1|
+|11    |dma_axis_ip_example_util_vector_logic_0 |     1|
+|12    |dma_axis_ip_example_xbar                |     1|
+|13    |dma_axis_ip_example_zynq_ultra_ps_e_0   |     1|
+|14    |IOBUF                                   |     8|
 |15    |OBUF                                    |     7|
 +------+----------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:01:13 . Memory (MB): peak = 2510.441 ; gain = 1019.668
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 2643.781 ; gain = 1013.520
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 19 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:01:05 . Memory (MB): peak = 2510.441 ; gain = 1005.348
-Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:01:13 . Memory (MB): peak = 2510.441 ; gain = 1019.668
+Synthesis finished with 0 errors, 0 critical warnings and 23 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:47 . Memory (MB): peak = 2643.781 ; gain = 962.547
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:56 . Memory (MB): peak = 2643.781 ; gain = 1013.520
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2510.441 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2643.781 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2510.441 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2643.781 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 8 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 8 instances
 
-Synth Design complete | Checksum: 9c1ab1be
+Synth Design complete | Checksum: 44429220
 INFO: [Common 17-83] Releasing license: Synthesis
-77 Infos, 95 Warnings, 0 Critical Warnings and 0 Errors encountered.
+85 Infos, 119 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:01:23 . Memory (MB): peak = 2510.441 ; gain = 1947.906
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2510.441 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/dma_axis_ip_example_wrapper.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2510.441 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2643.781 ; gain = 1943.777
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 2643.781 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/dma_axis_ip_example_wrapper.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file dma_axis_ip_example_wrapper_utilization_synth.rpt -pb dma_axis_ip_example_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 15:01:04 2026...
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  8 15:44:57 2026...

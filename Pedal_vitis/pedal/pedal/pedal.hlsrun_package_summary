@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "03/11/26 16:06:09",
- "timestampMillis": "3733043655",
+ "dateTimestamp": "04/08/26 15:28:09",
+ "timestampMillis": "1854996080",
  "buildStep": {
-  "cmdId": "c124591c-2b5d-45ca-9256-1f8761846304",
+  "cmdId": "6303d121-d625-4253-82d1-7ce2388e8052",
   "name": "vitis-run",
   "logFile": "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal\\logs\\pedal.steps.log",
   "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config E:\\FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\hls_config.cfg --work_dir pedal ",
@@ -33,10 +33,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "03/11/26 16:06:09",
- "timestampMillis": "3733043661",
+ "dateTimestamp": "04/08/26 15:28:09",
+ "timestampMillis": "1854996080",
  "status": {
-  "cmdId": "c124591c-2b5d-45ca-9256-1f8761846304",
+  "cmdId": "6303d121-d625-4253-82d1-7ce2388e8052",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "03/11/26 16:06:15",
- "timestampMillis": "3733049354",
+ "dateTimestamp": "04/08/26 15:28:15",
+ "timestampMillis": "1855001848",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -58,13 +58,16 @@
    {
     "base": {
      "type": "KERNEL",
-     "name": "audio_passthrough",
-     "file": "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal\\audio_passthrough.zip",
+     "name": "pedal_top",
+     "file": "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal\\pedal_top.zip",
      "reports": [],
      "uuid": ""
     },
     "sources": [
-     "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal.cpp"
+     "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal.cpp",
+     "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal_c.cpp",
+     "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal_c.h",
+     "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal_top.cpp"
     ],
     "psSources": [],
     "cuNames": [],
@@ -80,10 +83,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "03/11/26 16:06:15",
- "timestampMillis": "3733049356",
+ "dateTimestamp": "04/08/26 15:28:15",
+ "timestampMillis": "1855001850",
  "buildStep": {
-  "cmdId": "e258dd5d-0cc0-476d-a233-74e709f25264",
+  "cmdId": "7f29edb2-2218-44ec-b679-eb48ac3bd3c2",
   "name": "export_design",
   "logFile": "E:/FPGA-Guitar-Pedal\\Pedal_vitis\\pedal\\pedal\\hls\\hls.log",
   "commandLine": "export_design -flow none",
@@ -99,10 +102,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "03/11/26 16:06:15",
- "timestampMillis": "3733049358",
+ "dateTimestamp": "04/08/26 15:28:15",
+ "timestampMillis": "1855001851",
  "status": {
-  "cmdId": "e258dd5d-0cc0-476d-a233-74e709f25264",
+  "cmdId": "7f29edb2-2218-44ec-b679-eb48ac3bd3c2",
   "state": "CS_RUNNING"
  }
 }
@@ -110,10 +113,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "03/11/26 16:06:34",
- "timestampMillis": "3733068884",
+ "dateTimestamp": "04/08/26 15:31:08",
+ "timestampMillis": "1855174867",
  "status": {
-  "cmdId": "e258dd5d-0cc0-476d-a233-74e709f25264",
+  "cmdId": "7f29edb2-2218-44ec-b679-eb48ac3bd3c2",
   "state": "CS_PASSED"
  }
 }
@@ -121,10 +124,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "03/11/26 16:06:35",
- "timestampMillis": "3733069106",
+ "dateTimestamp": "04/08/26 15:31:08",
+ "timestampMillis": "1855175129",
  "status": {
-  "cmdId": "c124591c-2b5d-45ca-9256-1f8761846304",
+  "cmdId": "6303d121-d625-4253-82d1-7ce2388e8052",
   "state": "CS_PASSED"
  }
 }
@@ -132,8 +135,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "03/11/26 16:06:35",
- "timestampMillis": "3733069106",
+ "dateTimestamp": "04/08/26 15:31:08",
+ "timestampMillis": "1855175130",
  "report": {
   "path": "",
   "name": "",
@@ -146,8 +149,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "03/11/26 16:06:35",
- "timestampMillis": "3733069107",
+ "dateTimestamp": "04/08/26 15:31:08",
+ "timestampMillis": "1855175130",
  "report": {
   "path": "",
   "name": "",

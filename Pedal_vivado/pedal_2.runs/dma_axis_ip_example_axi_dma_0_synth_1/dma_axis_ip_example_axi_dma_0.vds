@@ -3,12 +3,12 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Mar 25 17:37:10 2026
-# Process ID: 20308
-# Current directory: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1
+# Start of session at: Mon Mar 30 15:46:56 2026
+# Process ID: 1404
+# Current directory: E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1
 # Command line: vivado.exe -log dma_axis_ip_example_axi_dma_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_axis_ip_example_axi_dma_0.tcl
-# Log file: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dma_axis_ip_example_axi_dma_0.vds
-# Journal file: E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1\vivado.jou
+# Log file: E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dma_axis_ip_example_axi_dma_0.vds
+# Journal file: E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1\vivado.jou
 # Running On        :WFXB07B250A3A85
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26200
@@ -19,10 +19,10 @@
 # Host memory       :34059 MB
 # Swap memory       :2147 MB
 # Total Virtual     :36207 MB
-# Available Virtual :14304 MB
+# Available Virtual :23557 MB
 #-----------------------------------------------------------
 source dma_axis_ip_example_axi_dma_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 647.449 ; gain = 199.012
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 647.660 ; gain = 199.074
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/FPGA-Guitar-Pedal/Pedal_vitis'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
@@ -34,11 +34,11 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg
 INFO: [Device 21-403] Loading part xczu3eg-sfvc784-2-e
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 20148
+INFO: [Synth 8-7075] Helper process launched with PID 5800
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1994.945 ; gain = 394.074
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1995.465 ; gain = 394.793
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'dma_axis_ip_example_axi_dma_0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/synth/dma_axis_ip_example_axi_dma_0.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'dma_axis_ip_example_axi_dma_0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/synth/dma_axis_ip_example_axi_dma_0.vhd:128]
 	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 10 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_DLYTMR_RESOLUTION bound to: 125 - type: integer 
@@ -61,114 +61,114 @@ INFO: [Synth 8-638] synthesizing module 'dma_axis_ip_example_axi_dma_0' [e:/FPGA
 	Parameter C_M_AXI_MM2S_ADDR_WIDTH bound to: 64 - type: integer 
 	Parameter C_M_AXI_MM2S_DATA_WIDTH bound to: 64 - type: integer 
 	Parameter C_M_AXIS_MM2S_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_INCLUDE_MM2S_DRE bound to: 0 - type: integer 
+	Parameter C_INCLUDE_MM2S_DRE bound to: 1 - type: integer 
 	Parameter C_INCLUDE_S2MM bound to: 1 - type: integer 
 	Parameter C_INCLUDE_S2MM_SF bound to: 1 - type: integer 
 	Parameter C_S2MM_BURST_SIZE bound to: 16 - type: integer 
 	Parameter C_M_AXI_S2MM_ADDR_WIDTH bound to: 64 - type: integer 
 	Parameter C_M_AXI_S2MM_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXIS_S2MM_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_INCLUDE_S2MM_DRE bound to: 0 - type: integer 
+	Parameter C_INCLUDE_S2MM_DRE bound to: 1 - type: integer 
 	Parameter C_INCREASE_THROUGHPUT bound to: 0 - type: integer 
 	Parameter C_FAMILY bound to: zynquplus - type: string 
-INFO: [Synth 8-3491] module 'axi_dma' declared at 'e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:21804' bound to instance 'U0' of component 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/synth/dma_axis_ip_example_axi_dma_0.vhd:374]
-INFO: [Synth 8-638] synthesizing module 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22149]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_rst_module' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:1592]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-3491] module 'axi_dma' declared at 'e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:21804' bound to instance 'U0' of component 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/synth/dma_axis_ip_example_axi_dma_0.vhd:374]
+INFO: [Synth 8-638] synthesizing module 'axi_dma' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22149]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_rst_module' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:1592]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_reset' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:601]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_reset' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:601]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_rst_module' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:1592]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_reg_module' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:8426]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_lite_if' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2057]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_lite_if' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2057]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_register' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3599]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_register' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3599]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_register_s2mm' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:4844]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_register_s2mm' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:4844]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_reg_module' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:8426]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_mngr' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:15157]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_smple_sm' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:11957]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_smple_sm' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:11957]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_cmdsts_if' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:13942]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_cmdsts_if' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:13942]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_sts_mngr' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:14256]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_sts_mngr' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:14256]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_mngr' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:15157]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_sofeof_gen' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:11427]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_sofeof_gen' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:11427]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_mngr' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:20537]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_cmdsts_if' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:18804]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_cmdsts_if' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:18804]
-INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_sts_mngr' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:19233]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_sts_mngr' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:19233]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_mngr' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:20537]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:55201]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_full_wrap' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:53340]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:147]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:147]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:2665]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:2665]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_status_cntl' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:13671]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_status_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:13671]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_pcc' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:7365]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
-INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9439]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_pcc' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:7365]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9943]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
-INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9943]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_rddata_cntl' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:12116]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_rdmux' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10618]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rdmux' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10618]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rddata_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:12116]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_sf' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:20097]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
-INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_reset' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:601]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_reset' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:601]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_rst_module' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:1592]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_reg_module' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:8426]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_lite_if' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2057]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_lite_if' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2057]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_register' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3599]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_register' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3599]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_register_s2mm' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:4844]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_register_s2mm' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:4844]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_reg_module' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:8426]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_mngr' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:15157]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_smple_sm' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:11957]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_smple_sm' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:11957]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_cmdsts_if' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:13942]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_cmdsts_if' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:13942]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_sts_mngr' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:14256]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_sts_mngr' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:14256]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_mngr' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:15157]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_sofeof_gen' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:11427]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_sofeof_gen' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:11427]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_mngr' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:20537]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_cmdsts_if' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:18804]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_cmdsts_if' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:18804]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_sts_mngr' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:19233]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_sts_mngr' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:19233]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_mngr' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:20537]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:55201]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_full_wrap' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:53340]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:147]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:2665]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:2665]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_status_cntl' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:13671]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_status_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:13671]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_pcc' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:7365]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9439]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_pcc' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:7365]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9943]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9943]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rddata_cntl' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:12116]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rdmux' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10618]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rdmux' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10618]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rddata_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:12116]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_sf' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:20097]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
 	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 128 - type: integer 
 	Parameter WRITE_DATA_WIDTH bound to: 75 - type: integer 
@@ -184,7 +184,7 @@ INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [e:/FPGA-Guitar-Pedal/ped
 	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
 	Parameter WAKEUP_TIME bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2609]
+INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2609]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_sync' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
@@ -208,74 +208,92 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized3' [C:/
 INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized3' (0#1) [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (0#1) [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync' (0#1) [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975]
-INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_sf' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:20097]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:19395]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:19395]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_full_wrap' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:53340]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_full_wrap' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:49783]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:2665]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized4' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized4' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:2665]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_status_cntl' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:17611]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized5' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized2' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized2' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
-INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized5' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized6' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized3' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized3' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized3' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized3' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized3' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized3' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized6' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_status_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:17611]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_ibttcc' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:25596]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ibttcc' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:25596]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_realign' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:46815]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized7' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized4' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized4' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized4' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized4' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized4' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized4' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized7' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_scatter' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:44927]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_mssai_skid_buf' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:43984]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_ms_strb_set' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:42426]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ms_strb_set' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:42426]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mssai_skid_buf' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:43984]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_slice' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:44672]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_slice' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:44672]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized8' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized5' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized5' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
-INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized5' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized5' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized5' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized5' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized8' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_scatter' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:44927]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_realign' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:46815]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_indet_btt' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:28289]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set_nodre' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:24080]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set_nodre' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:24080]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
-INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_sf' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:20097]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_dre' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:30298]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:35534]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_dre_mux2_1_x_n' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:29803]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:29819]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_dre_mux2_1_x_n' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:29803]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_dre_mux4_1_x_n' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:29944]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:29960]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_dre_mux4_1_x_n' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:29944]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:35763]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:35810]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:35857]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_dre' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:30298]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:19395]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:19395]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_full_wrap' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:53340]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_full_wrap' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:49783]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:2665]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized4' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized4' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:2665]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_status_cntl' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:17611]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized5' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized2' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized2' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized5' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized6' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized3' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized3' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized3' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized3' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized3' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized3' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized6' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_status_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:17611]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ibttcc' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:25596]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ibttcc' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:25596]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_realign' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:46815]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized7' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized4' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized4' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized4' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized4' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized4' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized4' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized7' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_dre' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:36392]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:41650]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:41878]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:41925]
+INFO: [Synth 8-226] default block is never used [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:41972]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_dre' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:36392]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_scatter' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:44927]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mssai_skid_buf' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:43984]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ms_strb_set' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:42426]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ms_strb_set' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:42426]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mssai_skid_buf' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:43984]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:4297]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_slice' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:44672]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_slice' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:44672]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized8' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized5' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized5' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized5' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized5' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized5' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized5' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized8' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_scatter' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:44927]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_realign' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:46815]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_indet_btt' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:28289]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:23287]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:23287]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
 	Parameter FIFO_MEMORY_TYPE bound to: auto - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 16 - type: integer 
 	Parameter WRITE_DATA_WIDTH bound to: 9 - type: integer 
@@ -291,7 +309,7 @@ INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [e:/FPGA-
 	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
 	Parameter WAKEUP_TIME bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2609]
+INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2609]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_sync__parameterized1' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base__parameterized0' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized4' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
@@ -310,10 +328,10 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized7' [C:/
 INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized7' (0#1) [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized0' (0#1) [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync__parameterized1' (0#1) [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975]
-INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
-INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized1' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
 	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 128 - type: integer 
 	Parameter WRITE_DATA_WIDTH bound to: 38 - type: integer 
@@ -329,7 +347,7 @@ INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized1' [e:/FPGA-
 	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
 	Parameter WAKEUP_TIME bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2609]
+INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2609]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_sync__parameterized3' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base__parameterized1' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized1' [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
@@ -339,90 +357,94 @@ INFO: [Synth 8-226] default block is never used [C:/Xilinx/Vivado/2024.1/data/ip
 INFO: [Synth 8-226] default block is never used [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1309]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized1' (0#1) [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync__parameterized3' (0#1) [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1975]
-INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:19395]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:19395]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_indet_btt' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:28289]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9943]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9943]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_wrdata_cntl' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:15587]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized9' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized6' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized6' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized6' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized6' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized6' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized6' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized9' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wrdata_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:15587]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid2mm_buf' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:18899]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_demux' [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:14036]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_demux' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:14036]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid2mm_buf' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:18899]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_full_wrap' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:49783]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:55201]
-INFO: [Synth 8-256] done synthesizing module 'axi_dma' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22149]
-INFO: [Synth 8-256] done synthesizing module 'dma_axis_ip_example_axi_dma_0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/synth/dma_axis_ip_example_axi_dma_0.vhd:128]
-WARNING: [Synth 8-6014] Unused sequential element awaddr_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2151]
-WARNING: [Synth 8-6014] Unused sequential element wdata_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2153]
-WARNING: [Synth 8-6014] Unused sequential element GEN_SYNC_WRITE.axi2ip_wrdata_i_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2306]
-WARNING: [Synth 8-6014] Unused sequential element GEN_SYNC_WRITE.awready_i_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2138]
-WARNING: [Synth 8-6014] Unused sequential element GEN_SYNC_WRITE.rdy1_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2267]
-WARNING: [Synth 8-6014] Unused sequential element GEN_SYNC_READ.arvalid_re_d1_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3049]
-WARNING: [Synth 8-6014] Unused sequential element sg_ftch_error_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3987]
-WARNING: [Synth 8-6014] Unused sequential element sg_updt_error_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3988]
-WARNING: [Synth 8-6014] Unused sequential element sg_ftch_error_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:5635]
-WARNING: [Synth 8-6014] Unused sequential element sg_updt_error_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:5636]
-WARNING: [Synth 8-3848] Net mm2s_desc_flush in module/entity axi_dma_mm2s_mngr does not have driver. [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:15074]
-WARNING: [Synth 8-6014] Unused sequential element GEN_S2MM_DMA_CONTROL.s2mm_desc_flush_i_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:20668]
-WARNING: [Synth 8-6014] Unused sequential element sig_cmd_stat_rst_int_reg_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:185]
-WARNING: [Synth 8-6014] Unused sequential element sig_mmap_rst_reg_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:188]
-WARNING: [Synth 8-6014] Unused sequential element sig_stream_rst_reg_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:191]
-WARNING: [Synth 8-6014] Unused sequential element sig_inhibit_rdy_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1987]
-WARNING: [Synth 8-6014] Unused sequential element sig_inhibit_rdy_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1987]
-WARNING: [Synth 8-6014] Unused sequential element sig_input_reg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:7997]
-WARNING: [Synth 8-6014] Unused sequential element sig_xfer_reg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:8308]
-WARNING: [Synth 8-6014] Unused sequential element sig_next_tag_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10353]
-WARNING: [Synth 8-6014] Unused sequential element sig_next_cmd_cmplt_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10360]
-WARNING: [Synth 8-6014] Unused sequential element sig_next_dre_src_align_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:12817]
-WARNING: [Synth 8-6014] Unused sequential element sig_next_dre_dest_align_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:12818]
-WARNING: [Synth 8-6014] Unused sequential element sig_coelsc_reg_empty_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:13156]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/0a12/hdl/lib_fifo_v1_0_rfs.vhd:2232]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized1' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1275]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:19395]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:19395]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_indet_btt' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:28289]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl__parameterized0' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9943]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl__parameterized0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:9943]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wrdata_cntl' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:15587]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized9' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized6' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized6' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized6' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized6' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:329]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized6' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized6' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/1e5a/hdl/lib_srl_fifo_v1_0_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized9' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1859]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wrdata_cntl' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:15587]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid2mm_buf' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:18899]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_demux' [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:14036]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_demux' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:14036]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid2mm_buf' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:18899]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_full_wrap' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:49783]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:55201]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22149]
+INFO: [Synth 8-256] done synthesizing module 'dma_axis_ip_example_axi_dma_0' (0#1) [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/synth/dma_axis_ip_example_axi_dma_0.vhd:128]
+WARNING: [Synth 8-6014] Unused sequential element awaddr_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2151]
+WARNING: [Synth 8-6014] Unused sequential element wdata_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2153]
+WARNING: [Synth 8-6014] Unused sequential element GEN_SYNC_WRITE.axi2ip_wrdata_i_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2306]
+WARNING: [Synth 8-6014] Unused sequential element GEN_SYNC_WRITE.awready_i_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2138]
+WARNING: [Synth 8-6014] Unused sequential element GEN_SYNC_WRITE.rdy1_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:2267]
+WARNING: [Synth 8-6014] Unused sequential element GEN_SYNC_READ.arvalid_re_d1_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3049]
+WARNING: [Synth 8-6014] Unused sequential element sg_ftch_error_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3987]
+WARNING: [Synth 8-6014] Unused sequential element sg_updt_error_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:3988]
+WARNING: [Synth 8-6014] Unused sequential element sg_ftch_error_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:5635]
+WARNING: [Synth 8-6014] Unused sequential element sg_updt_error_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:5636]
+WARNING: [Synth 8-3848] Net mm2s_desc_flush in module/entity axi_dma_mm2s_mngr does not have driver. [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:15074]
+WARNING: [Synth 8-6014] Unused sequential element GEN_S2MM_DMA_CONTROL.s2mm_desc_flush_i_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:20668]
+WARNING: [Synth 8-6014] Unused sequential element sig_cmd_stat_rst_int_reg_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:185]
+WARNING: [Synth 8-6014] Unused sequential element sig_mmap_rst_reg_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:188]
+WARNING: [Synth 8-6014] Unused sequential element sig_stream_rst_reg_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:191]
+WARNING: [Synth 8-6014] Unused sequential element sig_inhibit_rdy_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1987]
+WARNING: [Synth 8-6014] Unused sequential element sig_inhibit_rdy_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1987]
+WARNING: [Synth 8-6014] Unused sequential element sig_input_reg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:7997]
+WARNING: [Synth 8-6014] Unused sequential element sig_xfer_reg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:8308]
+WARNING: [Synth 8-6014] Unused sequential element sig_next_tag_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10353]
+WARNING: [Synth 8-6014] Unused sequential element sig_next_cmd_cmplt_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10360]
+WARNING: [Synth 8-6014] Unused sequential element sig_coelsc_reg_empty_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:13156]
 WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_doutb_pipe.enb_pipe_reg[0] was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:3077]
 WARNING: [Synth 8-6014] Unused sequential element gdvld.data_valid_std_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:550]
 WARNING: [Synth 8-6014] Unused sequential element gen_pntr_flags_cc.gae_cc_std.ram_aempty_i_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:982]
 WARNING: [Synth 8-6014] Unused sequential element gen_fwft.empty_fwft_fb_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1404]
-WARNING: [Synth 8-6014] Unused sequential element hold_ff_q_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1493]
-WARNING: [Synth 8-6014] Unused sequential element sig_inhibit_rdy_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1987]
-WARNING: [Synth 8-6014] Unused sequential element sig_input_reg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:26239]
-WARNING: [Synth 8-6014] Unused sequential element sig_psm_ld_calc2_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:26443]
-WARNING: [Synth 8-6014] Unused sequential element sig_child_cmd_reg_empty_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:26899]
-WARNING: [Synth 8-6014] Unused sequential element sig_first_child_xfer_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:27444]
-WARNING: [Synth 8-6014] Unused sequential element sig_xfer_is_seq_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:27943]
-WARNING: [Synth 8-6014] Unused sequential element sig_xfer_reg_empty_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:28036]
-WARNING: [Synth 8-6014] Unused sequential element sig_xfer_reg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:28037]
-WARNING: [Synth 8-6014] Unused sequential element sig_sm_ld_scatter_cmd_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:47314]
+WARNING: [Synth 8-6014] Unused sequential element hold_ff_q_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1493]
+WARNING: [Synth 8-6014] Unused sequential element sig_flush_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:30796]
+WARNING: [Synth 8-6014] Unused sequential element GEN_DELAY_REG[3].sig_delay_data_reg_reg[3] was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:31110]
+WARNING: [Synth 8-6014] Unused sequential element sig_inhibit_rdy_n_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1987]
+WARNING: [Synth 8-6014] Unused sequential element sig_input_reg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:26239]
+WARNING: [Synth 8-6014] Unused sequential element sig_psm_ld_calc2_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:26443]
+WARNING: [Synth 8-6014] Unused sequential element sig_child_cmd_reg_empty_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:26899]
+WARNING: [Synth 8-6014] Unused sequential element sig_first_child_xfer_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:27444]
+WARNING: [Synth 8-6014] Unused sequential element sig_xfer_is_seq_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:27943]
+WARNING: [Synth 8-6014] Unused sequential element sig_xfer_reg_empty_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:28036]
+WARNING: [Synth 8-6014] Unused sequential element sig_xfer_reg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:28037]
+WARNING: [Synth 8-6014] Unused sequential element sig_flush_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:36907]
+WARNING: [Synth 8-6014] Unused sequential element GEN_DELAY_REG[3].sig_delay_data_reg_reg[3] was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:37224]
+WARNING: [Synth 8-6014] Unused sequential element GEN_INCLUDE_DRE.lsig_pushreg_empty_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:47569]
+WARNING: [Synth 8-6014] Unused sequential element GEN_INCLUDE_DRE.lsig_pullreg_full_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:47625]
+WARNING: [Synth 8-6014] Unused sequential element sig_sm_ld_scatter_cmd_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:47314]
 WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_doutb_pipe.enb_pipe_reg[0] was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:3077]
 WARNING: [Synth 8-6014] Unused sequential element gdvld.data_valid_std_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:550]
 WARNING: [Synth 8-6014] Unused sequential element gen_pntr_flags_cc.gae_cc_std.ram_aempty_i_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:982]
 WARNING: [Synth 8-6014] Unused sequential element gen_fwft.empty_fwft_fb_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1404]
-WARNING: [Synth 8-6014] Unused sequential element hold_ff_q_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1493]
+WARNING: [Synth 8-6014] Unused sequential element hold_ff_q_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1493]
 WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_doutb_pipe.enb_pipe_reg[0] was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:3077]
 WARNING: [Synth 8-6014] Unused sequential element gdvld.data_valid_std_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:550]
 WARNING: [Synth 8-6014] Unused sequential element gen_pntr_flags_cc.gae_cc_std.ram_aempty_i_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:982]
 WARNING: [Synth 8-6014] Unused sequential element gen_fwft.empty_fwft_fb_reg was removed.  [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1404]
-WARNING: [Synth 8-6014] Unused sequential element hold_ff_q_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1493]
-WARNING: [Synth 8-6014] Unused sequential element sig_next_tag_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10353]
-WARNING: [Synth 8-6014] Unused sequential element sig_next_cmd_cmplt_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10360]
-WARNING: [Synth 8-6014] Unused sequential element sig_next_last_strb_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:16878]
-WARNING: [Synth 8-6014] Unused sequential element sig_next_eof_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:16883]
-WARNING: [Synth 8-3848] Net m_axi_sg_awuser in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:21994]
-WARNING: [Synth 8-3848] Net m_axi_sg_aruser in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22020]
-WARNING: [Synth 8-3848] Net strm_valid in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22710]
-WARNING: [Synth 8-3848] Net bd_eq in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22703]
-WARNING: [Synth 8-3848] Net m_axis_ftch1_desc_available in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22612]
-WARNING: [Synth 8-3848] Net s2mm_desc_info_in in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22683]
-WARNING: [Synth 8-3848] Net m_axis_ftch2_desc_available in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22612]
+WARNING: [Synth 8-6014] Unused sequential element hold_ff_q_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:1493]
+WARNING: [Synth 8-6014] Unused sequential element sig_next_tag_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10353]
+WARNING: [Synth 8-6014] Unused sequential element sig_next_cmd_cmplt_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:10360]
+WARNING: [Synth 8-6014] Unused sequential element sig_next_last_strb_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:16878]
+WARNING: [Synth 8-6014] Unused sequential element sig_next_eof_reg_reg was removed.  [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/bf20/hdl/axi_datamover_v5_1_vh_rfs.vhd:16883]
+WARNING: [Synth 8-3848] Net m_axi_sg_awuser in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:21994]
+WARNING: [Synth 8-3848] Net m_axi_sg_aruser in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22020]
+WARNING: [Synth 8-3848] Net strm_valid in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22710]
+WARNING: [Synth 8-3848] Net bd_eq in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22703]
+WARNING: [Synth 8-3848] Net m_axis_ftch1_desc_available in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22612]
+WARNING: [Synth 8-3848] Net s2mm_desc_info_in in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22683]
+WARNING: [Synth 8-3848] Net m_axis_ftch2_desc_available in module/entity axi_dma does not have driver. [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ipshared/8830/hdl/axi_dma_v7_1_vh_rfs.vhd:22612]
 WARNING: [Synth 8-7129] Port debeat_saddr_lsb[1] in module axi_datamover_wr_demux is either unconnected or has no load
 WARNING: [Synth 8-7129] Port debeat_saddr_lsb[0] in module axi_datamover_wr_demux is either unconnected or has no load
 WARNING: [Synth 8-7129] Port fifo_async_rd_reset in module axi_datamover_fifo__parameterized9 is either unconnected or has no load
@@ -525,48 +547,48 @@ WARNING: [Synth 8-7129] Port cache_data[3] in module axi_datamover_cmd_status__p
 WARNING: [Synth 8-7129] Port cache_data[2] in module axi_datamover_cmd_status__parameterized0 is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:04:10 . Memory (MB): peak = 2326.754 ; gain = 725.883
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:46 . Memory (MB): peak = 2331.543 ; gain = 730.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:04:10 . Memory (MB): peak = 2326.754 ; gain = 725.883
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:46 . Memory (MB): peak = 2331.543 ; gain = 730.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:04:10 . Memory (MB): peak = 2326.754 ; gain = 725.883
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:46 . Memory (MB): peak = 2331.543 ; gain = 730.871
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 2326.754 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.124 . Memory (MB): peak = 2331.543 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_ooc.xdc] for cell 'U0'
-Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0.xdc] for cell 'U0'
-Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0.xdc] for cell 'U0'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dma_axis_ip_example_axi_dma_0_propImpl.xdc].
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dma_axis_ip_example_axi_dma_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/dma_axis_ip_example_axi_dma_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dont_touch.xdc]
-Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_clocks.xdc] for cell 'U0'
-Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_clocks.xdc] for cell 'U0'
+Parsing XDC File [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dont_touch.xdc]
+Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_clocks.xdc] for cell 'U0'
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dma_axis_ip_example_axi_dma_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/dma_axis_ip_example_axi_dma_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Project 1-1714] 3 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2326.754 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2331.543 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 12 instances were transformed.
   FDR => FDRE: 12 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:04 . Memory (MB): peak = 2326.754 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.137 . Memory (MB): peak = 2331.543 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:33 ; elapsed = 00:08:01 . Memory (MB): peak = 2326.754 ; gain = 725.883
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:01:14 . Memory (MB): peak = 2331.543 ; gain = 730.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -574,17 +596,17 @@ Start Loading Part and Timing Information
 Loading part: xczu3eg-sfvc784-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:33 ; elapsed = 00:08:01 . Memory (MB): peak = 2326.754 ; gain = 725.883
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:01:14 . Memory (MB): peak = 2331.543 ; gain = 730.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dont_touch.xdc, line 9).
 Applied set_property KEEP_HIERARCHY = SOFT for U0/I_PRMRY_DATAMOVER/\GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER /\GEN_INCLUDE_MM2S_SF.I_RD_SF /I_DATA_FIFO/\BLK_MEM.I_SYNC_FIFOGEN_FIFO /\xpm_fifo_instance.xpm_fifo_sync_inst . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER /\GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT /I_DATA_FIFO/\BLK_MEM.I_SYNC_FIFOGEN_FIFO /\xpm_fifo_instance.xpm_fifo_sync_inst . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER /\GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT /I_XD_FIFO/\NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO /\xpm_fifo_instance.xpm_fifo_sync_inst . (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:08:02 . Memory (MB): peak = 2326.754 ; gain = 725.883
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:01:14 . Memory (MB): peak = 2331.543 ; gain = 730.871
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'smpl_cs_reg' in module 'axi_dma_smple_sm'
 INFO: [Synth 8-802] inferred FSM for state register 'sig_pcc_sm_state_reg' in module 'axi_datamover_pcc'
@@ -680,7 +702,7 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_reg' using encoding 'sequential' in module 'xpm_fifo_base__parameterized1'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:12:04 . Memory (MB): peak = 2326.754 ; gain = 725.883
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:01:34 . Memory (MB): peak = 2331.543 ; gain = 730.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -717,7 +739,7 @@ Detailed RTL Component Info :
 	               26 Bit    Registers := 12    
 	               23 Bit    Registers := 2     
 	               16 Bit    Registers := 12    
-	               10 Bit    Registers := 3     
+	               10 Bit    Registers := 25    
 	                9 Bit    Registers := 3     
 	                8 Bit    Registers := 21    
 	                7 Bit    Registers := 13    
@@ -725,8 +747,8 @@ Detailed RTL Component Info :
 	                5 Bit    Registers := 9     
 	                4 Bit    Registers := 53    
 	                3 Bit    Registers := 16    
-	                2 Bit    Registers := 14    
-	                1 Bit    Registers := 498   
+	                2 Bit    Registers := 22    
+	                1 Bit    Registers := 516   
 +---RAMs : 
 	               9K Bit	(128 X 75 bit)          RAMs := 1     
 	               4K Bit	(128 X 38 bit)          RAMs := 1     
@@ -742,6 +764,8 @@ Detailed RTL Component Info :
 	   2 Input   23 Bit        Muxes := 3     
 	   2 Input   16 Bit        Muxes := 10    
 	   2 Input   11 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 10    
+	   4 Input   10 Bit        Muxes := 6     
 	   2 Input    8 Bit        Muxes := 26    
 	   8 Input    8 Bit        Muxes := 5     
 	   3 Input    8 Bit        Muxes := 1     
@@ -750,18 +774,21 @@ Detailed RTL Component Info :
 	   2 Input    5 Bit        Muxes := 4     
 	   2 Input    4 Bit        Muxes := 15    
 	   3 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 2     
 	   4 Input    4 Bit        Muxes := 4     
-	   2 Input    3 Bit        Muxes := 19    
+	   2 Input    3 Bit        Muxes := 17    
 	   6 Input    3 Bit        Muxes := 2     
-	   5 Input    3 Bit        Muxes := 3     
+	   5 Input    3 Bit        Muxes := 1     
 	   3 Input    3 Bit        Muxes := 1     
-	   2 Input    2 Bit        Muxes := 107   
+	   2 Input    2 Bit        Muxes := 112   
 	   3 Input    2 Bit        Muxes := 2     
 	   4 Input    2 Bit        Muxes := 21    
-	   2 Input    1 Bit        Muxes := 188   
+	  16 Input    2 Bit        Muxes := 2     
+	   6 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 215   
 	   3 Input    1 Bit        Muxes := 11    
 	   8 Input    1 Bit        Muxes := 3     
-	   4 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 12    
 	   7 Input    1 Bit        Muxes := 3     
 	   6 Input    1 Bit        Muxes := 7     
 ---------------------------------------------------------------------------------
@@ -785,25 +812,24 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
-INFO: [Synth 8-5784] Optimized 1 bits of RAM "gen_wr_a.gen_word_narrow.mem_reg" due to constant propagation. Old ram width 75 bits, new ram width 74 bits.
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
-INFO: [Synth 8-6904] The RAM "U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst /gen_wr_a.gen_word_narrow.mem_reg" of size (depth=16 x width=9) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
-INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
-INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-6904] The RAM "U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst /gen_wr_a.gen_word_narrow.mem_reg" of size (depth=16 x width=9) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
-INFO: [Synth 8-3332] Sequential element (I_RST_MODULE/REG_HRD_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_dma.
-INFO: [Synth 8-3332] Sequential element (I_RST_MODULE/REG_HRD_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_dma.
-INFO: [Synth 8-3332] Sequential element (I_RST_MODULE/REG_HRD_RST_OUT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_dma.
-INFO: [Synth 8-3332] Sequential element (I_RST_MODULE/REG_HRD_RST_OUT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_dma.
-INFO: [Synth 8-3332] Sequential element (I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_IBTTCC.I_S2MM_MSTR_IBTTCC/FSM_onehot_sig_csm_state_reg[3]) is unused and will be removed from module axi_dma.
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-3332] Sequential element (REG_HRD_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_dma_rst_module.
+INFO: [Synth 8-3332] Sequential element (REG_HRD_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_dma_rst_module.
+INFO: [Synth 8-3332] Sequential element (REG_HRD_RST_OUT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_dma_rst_module.
+INFO: [Synth 8-3332] Sequential element (REG_HRD_RST_OUT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_dma_rst_module.
+INFO: [Synth 8-3332] Sequential element (GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_IBTTCC.I_S2MM_MSTR_IBTTCC/FSM_onehot_sig_csm_state_reg[3]) is unused and will be removed from module axi_datamover.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:12:15 . Memory (MB): peak = 2326.754 ; gain = 725.883
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:43 . Memory (MB): peak = 2331.543 ; gain = 730.871
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
@@ -817,8 +843,8 @@ Block RAM: Preliminary Mapping Report (see note below)
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
 |Module Name                                                                                                                                                                                                                    | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
-|U0/\I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst          | gen_wr_a.gen_word_narrow.mem_reg | 128 x 75(NO_CHANGE)    | W |   | 128 x 75(NO_CHANGE)    |   | R | Port A and B     | 1      | 1      |                 | 
-|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 38(NO_CHANGE)    | W |   | 128 x 38(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      |                 | 
+|U0/I_PRMRY_DATAMOVER/\GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst          | gen_wr_a.gen_word_narrow.mem_reg | 128 x 75(NO_CHANGE)    | W |   | 128 x 75(NO_CHANGE)    |   | R | Port A and B     | 1      | 1      |                 | 
+|U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 38(NO_CHANGE)    | W |   | 128 x 38(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      |                 | 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
 
 Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
@@ -827,7 +853,7 @@ Distributed RAM: Preliminary Mapping Report (see note below)
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+---------------+
 |Module Name                                                                                                                                                                                                                      | RTL Object                       | Inference | Size (Depth x Width) | Primitives    | 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+---------------+
-|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 9               | RAM32M16 x 1  | 
+|U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 9               | RAM32M16 x 1  | 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+---------------+
 
 Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
@@ -838,7 +864,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:12:32 . Memory (MB): peak = 2648.184 ; gain = 1047.312
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:01:55 . Memory (MB): peak = 2659.082 ; gain = 1058.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
@@ -846,7 +872,7 @@ Start Timing Optimization
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:12:39 . Memory (MB): peak = 2758.117 ; gain = 1157.246
+Finished Timing Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:02:01 . Memory (MB): peak = 2762.430 ; gain = 1161.758
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -856,8 +882,8 @@ Block RAM: Final Mapping Report
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
 |Module Name                                                                                                                                                                                                                    | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
-|U0/\I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst          | gen_wr_a.gen_word_narrow.mem_reg | 128 x 75(NO_CHANGE)    | W |   | 128 x 75(NO_CHANGE)    |   | R | Port A and B     | 1      | 1      |                 | 
-|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 38(NO_CHANGE)    | W |   | 128 x 38(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      |                 | 
+|U0/I_PRMRY_DATAMOVER/\GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst          | gen_wr_a.gen_word_narrow.mem_reg | 128 x 75(NO_CHANGE)    | W |   | 128 x 75(NO_CHANGE)    |   | R | Port A and B     | 1      | 1      |                 | 
+|U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 38(NO_CHANGE)    | W |   | 128 x 38(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      |                 | 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
 
 
@@ -865,7 +891,7 @@ Distributed RAM: Final Mapping Report
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+---------------+
 |Module Name                                                                                                                                                                                                                      | RTL Object                       | Inference | Size (Depth x Width) | Primitives    | 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+---------------+
-|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 9               | RAM32M16 x 1  | 
+|U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 9               | RAM32M16 x 1  | 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+---------------+
 
 ---------------------------------------------------------------------------------
@@ -875,7 +901,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:04 ; elapsed = 00:12:41 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:02:02 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -895,37 +921,37 @@ Finished Final Netlist Cleanup
 INFO: [Synth 8-3295] tying undriven pin I_AXI_DMA_REG_MODULE/strm_valid_int2_inferred:in0 to constant 0
 INFO: [Synth 8-3295] tying undriven pin I_AXI_DMA_REG_MODULE/strm_valid_int_cdc_to_inferred:in0 to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:09 ; elapsed = 00:12:45 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Finished IO Insertion : Time (s): cpu = 00:01:05 ; elapsed = 00:02:07 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:09 ; elapsed = 00:12:45 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:05 ; elapsed = 00:02:07 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:09 ; elapsed = 00:12:45 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:05 ; elapsed = 00:02:07 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:09 ; elapsed = 00:12:45 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:05 ; elapsed = 00:02:07 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:09 ; elapsed = 00:12:45 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:05 ; elapsed = 00:02:07 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:09 ; elapsed = 00:12:45 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:05 ; elapsed = 00:02:07 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -936,11 +962,11 @@ Dynamic Shift Register Report:
 |Module Name | RTL Name                  | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
 +------------+---------------------------+--------+------------+--------+---------+--------+--------+--------+
 |dsrl        | INFERRED_GEN.data_reg[3]  | 91     | 91         | 91     | 0       | 0      | 0      | 0      | 
-|dsrl__1     | INFERRED_GEN.data_reg[3]  | 38     | 38         | 38     | 0       | 0      | 0      | 0      | 
-|dsrl__2     | INFERRED_GEN.data_reg[3]  | 8      | 8          | 8      | 0       | 0      | 0      | 0      | 
+|dsrl__1     | INFERRED_GEN.data_reg[3]  | 40     | 40         | 40     | 0       | 0      | 0      | 0      | 
+|dsrl__2     | INFERRED_GEN.data_reg[3]  | 12     | 12         | 12     | 0       | 0      | 0      | 0      | 
 |dsrl__3     | INFERRED_GEN.data_reg[5]  | 2      | 2          | 2      | 0       | 0      | 0      | 0      | 
 |dsrl__4     | INFERRED_GEN.data_reg[5]  | 33     | 33         | 33     | 0       | 0      | 0      | 0      | 
-|dsrl__5     | INFERRED_GEN.data_reg[3]  | 37     | 37         | 37     | 0       | 0      | 0      | 0      | 
+|dsrl__5     | INFERRED_GEN.data_reg[3]  | 39     | 39         | 39     | 0       | 0      | 0      | 0      | 
 |dsrl__6     | INFERRED_GEN.data_reg[15] | 9      | 9          | 9      | 0       | 0      | 0      | 0      | 
 |dsrl__7     | INFERRED_GEN.data_reg[3]  | 27     | 27         | 27     | 0       | 0      | 0      | 0      | 
 +------------+---------------------------+--------+------------+--------+---------+--------+--------+--------+
@@ -963,53 +989,53 @@ Report Cell Usage:
 |      |Cell     |Count |
 +------+---------+------+
 |1     |CARRY8   |    27|
-|2     |LUT1     |    98|
-|3     |LUT2     |   192|
-|4     |LUT3     |   498|
-|5     |LUT4     |   369|
-|6     |LUT5     |   297|
-|7     |LUT6     |   395|
+|2     |LUT1     |   101|
+|3     |LUT2     |   218|
+|4     |LUT3     |   572|
+|5     |LUT4     |   386|
+|6     |LUT5     |   331|
+|7     |LUT6     |   464|
 |8     |MUXF7    |     5|
 |9     |RAM32M16 |     1|
 |10    |RAMB18E2 |     1|
 |11    |RAMB36E2 |     2|
-|12    |SRL16E   |   248|
+|12    |SRL16E   |   253|
 |13    |FDR      |     8|
-|14    |FDRE     |  2439|
-|15    |FDSE     |    78|
+|14    |FDRE     |  2671|
+|15    |FDSE     |    80|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:09 ; elapsed = 00:12:45 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:05 ; elapsed = 00:02:07 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1174 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:12:09 . Memory (MB): peak = 2776.199 ; gain = 1175.328
-Synthesis Optimization Complete : Time (s): cpu = 00:01:10 ; elapsed = 00:12:46 . Memory (MB): peak = 2776.199 ; gain = 1175.328
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:01:59 . Memory (MB): peak = 2768.551 ; gain = 1167.879
+Synthesis Optimization Complete : Time (s): cpu = 00:01:06 ; elapsed = 00:02:08 . Memory (MB): peak = 2768.551 ; gain = 1167.879
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 2776.199 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.077 . Memory (MB): peak = 2768.551 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2776.199 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2768.551 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 9 instances were transformed.
   FDR => FDRE: 8 instances
   RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 1 instance 
 
-Synth Design complete | Checksum: 57b76811
+Synth Design complete | Checksum: a324354d
 INFO: [Common 17-83] Releasing license: Synthesis
-318 Infos, 160 Warnings, 0 Critical Warnings and 0 Errors encountered.
+335 Infos, 164 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:20 ; elapsed = 00:12:59 . Memory (MB): peak = 2776.199 ; gain = 2074.570
-Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 2776.199 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dma_axis_ip_example_axi_dma_0.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:01 ; elapsed = 00:01:09 . Memory (MB): peak = 2776.199 ; gain = 0.000
-write_verilog: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 2776.199 ; gain = 0.000
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP dma_axis_ip_example_axi_dma_0, cache-ID = b6aa13f0c41e7b30
-config_ip_cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 2776.199 ; gain = 0.000
-INFO: [Coretcl 2-1174] Renamed 129 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 2776.199 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dma_axis_ip_example_axi_dma_0.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 2776.199 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:14 ; elapsed = 00:02:19 . Memory (MB): peak = 2768.551 ; gain = 2068.328
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 2768.551 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dma_axis_ip_example_axi_dma_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 2768.551 ; gain = 0.000
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP dma_axis_ip_example_axi_dma_0, cache-ID = dc75b688e8dcc12b
+INFO: [Coretcl 2-1174] Renamed 131 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.909 . Memory (MB): peak = 2768.551 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_dma_0_synth_1/dma_axis_ip_example_axi_dma_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 2768.551 ; gain = 0.000
 INFO: [Vivado 12-24828] Executing command : report_utilization -file dma_axis_ip_example_axi_dma_0_utilization_synth.rpt -pb dma_axis_ip_example_axi_dma_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Mar 25 17:52:33 2026...
+write_verilog: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2768.551 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2768.551 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 30 15:50:19 2026...

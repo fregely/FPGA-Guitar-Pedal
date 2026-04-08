@@ -1,17 +1,126 @@
 {
   "0": {
-    "basicblocks": 3,
-    "calls": "",
-    "file": "pedal.cpp",
-    "fileloc": 9,
-    "instructions": 65,
+    "basicblocks": 128,
+    "calls": "6 7 5 3",
+    "file": "pedal_top.cpp",
+    "fileloc": 5,
+    "instructions": 843,
     "loads": {
-      "L": 4
+      "G": 6,
+      "L": 10
     },
-    "name": "audio_passthrough",
+    "name": "pedal_top",
     "stores": {
-      "L": 4
+      "G": 7,
+      "L": 28
     },
-    "total_instructions": 65
+    "total_instructions": 3227
+  },
+  "1": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "hls_exp_.h",
+    "fileloc": 156,
+    "instructions": 354,
+    "loads": {
+      "G": 4,
+      "L": 29
+    },
+    "name": "exp_generic<double>",
+    "stores": {
+      "L": 27
+    },
+    "total_instructions": 354
+  },
+  "2": {
+    "basicblocks": 14,
+    "calls": "1",
+    "file": "hls_tanh.h",
+    "fileloc": 28,
+    "instructions": 125,
+    "loads": {
+      "L": 10
+    },
+    "name": "generic_tanh<float>",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 479
+  },
+  "3": {
+    "basicblocks": 24,
+    "calls": "4",
+    "file": "hls_fmod_rem_quo.h",
+    "fileloc": 120,
+    "instructions": 242,
+    "loads": {
+      "L": 28
+    },
+    "name": "generic_fmod_mult<float>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 576
+  },
+  "4": {
+    "basicblocks": 25,
+    "calls": "",
+    "file": "hls_fmod_rem_quo.h",
+    "fileloc": 79,
+    "instructions": 334,
+    "loads": {
+      "L": 1
+    },
+    "name": "mod_rcp_mult<24, 36, 8>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 334
+  },
+  "5": {
+    "basicblocks": 23,
+    "calls": "",
+    "file": "hls_hotbm.h",
+    "fileloc": 209,
+    "instructions": 356,
+    "loads": {
+      "G": 8,
+      "L": 21
+    },
+    "name": "sin_or_cos<float>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 356
+  },
+  "6": {
+    "basicblocks": 62,
+    "calls": "2",
+    "file": "pedal_c.cpp",
+    "fileloc": 26,
+    "instructions": 358,
+    "loads": {
+      "L": 1
+    },
+    "name": "soft_clipping_distortion",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 837
+  },
+  "7": {
+    "basicblocks": 49,
+    "calls": "5",
+    "file": "pedal_c.cpp",
+    "fileloc": 35,
+    "instructions": 259,
+    "loads": {
+      "L": 1
+    },
+    "name": "tremolo",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 615
   }
 }

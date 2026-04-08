@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/impl_1/dma_axis_ip_example_wrapper.tcl"
+  variable script "E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/impl_1/dma_axis_ip_example_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -97,7 +97,6 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
-set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config  -id {xilinx.com:ip:axi_dma:7.1-11}  -string {{CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-11] /axi_dma_0
                    #################################### 
                    S_AXIS_S2MM interface is unconnected
@@ -117,22 +116,22 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.cache/wt [current_project]
-  set_property parent.project_path D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.xpr [current_project]
-  set_property ip_repo_paths D:/FPGA-Guitar-Pedal/Pedal_vitis [current_project]
+  set_property webtalk.parent_dir E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.cache/wt [current_project]
+  set_property parent.project_path E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.xpr [current_project]
+  set_property ip_repo_paths E:/FPGA-Guitar-Pedal/Pedal_vitis [current_project]
   update_ip_catalog
-  set_property ip_output_repo D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.cache/ip [current_project]
+  set_property ip_output_repo E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/dma_axis_ip_example_wrapper.dcp
+  add_files -quiet E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/dma_axis_ip_example_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example.bd
+  add_files E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new/pedal2.xdc
+  read_xdc E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/constrs_1/new/pedal2.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

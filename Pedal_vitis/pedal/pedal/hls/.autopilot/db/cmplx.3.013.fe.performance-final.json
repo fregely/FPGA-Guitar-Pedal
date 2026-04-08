@@ -1,17 +1,94 @@
 {
   "0": {
-    "basicblocks": 3,
-    "calls": "",
-    "file": "pedal.cpp",
-    "fileloc": 9,
-    "instructions": 49,
+    "basicblocks": 105,
+    "calls": "5 6 7 1",
+    "file": "pedal_top.cpp",
+    "fileloc": 5,
+    "instructions": 777,
     "loads": {
+      "G": 8,
       "L": 4
     },
-    "name": "audio_passthrough",
+    "name": "pedal_top",
     "stores": {
+      "G": 8,
       "L": 4
     },
-    "total_instructions": 73
+    "total_instructions": 2464
+  },
+  "1": {
+    "basicblocks": 21,
+    "calls": "4",
+    "file": "hls_fmod_rem_quo.h",
+    "fileloc": 120,
+    "instructions": 140,
+    "loads": {
+      "L": 1
+    },
+    "name": "generic_fmod_mult<float>",
+    "total_instructions": 452
+  },
+  "2": {
+    "basicblocks": 13,
+    "calls": "3",
+    "file": "hls_tanh.h",
+    "fileloc": 28,
+    "instructions": 55,
+    "name": "generic_tanh<float>",
+    "total_instructions": 233
+  },
+  "3": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "hls_exp_.h",
+    "fileloc": 156,
+    "instructions": 178,
+    "loads": {
+      "G": 4
+    },
+    "name": "exp_generic<double>",
+    "total_instructions": 178
+  },
+  "4": {
+    "basicblocks": 25,
+    "calls": "",
+    "file": "hls_fmod_rem_quo.h",
+    "fileloc": 79,
+    "instructions": 312,
+    "name": "mod_rcp_mult<24, 36, 8>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 312
+  },
+  "5": {
+    "basicblocks": 47,
+    "calls": "2",
+    "file": "pedal_c.cpp",
+    "fileloc": 26,
+    "instructions": 330,
+    "name": "soft_clipping_distortion",
+    "total_instructions": 563
+  },
+  "6": {
+    "basicblocks": 36,
+    "calls": "7",
+    "file": "pedal_c.cpp",
+    "fileloc": 35,
+    "instructions": 234,
+    "name": "tremolo",
+    "total_instructions": 441
+  },
+  "7": {
+    "basicblocks": 12,
+    "calls": "",
+    "file": "hls_hotbm.h",
+    "fileloc": 209,
+    "instructions": 207,
+    "loads": {
+      "G": 4
+    },
+    "name": "sin_or_cos<float>",
+    "total_instructions": 207
   }
 }

@@ -230,17 +230,17 @@
                 "VT": "AC",
                 "BA": "0x00A0000000",
                 "HA": "0x00A000FFFF",
-                "BP": "C_S_AXI_CONTROL_BASEADDR",
-                "HP": "C_S_AXI_CONTROL_HIGHADDR",
+                "BP": "C_S_AXI_CTRL_BASEADDR",
+                "HP": "C_S_AXI_CTRL_HIGHADDR",
                 "MA": "Data",
                 "MX": "/zynq_ultra_ps_e_0",
                 "MI": "M_AXI_HPM0_FPD",
-                "MS": "SEG_audio_passthrough_0_Reg",
+                "MS": "SEG_pedal_top_0_Reg",
                 "MV": "xilinx.com:ip:zynq_ultra_ps_e:3.5",
-                "SX": "/audio_passthrough_0",
-                "SI": "s_axi_control",
+                "SX": "/pedal_top_0",
+                "SI": "s_axi_ctrl",
                 "SS": "Reg",
-                "SV": "xilinx.com:hls:audio_passthrough:1.0",
+                "SV": "xilinx.com:hls:pedal_top:1.0",
                 "TM": "both",
                 "TU": "register"
             },
@@ -264,6 +264,24 @@
             },
             "V7": {
                 "VT": "AC",
+                "BA": "0x00A0020000",
+                "HA": "0x00A002FFFF",
+                "BP": "C_BASEADDR",
+                "HP": "C_HIGHADDR",
+                "MA": "Data",
+                "MX": "/zynq_ultra_ps_e_0",
+                "MI": "M_AXI_HPM0_FPD",
+                "MS": "SEG_axi_gpio_0_Reg",
+                "MV": "xilinx.com:ip:zynq_ultra_ps_e:3.5",
+                "SX": "/axi_gpio_0",
+                "SI": "S_AXI",
+                "SS": "Reg",
+                "SV": "xilinx.com:ip:axi_gpio:2.0",
+                "TM": "both",
+                "TU": "register"
+            },
+            "V8": {
+                "VT": "AC",
                 "BA": "0x00A4400000",
                 "HA": "0x00A440FFFF",
                 "BP": "C_BASEADDR",
@@ -280,7 +298,7 @@
                 "TM": "both",
                 "TU": "register"
             },
-            "V8": {
+            "V9": {
                 "VT": "ACE",
                 "BA": "0x00000000FF000000",
                 "HA": "0x00000000FFFFFFFF",
@@ -299,7 +317,7 @@
                 "TM": "both",
                 "TU": "register"
             },
-            "V9": {
+            "V10": {
                 "VT": "ACE",
                 "BA": "0x00000000FF000000",
                 "HA": "0x00000000FFFFFFFF",
@@ -318,7 +336,7 @@
                 "TM": "both",
                 "TU": "register"
             },
-            "V10": {
+            "V11": {
                 "VT": "ACE",
                 "BA": "0x0000000800000000",
                 "HA": "0x00000008FFFFFFFF",
@@ -337,7 +355,7 @@
                 "TM": "both",
                 "TU": "memory"
             },
-            "V11": {
+            "V12": {
                 "VT": "ACE",
                 "BA": "0x0000000800000000",
                 "HA": "0x00000008FFFFFFFF",
@@ -408,6 +426,11 @@
             },
             {
                 "src": "V11",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V12",
                 "trg": "V2",
                 "EH": "2"
             }

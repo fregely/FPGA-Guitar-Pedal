@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/dma_axis_ip_example_xbar_0_synth_1'
+HD_PWD='E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_xbar_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

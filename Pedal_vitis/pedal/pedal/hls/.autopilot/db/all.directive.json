@@ -1,7 +1,7 @@
 [
   {
     "functionLabel": "",
-    "functionName": "audio_passthrough",
+    "functionName": "pedal_top",
     "id": 0,
     "ifcond": "",
     "insert_position": "",
@@ -11,7 +11,7 @@
       "option": [
         {
           "name": "name",
-          "value": "audio_passthrough"
+          "value": "pedal_top"
         }
       ]
     },

@@ -19,6 +19,18 @@ set_property IOSTANDARD LVCMOS12 [get_ports locked_0]
 set_property PACKAGE_PIN AE7 [get_ports irq_0]
 set_property IOSTANDARD LVCMOS12 [get_ports irq_0]
 
-# This MUST be driven HIGH for the codec to operate
-set_property PACKAGE_PIN E2 [get_ports AIC_nRST]
-set_property IOSTANDARD LVCMOS18 [get_ports AIC_nRST]
+set_property PACKAGE_PIN E2 [get_ports {AIC_nRST[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {AIC_nRST[0]}]
+
+
+set_property PACKAGE_PIN AB1 [get_ports {switches_tri_io[0]}]
+set_property PACKAGE_PIN AF1 [get_ports {switches_tri_io[1]}]
+set_property PACKAGE_PIN AE3 [get_ports {switches_tri_io[2]}]
+set_property PACKAGE_PIN AC2 [get_ports {switches_tri_io[3]}]
+set_property PACKAGE_PIN AC1 [get_ports {switches_tri_io[4]}]
+set_property PACKAGE_PIN AD6 [get_ports {switches_tri_io[5]}]
+set_property PACKAGE_PIN AD1 [get_ports {switches_tri_io[6]}]
+set_property PACKAGE_PIN AD2 [get_ports {switches_tri_io[7]}]   
+
+set_property IOSTANDARD LVCMOS12 [get_ports {switches_tri_io[*]}]
+set_property DRIVE 4 [get_ports {switches_tri_io[*]}]

@@ -31753,24 +31753,30 @@ namespace std
 }
 # 4 "pedal.cpp" 2
 
-typedef ap_axis<32, 0, 0, 0> audio_sample;
 
+typedef ap_axis<32, 0, 0, 0> audio_sample;
 typedef hls::stream<audio_sample> audio_stream;
 
-__attribute__((sdx_kernel("audio_passthrough", 0))) void audio_passthrough(audio_stream &in_stream, audio_stream &out_stream){
-#line 1 "directive"
-#pragma HLSDIRECTIVE TOP name=audio_passthrough
-# 9 "pedal.cpp"
-
+void audio_passthrough(audio_stream &in_stream, audio_stream &out_stream, ap_uint<8> switches) {
 #pragma HLS INTERFACE axis port=in_stream
 #pragma HLS INTERFACE axis port=out_stream
-#pragma HLS INTERFACE s_axilite port=return
+#pragma HLS INTERFACE s_axilite port=switches bundle=ctrl
+#pragma HLS INTERFACE s_axilite port=return bundle=ctrl
 
- audio_sample sample;
-    VITIS_LOOP_15_1: do {
-        in_stream.read(sample);
+ bool sw0 = switches[0];
+    bool sw1 = switches[1];
+    bool sw2 = switches[2];
+    bool sw3 = switches[3];
+    bool sw4 = switches[4];
+
+
+    audio_sample sample;
+    VITIS_LOOP_23_1: do {
+#pragma HLS PIPELINE II=1
+ in_stream.read(sample);
+        if(!(sw0 || sw1 || sw2 || sw3 || sw4)){
+            sample.data = -sample.data;
+        }
         out_stream.write(sample);
     } while (!sample.last);
-
-
 }

@@ -98,3 +98,910 @@
 03/11/26 16:06:35: SERVER: destructor for server bound to port 50540
 03/11/26 16:06:35: Server exiting with status 0.
 03/11/26 16:06:35: Closing log file.
+03/31/26 15:27:27: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+03/31/26 15:27:27: Server was asked to start on port: '56625'
+03/31/26 15:27:27: Server is using token UUID: '3f4c6247-ba47-41e0-9416-86a8ca389d0f'
+03/31/26 15:27:27: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+03/31/26 15:27:27: Attempting to start server on port '56625'
+03/31/26 15:27:27: Running Dispatch Server
+03/31/26 15:27:27: Version 2.2.0
+03/31/26 15:27:29: Dispatch Server: Accepted socket connection from client
+03/31/26 15:27:29: Starting Socket connection
+03/31/26 15:27:29: EXCHANGE_TOKEN received, server token: 3f4c6247-ba47-41e0-9416-86a8ca389d0f, passed token: 3f4c6247-ba47-41e0-9416-86a8ca389d0f
+03/31/26 15:27:29: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+03/31/26 15:27:29: SESSION_MGR: creating session with session uuid: '4cf06c5c-3041-4fdc-909a-280f62505220' and name 'v++_compile_pedal'
+03/31/26 15:27:29: KERNEL_SVC: creating session with uuid: '4cf06c5c-3041-4fdc-909a-280f62505220' and name 'v++_compile_pedal'
+03/31/26 15:27:29: GUIDANCE_SMGR: creating guidance session with uuid: '4cf06c5c-3041-4fdc-909a-280f62505220' and name 'v++_compile_pedal'
+03/31/26 15:27:39: Dispatch Server: Accepted socket connection from client
+03/31/26 15:27:39: Starting Socket connection
+03/31/26 15:27:44: SESSION_MGR: closing session for UUID '4cf06c5c-3041-4fdc-909a-280f62505220' with name 'v++_compile_pedal'
+03/31/26 15:27:44: KERNEL_SVC: closing session for UUID '4cf06c5c-3041-4fdc-909a-280f62505220' with name 'v++_compile_pedal'
+03/31/26 15:27:44: GUIDANCE_SMGR: closing session for UUID '4cf06c5c-3041-4fdc-909a-280f62505220' with name 'v++_compile_pedal'
+03/31/26 15:27:45: STOP_SERVER received, server token: 3f4c6247-ba47-41e0-9416-86a8ca389d0f, passed token: 3f4c6247-ba47-41e0-9416-86a8ca389d0f
+03/31/26 15:27:45: Socket received request to stop server.
+03/31/26 15:27:45: Dispatch Server: do_await_stop
+03/31/26 15:27:45: SERVER: destructor for server bound to port 56625
+03/31/26 15:27:45: Server exiting with status 0.
+03/31/26 15:27:45: Closing log file.
+03/31/26 15:28:58: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+03/31/26 15:28:58: Server was asked to start on port: '50496'
+03/31/26 15:28:58: Server is using token UUID: '946ee72c-6032-4d59-bbd1-7231a326442f'
+03/31/26 15:28:58: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+03/31/26 15:28:58: Attempting to start server on port '50496'
+03/31/26 15:28:58: Running Dispatch Server
+03/31/26 15:28:58: Version 2.2.0
+03/31/26 15:29:00: Dispatch Server: Accepted socket connection from client
+03/31/26 15:29:00: Starting Socket connection
+03/31/26 15:29:00: EXCHANGE_TOKEN received, server token: 946ee72c-6032-4d59-bbd1-7231a326442f, passed token: 946ee72c-6032-4d59-bbd1-7231a326442f
+03/31/26 15:29:00: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+03/31/26 15:29:00: SESSION_MGR: creating session with session uuid: 'fd973992-aeaa-467a-bba0-c31f59fc5841' and name 'v++_compile_pedal'
+03/31/26 15:29:00: KERNEL_SVC: creating session with uuid: 'fd973992-aeaa-467a-bba0-c31f59fc5841' and name 'v++_compile_pedal'
+03/31/26 15:29:00: GUIDANCE_SMGR: creating guidance session with uuid: 'fd973992-aeaa-467a-bba0-c31f59fc5841' and name 'v++_compile_pedal'
+03/31/26 15:29:04: Dispatch Server: Accepted socket connection from client
+03/31/26 15:29:04: Starting Socket connection
+03/31/26 15:29:55: SESSION_MGR: closing session for UUID 'fd973992-aeaa-467a-bba0-c31f59fc5841' with name 'v++_compile_pedal'
+03/31/26 15:29:55: KERNEL_SVC: closing session for UUID 'fd973992-aeaa-467a-bba0-c31f59fc5841' with name 'v++_compile_pedal'
+03/31/26 15:29:55: GUIDANCE_SMGR: closing session for UUID 'fd973992-aeaa-467a-bba0-c31f59fc5841' with name 'v++_compile_pedal'
+03/31/26 15:29:55: STOP_SERVER received, server token: 946ee72c-6032-4d59-bbd1-7231a326442f, passed token: 946ee72c-6032-4d59-bbd1-7231a326442f
+03/31/26 15:29:55: Socket received request to stop server.
+03/31/26 15:29:55: Dispatch Server: do_await_stop
+03/31/26 15:29:55: SERVER: destructor for server bound to port 50496
+03/31/26 15:29:55: Server exiting with status 0.
+03/31/26 15:29:55: Closing log file.
+03/31/26 15:30:52: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+03/31/26 15:30:52: Server was asked to start on port: '65056'
+03/31/26 15:30:52: Server is using token UUID: 'c7b8b169-4d28-4bd4-8a13-c3c2f7c5650d'
+03/31/26 15:30:52: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+03/31/26 15:30:52: Attempting to start server on port '65056'
+03/31/26 15:30:52: Running Dispatch Server
+03/31/26 15:30:52: Version 2.2.0
+03/31/26 15:30:53: Dispatch Server: Accepted socket connection from client
+03/31/26 15:30:53: Starting Socket connection
+03/31/26 15:30:53: EXCHANGE_TOKEN received, server token: c7b8b169-4d28-4bd4-8a13-c3c2f7c5650d, passed token: c7b8b169-4d28-4bd4-8a13-c3c2f7c5650d
+03/31/26 15:30:53: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+03/31/26 15:30:53: SESSION_MGR: creating session with session uuid: '1ceddb7c-76c0-4031-a8a9-1526b2ead70b' and name 'vitis-run_compile_pedal'
+03/31/26 15:30:53: KERNEL_SVC: creating session with uuid: '1ceddb7c-76c0-4031-a8a9-1526b2ead70b' and name 'vitis-run_compile_pedal'
+03/31/26 15:30:53: GUIDANCE_SMGR: creating guidance session with uuid: '1ceddb7c-76c0-4031-a8a9-1526b2ead70b' and name 'vitis-run_compile_pedal'
+03/31/26 15:30:58: Dispatch Server: Accepted socket connection from client
+03/31/26 15:30:58: Starting Socket connection
+03/31/26 15:31:21: SESSION_MGR: closing session for UUID '1ceddb7c-76c0-4031-a8a9-1526b2ead70b' with name 'vitis-run_compile_pedal'
+03/31/26 15:31:21: KERNEL_SVC: closing session for UUID '1ceddb7c-76c0-4031-a8a9-1526b2ead70b' with name 'vitis-run_compile_pedal'
+03/31/26 15:31:21: GUIDANCE_SMGR: closing session for UUID '1ceddb7c-76c0-4031-a8a9-1526b2ead70b' with name 'vitis-run_compile_pedal'
+03/31/26 15:31:21: STOP_SERVER received, server token: c7b8b169-4d28-4bd4-8a13-c3c2f7c5650d, passed token: c7b8b169-4d28-4bd4-8a13-c3c2f7c5650d
+03/31/26 15:31:21: Socket received request to stop server.
+03/31/26 15:31:21: Dispatch Server: do_await_stop
+03/31/26 15:31:21: SERVER: destructor for server bound to port 65056
+03/31/26 15:31:21: Server exiting with status 0.
+03/31/26 15:31:21: Closing log file.
+04/01/26 16:13:17: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/01/26 16:13:17: Server was asked to start on port: '55078'
+04/01/26 16:13:17: Server is using token UUID: '1dbbbc4e-b862-4778-9b77-201f18470325'
+04/01/26 16:13:17: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/01/26 16:13:17: Attempting to start server on port '55078'
+04/01/26 16:13:17: Running Dispatch Server
+04/01/26 16:13:17: Version 2.2.0
+04/01/26 16:13:18: Dispatch Server: Accepted socket connection from client
+04/01/26 16:13:18: Starting Socket connection
+04/01/26 16:13:18: EXCHANGE_TOKEN received, server token: 1dbbbc4e-b862-4778-9b77-201f18470325, passed token: 1dbbbc4e-b862-4778-9b77-201f18470325
+04/01/26 16:13:19: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/01/26 16:13:19: SESSION_MGR: creating session with session uuid: '13f5784f-1a21-4088-9410-e26a0e2d06ff' and name 'v++_compile_pedal'
+04/01/26 16:13:19: KERNEL_SVC: creating session with uuid: '13f5784f-1a21-4088-9410-e26a0e2d06ff' and name 'v++_compile_pedal'
+04/01/26 16:13:19: GUIDANCE_SMGR: creating guidance session with uuid: '13f5784f-1a21-4088-9410-e26a0e2d06ff' and name 'v++_compile_pedal'
+04/01/26 16:13:30: Dispatch Server: Accepted socket connection from client
+04/01/26 16:13:30: Starting Socket connection
+04/01/26 16:14:58: SESSION_MGR: closing session for UUID '13f5784f-1a21-4088-9410-e26a0e2d06ff' with name 'v++_compile_pedal'
+04/01/26 16:14:58: KERNEL_SVC: closing session for UUID '13f5784f-1a21-4088-9410-e26a0e2d06ff' with name 'v++_compile_pedal'
+04/01/26 16:14:58: GUIDANCE_SMGR: closing session for UUID '13f5784f-1a21-4088-9410-e26a0e2d06ff' with name 'v++_compile_pedal'
+04/01/26 16:15:00: STOP_SERVER received, server token: 1dbbbc4e-b862-4778-9b77-201f18470325, passed token: 1dbbbc4e-b862-4778-9b77-201f18470325
+04/01/26 16:15:00: Socket received request to stop server.
+04/01/26 16:15:00: Dispatch Server: do_await_stop
+04/01/26 16:15:00: SERVER: destructor for server bound to port 55078
+04/01/26 16:15:00: Server exiting with status 0.
+04/01/26 16:15:00: Closing log file.
+04/01/26 16:15:11: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/01/26 16:15:11: Server was asked to start on port: '61624'
+04/01/26 16:15:11: Server is using token UUID: 'ffe2b06e-8ad2-4fd2-a255-d02d6cc00677'
+04/01/26 16:15:11: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/01/26 16:15:11: Attempting to start server on port '61624'
+04/01/26 16:15:11: Running Dispatch Server
+04/01/26 16:15:11: Version 2.2.0
+04/01/26 16:15:13: Dispatch Server: Accepted socket connection from client
+04/01/26 16:15:13: Starting Socket connection
+04/01/26 16:15:13: EXCHANGE_TOKEN received, server token: ffe2b06e-8ad2-4fd2-a255-d02d6cc00677, passed token: ffe2b06e-8ad2-4fd2-a255-d02d6cc00677
+04/01/26 16:15:13: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/01/26 16:15:13: SESSION_MGR: creating session with session uuid: '7a4984ff-c0d2-43df-ab75-93bd062ef9df' and name 'vitis-run_compile_pedal'
+04/01/26 16:15:13: KERNEL_SVC: creating session with uuid: '7a4984ff-c0d2-43df-ab75-93bd062ef9df' and name 'vitis-run_compile_pedal'
+04/01/26 16:15:13: GUIDANCE_SMGR: creating guidance session with uuid: '7a4984ff-c0d2-43df-ab75-93bd062ef9df' and name 'vitis-run_compile_pedal'
+04/01/26 16:15:19: Dispatch Server: Accepted socket connection from client
+04/01/26 16:15:19: Starting Socket connection
+04/01/26 16:17:20: SESSION_MGR: closing session for UUID '7a4984ff-c0d2-43df-ab75-93bd062ef9df' with name 'vitis-run_compile_pedal'
+04/01/26 16:17:20: KERNEL_SVC: closing session for UUID '7a4984ff-c0d2-43df-ab75-93bd062ef9df' with name 'vitis-run_compile_pedal'
+04/01/26 16:17:20: GUIDANCE_SMGR: closing session for UUID '7a4984ff-c0d2-43df-ab75-93bd062ef9df' with name 'vitis-run_compile_pedal'
+04/01/26 16:17:20: STOP_SERVER received, server token: ffe2b06e-8ad2-4fd2-a255-d02d6cc00677, passed token: ffe2b06e-8ad2-4fd2-a255-d02d6cc00677
+04/01/26 16:17:20: Socket received request to stop server.
+04/01/26 16:17:20: Dispatch Server: do_await_stop
+04/01/26 16:17:20: SERVER: destructor for server bound to port 61624
+04/01/26 16:17:20: Server exiting with status 0.
+04/01/26 16:17:20: Closing log file.
+04/01/26 16:19:59: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/01/26 16:19:59: Server was asked to start on port: '61634'
+04/01/26 16:19:59: Server is using token UUID: '83cac26e-1a82-4381-99b9-74a446867916'
+04/01/26 16:19:59: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/01/26 16:19:59: Attempting to start server on port '61634'
+04/01/26 16:19:59: Running Dispatch Server
+04/01/26 16:19:59: Version 2.2.0
+04/01/26 16:20:01: Dispatch Server: Accepted socket connection from client
+04/01/26 16:20:01: Starting Socket connection
+04/01/26 16:20:01: EXCHANGE_TOKEN received, server token: 83cac26e-1a82-4381-99b9-74a446867916, passed token: 83cac26e-1a82-4381-99b9-74a446867916
+04/01/26 16:20:01: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/01/26 16:20:01: SESSION_MGR: creating session with session uuid: '5c59e036-e3d0-4f7d-a9cd-b33491612e5c' and name 'v++_compile_pedal'
+04/01/26 16:20:01: KERNEL_SVC: creating session with uuid: '5c59e036-e3d0-4f7d-a9cd-b33491612e5c' and name 'v++_compile_pedal'
+04/01/26 16:20:01: GUIDANCE_SMGR: creating guidance session with uuid: '5c59e036-e3d0-4f7d-a9cd-b33491612e5c' and name 'v++_compile_pedal'
+04/01/26 16:20:21: Dispatch Server: Accepted socket connection from client
+04/01/26 16:20:21: Starting Socket connection
+04/01/26 16:21:49: SESSION_MGR: closing session for UUID '5c59e036-e3d0-4f7d-a9cd-b33491612e5c' with name 'v++_compile_pedal'
+04/01/26 16:21:49: KERNEL_SVC: closing session for UUID '5c59e036-e3d0-4f7d-a9cd-b33491612e5c' with name 'v++_compile_pedal'
+04/01/26 16:21:49: GUIDANCE_SMGR: closing session for UUID '5c59e036-e3d0-4f7d-a9cd-b33491612e5c' with name 'v++_compile_pedal'
+04/01/26 16:21:50: STOP_SERVER received, server token: 83cac26e-1a82-4381-99b9-74a446867916, passed token: 83cac26e-1a82-4381-99b9-74a446867916
+04/01/26 16:21:50: Socket received request to stop server.
+04/01/26 16:21:50: Dispatch Server: do_await_stop
+04/01/26 16:21:50: SERVER: destructor for server bound to port 61634
+04/01/26 16:21:50: Server exiting with status 0.
+04/01/26 16:21:50: Closing log file.
+04/01/26 16:23:14: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/01/26 16:23:14: Server was asked to start on port: '61661'
+04/01/26 16:23:14: Server is using token UUID: '6d3e99ac-c000-479a-b6a6-5f34b6af68c3'
+04/01/26 16:23:14: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/01/26 16:23:14: Attempting to start server on port '61661'
+04/01/26 16:23:14: Running Dispatch Server
+04/01/26 16:23:14: Version 2.2.0
+04/01/26 16:23:16: Dispatch Server: Accepted socket connection from client
+04/01/26 16:23:16: Starting Socket connection
+04/01/26 16:23:16: EXCHANGE_TOKEN received, server token: 6d3e99ac-c000-479a-b6a6-5f34b6af68c3, passed token: 6d3e99ac-c000-479a-b6a6-5f34b6af68c3
+04/01/26 16:23:16: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/01/26 16:23:16: SESSION_MGR: creating session with session uuid: '0eed3c27-5e58-4c7c-95fd-dda0b89a9263' and name 'vitis-run_compile_pedal'
+04/01/26 16:23:16: KERNEL_SVC: creating session with uuid: '0eed3c27-5e58-4c7c-95fd-dda0b89a9263' and name 'vitis-run_compile_pedal'
+04/01/26 16:23:16: GUIDANCE_SMGR: creating guidance session with uuid: '0eed3c27-5e58-4c7c-95fd-dda0b89a9263' and name 'vitis-run_compile_pedal'
+04/01/26 16:23:22: Dispatch Server: Accepted socket connection from client
+04/01/26 16:23:22: Starting Socket connection
+04/01/26 16:25:20: SESSION_MGR: closing session for UUID '0eed3c27-5e58-4c7c-95fd-dda0b89a9263' with name 'vitis-run_compile_pedal'
+04/01/26 16:25:20: KERNEL_SVC: closing session for UUID '0eed3c27-5e58-4c7c-95fd-dda0b89a9263' with name 'vitis-run_compile_pedal'
+04/01/26 16:25:20: GUIDANCE_SMGR: closing session for UUID '0eed3c27-5e58-4c7c-95fd-dda0b89a9263' with name 'vitis-run_compile_pedal'
+04/01/26 16:25:20: STOP_SERVER received, server token: 6d3e99ac-c000-479a-b6a6-5f34b6af68c3, passed token: 6d3e99ac-c000-479a-b6a6-5f34b6af68c3
+04/01/26 16:25:20: Socket received request to stop server.
+04/01/26 16:25:20: Dispatch Server: do_await_stop
+04/01/26 16:25:20: SERVER: destructor for server bound to port 61661
+04/01/26 16:25:20: Server exiting with status 0.
+04/01/26 16:25:20: Closing log file.
+04/06/26 11:08:25: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 11:08:25: Server was asked to start on port: '63468'
+04/06/26 11:08:25: Server is using token UUID: '0edeb4ab-3add-4056-8718-8267fb30509c'
+04/06/26 11:08:25: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 11:08:25: Attempting to start server on port '63468'
+04/06/26 11:08:25: Running Dispatch Server
+04/06/26 11:08:25: Version 2.2.0
+04/06/26 11:08:26: Dispatch Server: Accepted socket connection from client
+04/06/26 11:08:26: Starting Socket connection
+04/06/26 11:08:26: EXCHANGE_TOKEN received, server token: 0edeb4ab-3add-4056-8718-8267fb30509c, passed token: 0edeb4ab-3add-4056-8718-8267fb30509c
+04/06/26 11:08:27: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 11:08:27: SESSION_MGR: creating session with session uuid: '72ddbefe-2799-41d2-97b1-679ed2b15162' and name 'v++_compile_pedal'
+04/06/26 11:08:27: KERNEL_SVC: creating session with uuid: '72ddbefe-2799-41d2-97b1-679ed2b15162' and name 'v++_compile_pedal'
+04/06/26 11:08:27: GUIDANCE_SMGR: creating guidance session with uuid: '72ddbefe-2799-41d2-97b1-679ed2b15162' and name 'v++_compile_pedal'
+04/06/26 11:08:51: Dispatch Server: Accepted socket connection from client
+04/06/26 11:08:51: Starting Socket connection
+04/06/26 11:09:46: SESSION_MGR: closing session for UUID '72ddbefe-2799-41d2-97b1-679ed2b15162' with name 'v++_compile_pedal'
+04/06/26 11:09:46: KERNEL_SVC: closing session for UUID '72ddbefe-2799-41d2-97b1-679ed2b15162' with name 'v++_compile_pedal'
+04/06/26 11:09:46: GUIDANCE_SMGR: closing session for UUID '72ddbefe-2799-41d2-97b1-679ed2b15162' with name 'v++_compile_pedal'
+04/06/26 11:09:46: STOP_SERVER received, server token: 0edeb4ab-3add-4056-8718-8267fb30509c, passed token: 0edeb4ab-3add-4056-8718-8267fb30509c
+04/06/26 11:09:46: Socket received request to stop server.
+04/06/26 11:09:46: Dispatch Server: do_await_stop
+04/06/26 11:09:46: SERVER: destructor for server bound to port 63468
+04/06/26 11:09:46: Server exiting with status 0.
+04/06/26 11:09:46: Closing log file.
+04/06/26 11:10:27: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 11:10:27: Server was asked to start on port: '63475'
+04/06/26 11:10:27: Server is using token UUID: '2f68a291-2b7a-41da-9fac-99a61eeecb7a'
+04/06/26 11:10:27: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 11:10:27: Attempting to start server on port '63475'
+04/06/26 11:10:27: Running Dispatch Server
+04/06/26 11:10:27: Version 2.2.0
+04/06/26 11:10:29: Dispatch Server: Accepted socket connection from client
+04/06/26 11:10:29: Starting Socket connection
+04/06/26 11:10:29: EXCHANGE_TOKEN received, server token: 2f68a291-2b7a-41da-9fac-99a61eeecb7a, passed token: 2f68a291-2b7a-41da-9fac-99a61eeecb7a
+04/06/26 11:10:29: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 11:10:29: SESSION_MGR: creating session with session uuid: 'fe26d71c-622b-46b9-974a-e34bb9cb42d1' and name 'v++_compile_pedal'
+04/06/26 11:10:29: KERNEL_SVC: creating session with uuid: 'fe26d71c-622b-46b9-974a-e34bb9cb42d1' and name 'v++_compile_pedal'
+04/06/26 11:10:29: GUIDANCE_SMGR: creating guidance session with uuid: 'fe26d71c-622b-46b9-974a-e34bb9cb42d1' and name 'v++_compile_pedal'
+04/06/26 11:10:34: Dispatch Server: Accepted socket connection from client
+04/06/26 11:10:34: Starting Socket connection
+04/06/26 11:12:11: SESSION_MGR: closing session for UUID 'fe26d71c-622b-46b9-974a-e34bb9cb42d1' with name 'v++_compile_pedal'
+04/06/26 11:12:11: KERNEL_SVC: closing session for UUID 'fe26d71c-622b-46b9-974a-e34bb9cb42d1' with name 'v++_compile_pedal'
+04/06/26 11:12:11: GUIDANCE_SMGR: closing session for UUID 'fe26d71c-622b-46b9-974a-e34bb9cb42d1' with name 'v++_compile_pedal'
+04/06/26 11:12:15: STOP_SERVER received, server token: 2f68a291-2b7a-41da-9fac-99a61eeecb7a, passed token: 2f68a291-2b7a-41da-9fac-99a61eeecb7a
+04/06/26 11:12:15: Socket received request to stop server.
+04/06/26 11:12:15: Dispatch Server: do_await_stop
+04/06/26 11:12:15: SERVER: destructor for server bound to port 63475
+04/06/26 11:12:15: Server exiting with status 0.
+04/06/26 11:12:15: Closing log file.
+04/06/26 11:12:23: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 11:12:23: Server was asked to start on port: '51940'
+04/06/26 11:12:23: Server is using token UUID: '90e38c17-ac0d-49c0-84ce-3593576edb7f'
+04/06/26 11:12:23: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 11:12:23: Attempting to start server on port '51940'
+04/06/26 11:12:23: Running Dispatch Server
+04/06/26 11:12:23: Version 2.2.0
+04/06/26 11:12:24: Dispatch Server: Accepted socket connection from client
+04/06/26 11:12:24: Starting Socket connection
+04/06/26 11:12:24: EXCHANGE_TOKEN received, server token: 90e38c17-ac0d-49c0-84ce-3593576edb7f, passed token: 90e38c17-ac0d-49c0-84ce-3593576edb7f
+04/06/26 11:12:24: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 11:12:24: SESSION_MGR: creating session with session uuid: '9a0666fb-74c9-4312-afc2-684d4834687d' and name 'vitis-run_compile_pedal'
+04/06/26 11:12:24: KERNEL_SVC: creating session with uuid: '9a0666fb-74c9-4312-afc2-684d4834687d' and name 'vitis-run_compile_pedal'
+04/06/26 11:12:24: GUIDANCE_SMGR: creating guidance session with uuid: '9a0666fb-74c9-4312-afc2-684d4834687d' and name 'vitis-run_compile_pedal'
+04/06/26 11:12:29: Dispatch Server: Accepted socket connection from client
+04/06/26 11:12:29: Starting Socket connection
+04/06/26 11:14:49: SESSION_MGR: closing session for UUID '9a0666fb-74c9-4312-afc2-684d4834687d' with name 'vitis-run_compile_pedal'
+04/06/26 11:14:49: KERNEL_SVC: closing session for UUID '9a0666fb-74c9-4312-afc2-684d4834687d' with name 'vitis-run_compile_pedal'
+04/06/26 11:14:49: GUIDANCE_SMGR: closing session for UUID '9a0666fb-74c9-4312-afc2-684d4834687d' with name 'vitis-run_compile_pedal'
+04/06/26 11:14:50: STOP_SERVER received, server token: 90e38c17-ac0d-49c0-84ce-3593576edb7f, passed token: 90e38c17-ac0d-49c0-84ce-3593576edb7f
+04/06/26 11:14:50: Socket received request to stop server.
+04/06/26 11:14:50: Dispatch Server: do_await_stop
+04/06/26 11:14:50: SERVER: destructor for server bound to port 51940
+04/06/26 11:14:50: Server exiting with status 0.
+04/06/26 11:14:50: Closing log file.
+04/06/26 15:15:16: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:15:16: Server was asked to start on port: '50016'
+04/06/26 15:15:16: Server is using token UUID: '162bd334-ff2f-4b85-ba5e-ad24f1f88085'
+04/06/26 15:15:16: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:15:16: Attempting to start server on port '50016'
+04/06/26 15:15:16: Running Dispatch Server
+04/06/26 15:15:16: Version 2.2.0
+04/06/26 15:15:17: Dispatch Server: Accepted socket connection from client
+04/06/26 15:15:17: Starting Socket connection
+04/06/26 15:15:17: EXCHANGE_TOKEN received, server token: 162bd334-ff2f-4b85-ba5e-ad24f1f88085, passed token: 162bd334-ff2f-4b85-ba5e-ad24f1f88085
+04/06/26 15:15:17: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:15:17: SESSION_MGR: creating session with session uuid: '14214ae3-8363-43c8-89f0-b44efe1eca05' and name 'v++_compile_pedal'
+04/06/26 15:15:17: KERNEL_SVC: creating session with uuid: '14214ae3-8363-43c8-89f0-b44efe1eca05' and name 'v++_compile_pedal'
+04/06/26 15:15:17: GUIDANCE_SMGR: creating guidance session with uuid: '14214ae3-8363-43c8-89f0-b44efe1eca05' and name 'v++_compile_pedal'
+04/06/26 15:15:40: Dispatch Server: Accepted socket connection from client
+04/06/26 15:15:40: Starting Socket connection
+04/06/26 15:15:52: SESSION_MGR: closing session for UUID '14214ae3-8363-43c8-89f0-b44efe1eca05' with name 'v++_compile_pedal'
+04/06/26 15:15:52: KERNEL_SVC: closing session for UUID '14214ae3-8363-43c8-89f0-b44efe1eca05' with name 'v++_compile_pedal'
+04/06/26 15:15:52: GUIDANCE_SMGR: closing session for UUID '14214ae3-8363-43c8-89f0-b44efe1eca05' with name 'v++_compile_pedal'
+04/06/26 15:15:57: STOP_SERVER received, server token: 162bd334-ff2f-4b85-ba5e-ad24f1f88085, passed token: 162bd334-ff2f-4b85-ba5e-ad24f1f88085
+04/06/26 15:15:57: Socket received request to stop server.
+04/06/26 15:15:57: Dispatch Server: do_await_stop
+04/06/26 15:15:57: SERVER: destructor for server bound to port 50016
+04/06/26 15:15:57: Server exiting with status 0.
+04/06/26 15:15:57: Closing log file.
+04/06/26 15:16:17: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:16:17: Server was asked to start on port: '50021'
+04/06/26 15:16:17: Server is using token UUID: 'bc44a680-df01-477f-bff8-e3912e990fe2'
+04/06/26 15:16:17: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:16:17: Attempting to start server on port '50021'
+04/06/26 15:16:17: Running Dispatch Server
+04/06/26 15:16:17: Version 2.2.0
+04/06/26 15:16:19: Dispatch Server: Accepted socket connection from client
+04/06/26 15:16:19: Starting Socket connection
+04/06/26 15:16:19: EXCHANGE_TOKEN received, server token: bc44a680-df01-477f-bff8-e3912e990fe2, passed token: bc44a680-df01-477f-bff8-e3912e990fe2
+04/06/26 15:16:19: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:16:19: SESSION_MGR: creating session with session uuid: 'e09a9b2f-ec34-40f4-bfe9-919c7a294639' and name 'v++_compile_pedal'
+04/06/26 15:16:19: KERNEL_SVC: creating session with uuid: 'e09a9b2f-ec34-40f4-bfe9-919c7a294639' and name 'v++_compile_pedal'
+04/06/26 15:16:19: GUIDANCE_SMGR: creating guidance session with uuid: 'e09a9b2f-ec34-40f4-bfe9-919c7a294639' and name 'v++_compile_pedal'
+04/06/26 15:16:25: Dispatch Server: Accepted socket connection from client
+04/06/26 15:16:25: Starting Socket connection
+04/06/26 15:18:18: SESSION_MGR: closing session for UUID 'e09a9b2f-ec34-40f4-bfe9-919c7a294639' with name 'v++_compile_pedal'
+04/06/26 15:18:18: KERNEL_SVC: closing session for UUID 'e09a9b2f-ec34-40f4-bfe9-919c7a294639' with name 'v++_compile_pedal'
+04/06/26 15:18:18: GUIDANCE_SMGR: closing session for UUID 'e09a9b2f-ec34-40f4-bfe9-919c7a294639' with name 'v++_compile_pedal'
+04/06/26 15:18:21: STOP_SERVER received, server token: bc44a680-df01-477f-bff8-e3912e990fe2, passed token: bc44a680-df01-477f-bff8-e3912e990fe2
+04/06/26 15:18:21: Socket received request to stop server.
+04/06/26 15:18:21: Dispatch Server: do_await_stop
+04/06/26 15:18:21: SERVER: destructor for server bound to port 50021
+04/06/26 15:18:21: Server exiting with status 0.
+04/06/26 15:18:21: Closing log file.
+04/06/26 15:21:59: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:21:59: Server was asked to start on port: '61067'
+04/06/26 15:21:59: Server is using token UUID: '2f52a27f-a90e-4b45-915e-ba9866887ff4'
+04/06/26 15:21:59: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:21:59: Attempting to start server on port '61067'
+04/06/26 15:21:59: Running Dispatch Server
+04/06/26 15:21:59: Version 2.2.0
+04/06/26 15:22:00: Dispatch Server: Accepted socket connection from client
+04/06/26 15:22:00: Starting Socket connection
+04/06/26 15:22:00: EXCHANGE_TOKEN received, server token: 2f52a27f-a90e-4b45-915e-ba9866887ff4, passed token: 2f52a27f-a90e-4b45-915e-ba9866887ff4
+04/06/26 15:22:01: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:22:01: SESSION_MGR: creating session with session uuid: '6633638c-0745-4d35-9648-7127da20c000' and name 'v++_compile_pedal'
+04/06/26 15:22:01: KERNEL_SVC: creating session with uuid: '6633638c-0745-4d35-9648-7127da20c000' and name 'v++_compile_pedal'
+04/06/26 15:22:01: GUIDANCE_SMGR: creating guidance session with uuid: '6633638c-0745-4d35-9648-7127da20c000' and name 'v++_compile_pedal'
+04/06/26 15:22:15: Dispatch Server: Accepted socket connection from client
+04/06/26 15:22:15: Starting Socket connection
+04/06/26 15:23:27: SESSION_MGR: closing session for UUID '6633638c-0745-4d35-9648-7127da20c000' with name 'v++_compile_pedal'
+04/06/26 15:23:27: KERNEL_SVC: closing session for UUID '6633638c-0745-4d35-9648-7127da20c000' with name 'v++_compile_pedal'
+04/06/26 15:23:27: GUIDANCE_SMGR: closing session for UUID '6633638c-0745-4d35-9648-7127da20c000' with name 'v++_compile_pedal'
+04/06/26 15:23:29: STOP_SERVER received, server token: 2f52a27f-a90e-4b45-915e-ba9866887ff4, passed token: 2f52a27f-a90e-4b45-915e-ba9866887ff4
+04/06/26 15:23:29: Socket received request to stop server.
+04/06/26 15:23:29: Dispatch Server: do_await_stop
+04/06/26 15:23:29: SERVER: destructor for server bound to port 61067
+04/06/26 15:23:29: Server exiting with status 0.
+04/06/26 15:23:29: Closing log file.
+04/06/26 15:23:42: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:23:42: Server was asked to start on port: '50473'
+04/06/26 15:23:42: Server is using token UUID: '2f242a8d-3fb7-4f8a-9a70-4ca3ca459f62'
+04/06/26 15:23:42: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:23:42: Attempting to start server on port '50473'
+04/06/26 15:23:42: Running Dispatch Server
+04/06/26 15:23:42: Version 2.2.0
+04/06/26 15:23:44: Dispatch Server: Accepted socket connection from client
+04/06/26 15:23:44: Starting Socket connection
+04/06/26 15:23:44: EXCHANGE_TOKEN received, server token: 2f242a8d-3fb7-4f8a-9a70-4ca3ca459f62, passed token: 2f242a8d-3fb7-4f8a-9a70-4ca3ca459f62
+04/06/26 15:23:44: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:23:44: SESSION_MGR: creating session with session uuid: 'b9c15714-6d37-42ef-bb57-b251a0f2263b' and name 'v++_compile_pedal'
+04/06/26 15:23:44: KERNEL_SVC: creating session with uuid: 'b9c15714-6d37-42ef-bb57-b251a0f2263b' and name 'v++_compile_pedal'
+04/06/26 15:23:44: GUIDANCE_SMGR: creating guidance session with uuid: 'b9c15714-6d37-42ef-bb57-b251a0f2263b' and name 'v++_compile_pedal'
+04/06/26 15:23:50: Dispatch Server: Accepted socket connection from client
+04/06/26 15:23:50: Starting Socket connection
+04/06/26 15:25:04: SESSION_MGR: closing session for UUID 'b9c15714-6d37-42ef-bb57-b251a0f2263b' with name 'v++_compile_pedal'
+04/06/26 15:25:04: KERNEL_SVC: closing session for UUID 'b9c15714-6d37-42ef-bb57-b251a0f2263b' with name 'v++_compile_pedal'
+04/06/26 15:25:04: GUIDANCE_SMGR: closing session for UUID 'b9c15714-6d37-42ef-bb57-b251a0f2263b' with name 'v++_compile_pedal'
+04/06/26 15:25:05: STOP_SERVER received, server token: 2f242a8d-3fb7-4f8a-9a70-4ca3ca459f62, passed token: 2f242a8d-3fb7-4f8a-9a70-4ca3ca459f62
+04/06/26 15:25:05: Socket received request to stop server.
+04/06/26 15:25:05: Dispatch Server: do_await_stop
+04/06/26 15:25:05: SERVER: destructor for server bound to port 50473
+04/06/26 15:25:05: Server exiting with status 0.
+04/06/26 15:25:05: Closing log file.
+04/06/26 15:26:59: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:26:59: Server was asked to start on port: '50484'
+04/06/26 15:26:59: Server is using token UUID: '58f47e63-11ce-45ea-8778-121ef38ddc5d'
+04/06/26 15:26:59: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:26:59: Attempting to start server on port '50484'
+04/06/26 15:26:59: Running Dispatch Server
+04/06/26 15:26:59: Version 2.2.0
+04/06/26 15:27:01: Dispatch Server: Accepted socket connection from client
+04/06/26 15:27:01: Starting Socket connection
+04/06/26 15:27:01: EXCHANGE_TOKEN received, server token: 58f47e63-11ce-45ea-8778-121ef38ddc5d, passed token: 58f47e63-11ce-45ea-8778-121ef38ddc5d
+04/06/26 15:27:01: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:27:01: SESSION_MGR: creating session with session uuid: 'c3eb3134-e9e0-4acb-b132-3a790249bae3' and name 'v++_compile_pedal'
+04/06/26 15:27:01: KERNEL_SVC: creating session with uuid: 'c3eb3134-e9e0-4acb-b132-3a790249bae3' and name 'v++_compile_pedal'
+04/06/26 15:27:01: GUIDANCE_SMGR: creating guidance session with uuid: 'c3eb3134-e9e0-4acb-b132-3a790249bae3' and name 'v++_compile_pedal'
+04/06/26 15:27:07: Dispatch Server: Accepted socket connection from client
+04/06/26 15:27:07: Starting Socket connection
+04/06/26 15:28:23: SESSION_MGR: closing session for UUID 'c3eb3134-e9e0-4acb-b132-3a790249bae3' with name 'v++_compile_pedal'
+04/06/26 15:28:23: KERNEL_SVC: closing session for UUID 'c3eb3134-e9e0-4acb-b132-3a790249bae3' with name 'v++_compile_pedal'
+04/06/26 15:28:23: GUIDANCE_SMGR: closing session for UUID 'c3eb3134-e9e0-4acb-b132-3a790249bae3' with name 'v++_compile_pedal'
+04/06/26 15:28:24: STOP_SERVER received, server token: 58f47e63-11ce-45ea-8778-121ef38ddc5d, passed token: 58f47e63-11ce-45ea-8778-121ef38ddc5d
+04/06/26 15:28:24: Socket received request to stop server.
+04/06/26 15:28:24: Dispatch Server: do_await_stop
+04/06/26 15:28:24: SERVER: destructor for server bound to port 50484
+04/06/26 15:28:24: Server exiting with status 0.
+04/06/26 15:28:24: Closing log file.
+04/06/26 15:28:40: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:28:40: Server was asked to start on port: '50490'
+04/06/26 15:28:40: Server is using token UUID: '818ad8e6-3d3f-4d02-8eed-b00034813b79'
+04/06/26 15:28:40: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:28:40: Attempting to start server on port '50490'
+04/06/26 15:28:40: Running Dispatch Server
+04/06/26 15:28:40: Version 2.2.0
+04/06/26 15:28:42: Dispatch Server: Accepted socket connection from client
+04/06/26 15:28:42: Starting Socket connection
+04/06/26 15:28:42: EXCHANGE_TOKEN received, server token: 818ad8e6-3d3f-4d02-8eed-b00034813b79, passed token: 818ad8e6-3d3f-4d02-8eed-b00034813b79
+04/06/26 15:28:42: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:28:42: SESSION_MGR: creating session with session uuid: '6a7089c6-efa8-437e-a13d-926837131331' and name 'v++_compile_pedal'
+04/06/26 15:28:42: KERNEL_SVC: creating session with uuid: '6a7089c6-efa8-437e-a13d-926837131331' and name 'v++_compile_pedal'
+04/06/26 15:28:42: GUIDANCE_SMGR: creating guidance session with uuid: '6a7089c6-efa8-437e-a13d-926837131331' and name 'v++_compile_pedal'
+04/06/26 15:28:49: Dispatch Server: Accepted socket connection from client
+04/06/26 15:28:49: Starting Socket connection
+04/06/26 15:30:02: SESSION_MGR: closing session for UUID '6a7089c6-efa8-437e-a13d-926837131331' with name 'v++_compile_pedal'
+04/06/26 15:30:02: KERNEL_SVC: closing session for UUID '6a7089c6-efa8-437e-a13d-926837131331' with name 'v++_compile_pedal'
+04/06/26 15:30:02: GUIDANCE_SMGR: closing session for UUID '6a7089c6-efa8-437e-a13d-926837131331' with name 'v++_compile_pedal'
+04/06/26 15:30:02: STOP_SERVER received, server token: 818ad8e6-3d3f-4d02-8eed-b00034813b79, passed token: 818ad8e6-3d3f-4d02-8eed-b00034813b79
+04/06/26 15:30:02: Socket received request to stop server.
+04/06/26 15:30:02: Dispatch Server: do_await_stop
+04/06/26 15:30:02: SERVER: destructor for server bound to port 50490
+04/06/26 15:30:02: Server exiting with status 0.
+04/06/26 15:30:02: Closing log file.
+04/06/26 15:31:21: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:31:21: Server was asked to start on port: '50500'
+04/06/26 15:31:21: Server is using token UUID: 'd95bc87a-d26a-4789-af1b-d29146b8de42'
+04/06/26 15:31:21: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:31:21: Attempting to start server on port '50500'
+04/06/26 15:31:21: Running Dispatch Server
+04/06/26 15:31:21: Version 2.2.0
+04/06/26 15:31:23: Dispatch Server: Accepted socket connection from client
+04/06/26 15:31:23: Starting Socket connection
+04/06/26 15:31:23: EXCHANGE_TOKEN received, server token: d95bc87a-d26a-4789-af1b-d29146b8de42, passed token: d95bc87a-d26a-4789-af1b-d29146b8de42
+04/06/26 15:31:23: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:31:23: SESSION_MGR: creating session with session uuid: '1b32ac8d-0cca-4318-b84b-cf801e7bc9ed' and name 'v++_compile_pedal'
+04/06/26 15:31:23: KERNEL_SVC: creating session with uuid: '1b32ac8d-0cca-4318-b84b-cf801e7bc9ed' and name 'v++_compile_pedal'
+04/06/26 15:31:23: GUIDANCE_SMGR: creating guidance session with uuid: '1b32ac8d-0cca-4318-b84b-cf801e7bc9ed' and name 'v++_compile_pedal'
+04/06/26 15:31:30: Dispatch Server: Accepted socket connection from client
+04/06/26 15:31:30: Starting Socket connection
+04/06/26 15:32:49: SESSION_MGR: closing session for UUID '1b32ac8d-0cca-4318-b84b-cf801e7bc9ed' with name 'v++_compile_pedal'
+04/06/26 15:32:49: KERNEL_SVC: closing session for UUID '1b32ac8d-0cca-4318-b84b-cf801e7bc9ed' with name 'v++_compile_pedal'
+04/06/26 15:32:49: GUIDANCE_SMGR: closing session for UUID '1b32ac8d-0cca-4318-b84b-cf801e7bc9ed' with name 'v++_compile_pedal'
+04/06/26 15:32:50: STOP_SERVER received, server token: d95bc87a-d26a-4789-af1b-d29146b8de42, passed token: d95bc87a-d26a-4789-af1b-d29146b8de42
+04/06/26 15:32:50: Socket received request to stop server.
+04/06/26 15:32:50: Dispatch Server: do_await_stop
+04/06/26 15:32:50: SERVER: destructor for server bound to port 50500
+04/06/26 15:32:50: Server exiting with status 0.
+04/06/26 15:32:50: Closing log file.
+04/06/26 15:36:37: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:36:37: Server was asked to start on port: '59969'
+04/06/26 15:36:37: Server is using token UUID: '321394c7-9cda-4bc0-955d-ecfdfee29b65'
+04/06/26 15:36:37: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:36:37: Attempting to start server on port '59969'
+04/06/26 15:36:37: Running Dispatch Server
+04/06/26 15:36:37: Version 2.2.0
+04/06/26 15:36:39: Dispatch Server: Accepted socket connection from client
+04/06/26 15:36:39: Starting Socket connection
+04/06/26 15:36:39: EXCHANGE_TOKEN received, server token: 321394c7-9cda-4bc0-955d-ecfdfee29b65, passed token: 321394c7-9cda-4bc0-955d-ecfdfee29b65
+04/06/26 15:36:39: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:36:39: SESSION_MGR: creating session with session uuid: '1e4d914c-c034-4bd2-89db-dafbafcabb5e' and name 'v++_compile_pedal'
+04/06/26 15:36:39: KERNEL_SVC: creating session with uuid: '1e4d914c-c034-4bd2-89db-dafbafcabb5e' and name 'v++_compile_pedal'
+04/06/26 15:36:39: GUIDANCE_SMGR: creating guidance session with uuid: '1e4d914c-c034-4bd2-89db-dafbafcabb5e' and name 'v++_compile_pedal'
+04/06/26 15:36:50: Dispatch Server: Accepted socket connection from client
+04/06/26 15:36:50: Starting Socket connection
+04/06/26 15:38:22: SESSION_MGR: closing session for UUID '1e4d914c-c034-4bd2-89db-dafbafcabb5e' with name 'v++_compile_pedal'
+04/06/26 15:38:22: KERNEL_SVC: closing session for UUID '1e4d914c-c034-4bd2-89db-dafbafcabb5e' with name 'v++_compile_pedal'
+04/06/26 15:38:22: GUIDANCE_SMGR: closing session for UUID '1e4d914c-c034-4bd2-89db-dafbafcabb5e' with name 'v++_compile_pedal'
+04/06/26 15:38:22: STOP_SERVER received, server token: 321394c7-9cda-4bc0-955d-ecfdfee29b65, passed token: 321394c7-9cda-4bc0-955d-ecfdfee29b65
+04/06/26 15:38:22: Socket received request to stop server.
+04/06/26 15:38:22: Dispatch Server: do_await_stop
+04/06/26 15:38:22: SERVER: destructor for server bound to port 59969
+04/06/26 15:38:22: Server exiting with status 0.
+04/06/26 15:38:22: Closing log file.
+04/06/26 15:46:14: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 15:46:14: Server was asked to start on port: '59202'
+04/06/26 15:46:14: Server is using token UUID: '14462a77-5e4f-4cc2-aeeb-b461c91150df'
+04/06/26 15:46:14: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:46:14: Attempting to start server on port '59202'
+04/06/26 15:46:14: Running Dispatch Server
+04/06/26 15:46:14: Version 2.2.0
+04/06/26 15:46:16: Dispatch Server: Accepted socket connection from client
+04/06/26 15:46:16: Starting Socket connection
+04/06/26 15:46:16: EXCHANGE_TOKEN received, server token: 14462a77-5e4f-4cc2-aeeb-b461c91150df, passed token: 14462a77-5e4f-4cc2-aeeb-b461c91150df
+04/06/26 15:46:16: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 15:46:16: SESSION_MGR: creating session with session uuid: '93ea4453-058e-45a2-813a-8fe614433bf0' and name 'vitis-run_compile_pedal'
+04/06/26 15:46:16: KERNEL_SVC: creating session with uuid: '93ea4453-058e-45a2-813a-8fe614433bf0' and name 'vitis-run_compile_pedal'
+04/06/26 15:46:16: GUIDANCE_SMGR: creating guidance session with uuid: '93ea4453-058e-45a2-813a-8fe614433bf0' and name 'vitis-run_compile_pedal'
+04/06/26 15:46:22: Dispatch Server: Accepted socket connection from client
+04/06/26 15:46:22: Starting Socket connection
+04/06/26 15:49:26: SESSION_MGR: closing session for UUID '93ea4453-058e-45a2-813a-8fe614433bf0' with name 'vitis-run_compile_pedal'
+04/06/26 15:49:26: KERNEL_SVC: closing session for UUID '93ea4453-058e-45a2-813a-8fe614433bf0' with name 'vitis-run_compile_pedal'
+04/06/26 15:49:26: GUIDANCE_SMGR: closing session for UUID '93ea4453-058e-45a2-813a-8fe614433bf0' with name 'vitis-run_compile_pedal'
+04/06/26 15:49:26: STOP_SERVER received, server token: 14462a77-5e4f-4cc2-aeeb-b461c91150df, passed token: 14462a77-5e4f-4cc2-aeeb-b461c91150df
+04/06/26 15:49:26: Socket received request to stop server.
+04/06/26 15:49:26: Dispatch Server: do_await_stop
+04/06/26 15:49:26: SERVER: destructor for server bound to port 59202
+04/06/26 15:49:26: Server exiting with status 0.
+04/06/26 15:49:26: Closing log file.
+04/06/26 16:35:16: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 16:35:16: Server was asked to start on port: '56077'
+04/06/26 16:35:16: Server is using token UUID: '4f46b6c7-88b1-4fbc-82d5-bccb466523ce'
+04/06/26 16:35:16: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:35:16: Attempting to start server on port '56077'
+04/06/26 16:35:16: Running Dispatch Server
+04/06/26 16:35:16: Version 2.2.0
+04/06/26 16:35:18: Dispatch Server: Accepted socket connection from client
+04/06/26 16:35:18: Starting Socket connection
+04/06/26 16:35:18: EXCHANGE_TOKEN received, server token: 4f46b6c7-88b1-4fbc-82d5-bccb466523ce, passed token: 4f46b6c7-88b1-4fbc-82d5-bccb466523ce
+04/06/26 16:35:18: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 16:35:18: SESSION_MGR: creating session with session uuid: '81a2b0d1-bf8d-49bb-9958-15dda0b988db' and name 'v++_compile_pedal'
+04/06/26 16:35:18: KERNEL_SVC: creating session with uuid: '81a2b0d1-bf8d-49bb-9958-15dda0b988db' and name 'v++_compile_pedal'
+04/06/26 16:35:18: GUIDANCE_SMGR: creating guidance session with uuid: '81a2b0d1-bf8d-49bb-9958-15dda0b988db' and name 'v++_compile_pedal'
+04/06/26 16:35:40: Dispatch Server: Accepted socket connection from client
+04/06/26 16:35:40: Starting Socket connection
+04/06/26 16:38:23: SESSION_MGR: closing session for UUID '81a2b0d1-bf8d-49bb-9958-15dda0b988db' with name 'v++_compile_pedal'
+04/06/26 16:38:23: KERNEL_SVC: closing session for UUID '81a2b0d1-bf8d-49bb-9958-15dda0b988db' with name 'v++_compile_pedal'
+04/06/26 16:38:23: GUIDANCE_SMGR: closing session for UUID '81a2b0d1-bf8d-49bb-9958-15dda0b988db' with name 'v++_compile_pedal'
+04/06/26 16:38:24: STOP_SERVER received, server token: 4f46b6c7-88b1-4fbc-82d5-bccb466523ce, passed token: 4f46b6c7-88b1-4fbc-82d5-bccb466523ce
+04/06/26 16:38:24: Socket received request to stop server.
+04/06/26 16:38:24: Dispatch Server: do_await_stop
+04/06/26 16:38:24: SERVER: destructor for server bound to port 56077
+04/06/26 16:38:24: Server exiting with status 0.
+04/06/26 16:38:24: Closing log file.
+04/06/26 16:39:11: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 16:39:11: Server was asked to start on port: '50310'
+04/06/26 16:39:11: Server is using token UUID: 'f1d5c500-230f-46d6-b130-a96340f83a1a'
+04/06/26 16:39:11: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:39:11: Attempting to start server on port '50310'
+04/06/26 16:39:11: Running Dispatch Server
+04/06/26 16:39:11: Version 2.2.0
+04/06/26 16:39:13: Dispatch Server: Accepted socket connection from client
+04/06/26 16:39:13: Starting Socket connection
+04/06/26 16:39:13: EXCHANGE_TOKEN received, server token: f1d5c500-230f-46d6-b130-a96340f83a1a, passed token: f1d5c500-230f-46d6-b130-a96340f83a1a
+04/06/26 16:39:13: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 16:39:13: SESSION_MGR: creating session with session uuid: '763ab0ac-294e-4e49-bbc2-d6267a0fed57' and name 'v++_compile_pedal'
+04/06/26 16:39:13: KERNEL_SVC: creating session with uuid: '763ab0ac-294e-4e49-bbc2-d6267a0fed57' and name 'v++_compile_pedal'
+04/06/26 16:39:13: GUIDANCE_SMGR: creating guidance session with uuid: '763ab0ac-294e-4e49-bbc2-d6267a0fed57' and name 'v++_compile_pedal'
+04/06/26 16:39:27: Dispatch Server: Accepted socket connection from client
+04/06/26 16:39:27: Starting Socket connection
+04/06/26 16:42:21: SESSION_MGR: closing session for UUID '763ab0ac-294e-4e49-bbc2-d6267a0fed57' with name 'v++_compile_pedal'
+04/06/26 16:42:21: KERNEL_SVC: closing session for UUID '763ab0ac-294e-4e49-bbc2-d6267a0fed57' with name 'v++_compile_pedal'
+04/06/26 16:42:21: GUIDANCE_SMGR: closing session for UUID '763ab0ac-294e-4e49-bbc2-d6267a0fed57' with name 'v++_compile_pedal'
+04/06/26 16:42:22: STOP_SERVER received, server token: f1d5c500-230f-46d6-b130-a96340f83a1a, passed token: f1d5c500-230f-46d6-b130-a96340f83a1a
+04/06/26 16:42:22: Socket received request to stop server.
+04/06/26 16:42:22: Dispatch Server: do_await_stop
+04/06/26 16:42:22: SERVER: destructor for server bound to port 50310
+04/06/26 16:42:22: Server exiting with status 0.
+04/06/26 16:42:22: Closing log file.
+04/06/26 16:42:44: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/06/26 16:42:44: Server was asked to start on port: '50323'
+04/06/26 16:42:44: Server is using token UUID: 'bfce1490-cb51-4da5-9f40-4999e32d6b6b'
+04/06/26 16:42:44: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:42:44: Attempting to start server on port '50323'
+04/06/26 16:42:44: Running Dispatch Server
+04/06/26 16:42:44: Version 2.2.0
+04/06/26 16:42:46: Dispatch Server: Accepted socket connection from client
+04/06/26 16:42:46: Starting Socket connection
+04/06/26 16:42:46: EXCHANGE_TOKEN received, server token: bfce1490-cb51-4da5-9f40-4999e32d6b6b, passed token: bfce1490-cb51-4da5-9f40-4999e32d6b6b
+04/06/26 16:42:46: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/06/26 16:42:46: SESSION_MGR: creating session with session uuid: 'd238e679-ffd6-41d1-b892-2304224fa1f2' and name 'vitis-run_compile_pedal'
+04/06/26 16:42:46: KERNEL_SVC: creating session with uuid: 'd238e679-ffd6-41d1-b892-2304224fa1f2' and name 'vitis-run_compile_pedal'
+04/06/26 16:42:46: GUIDANCE_SMGR: creating guidance session with uuid: 'd238e679-ffd6-41d1-b892-2304224fa1f2' and name 'vitis-run_compile_pedal'
+04/06/26 16:42:51: Dispatch Server: Accepted socket connection from client
+04/06/26 16:42:51: Starting Socket connection
+04/06/26 16:46:30: SESSION_MGR: closing session for UUID 'd238e679-ffd6-41d1-b892-2304224fa1f2' with name 'vitis-run_compile_pedal'
+04/06/26 16:46:30: KERNEL_SVC: closing session for UUID 'd238e679-ffd6-41d1-b892-2304224fa1f2' with name 'vitis-run_compile_pedal'
+04/06/26 16:46:30: GUIDANCE_SMGR: closing session for UUID 'd238e679-ffd6-41d1-b892-2304224fa1f2' with name 'vitis-run_compile_pedal'
+04/06/26 16:46:30: STOP_SERVER received, server token: bfce1490-cb51-4da5-9f40-4999e32d6b6b, passed token: bfce1490-cb51-4da5-9f40-4999e32d6b6b
+04/06/26 16:46:30: Socket received request to stop server.
+04/06/26 16:46:30: Dispatch Server: do_await_stop
+04/06/26 16:46:30: SERVER: destructor for server bound to port 50323
+04/06/26 16:46:30: Server exiting with status 0.
+04/06/26 16:46:30: Closing log file.
+04/08/26 10:30:09: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 10:30:09: Server was asked to start on port: '54925'
+04/08/26 10:30:09: Server is using token UUID: '6a056842-51cb-4728-b82c-dd6705532447'
+04/08/26 10:30:09: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 10:30:09: Attempting to start server on port '54925'
+04/08/26 10:30:09: Running Dispatch Server
+04/08/26 10:30:09: Version 2.2.0
+04/08/26 10:30:09: Dispatch Server: Accepted socket connection from client
+04/08/26 10:30:09: Starting Socket connection
+04/08/26 10:30:09: EXCHANGE_TOKEN received, server token: 6a056842-51cb-4728-b82c-dd6705532447, passed token: 6a056842-51cb-4728-b82c-dd6705532447
+04/08/26 10:30:09: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 10:30:09: SESSION_MGR: creating session with session uuid: '7504ac72-e152-41b2-973c-0bc3e42247f5' and name 'v++_compile_pedal'
+04/08/26 10:30:09: KERNEL_SVC: creating session with uuid: '7504ac72-e152-41b2-973c-0bc3e42247f5' and name 'v++_compile_pedal'
+04/08/26 10:30:09: GUIDANCE_SMGR: creating guidance session with uuid: '7504ac72-e152-41b2-973c-0bc3e42247f5' and name 'v++_compile_pedal'
+04/08/26 10:31:02: Dispatch Server: Accepted socket connection from client
+04/08/26 10:31:02: Starting Socket connection
+04/08/26 10:37:03: SESSION_MGR: closing session for UUID '7504ac72-e152-41b2-973c-0bc3e42247f5' with name 'v++_compile_pedal'
+04/08/26 10:37:03: KERNEL_SVC: closing session for UUID '7504ac72-e152-41b2-973c-0bc3e42247f5' with name 'v++_compile_pedal'
+04/08/26 10:37:03: GUIDANCE_SMGR: closing session for UUID '7504ac72-e152-41b2-973c-0bc3e42247f5' with name 'v++_compile_pedal'
+04/08/26 10:37:04: STOP_SERVER received, server token: 6a056842-51cb-4728-b82c-dd6705532447, passed token: 6a056842-51cb-4728-b82c-dd6705532447
+04/08/26 10:37:04: Socket received request to stop server.
+04/08/26 10:37:04: Dispatch Server: do_await_stop
+04/08/26 10:37:04: SERVER: destructor for server bound to port 54925
+04/08/26 10:37:04: Server exiting with status 0.
+04/08/26 10:37:04: Closing log file.
+04/08/26 10:38:39: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 10:38:39: Server was asked to start on port: '52686'
+04/08/26 10:38:39: Server is using token UUID: '06fb94e9-b2bd-44ef-86f0-c6996683a312'
+04/08/26 10:38:39: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 10:38:39: Attempting to start server on port '52686'
+04/08/26 10:38:39: Running Dispatch Server
+04/08/26 10:38:39: Version 2.2.0
+04/08/26 10:44:50: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 10:44:50: Server was asked to start on port: '63043'
+04/08/26 10:44:50: Server is using token UUID: 'f60905c3-7e07-42ec-94ff-9e8038c4fea9'
+04/08/26 10:44:50: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 10:44:50: Attempting to start server on port '63043'
+04/08/26 10:44:50: Running Dispatch Server
+04/08/26 10:44:50: Version 2.2.0
+04/08/26 10:44:52: Dispatch Server: Accepted socket connection from client
+04/08/26 10:44:52: Starting Socket connection
+04/08/26 10:44:52: EXCHANGE_TOKEN received, server token: f60905c3-7e07-42ec-94ff-9e8038c4fea9, passed token: f60905c3-7e07-42ec-94ff-9e8038c4fea9
+04/08/26 10:44:52: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 10:44:52: SESSION_MGR: creating session with session uuid: 'b7c3d103-9b9a-40f5-9bd9-525262c76057' and name 'v++_compile_pedal'
+04/08/26 10:44:52: KERNEL_SVC: creating session with uuid: 'b7c3d103-9b9a-40f5-9bd9-525262c76057' and name 'v++_compile_pedal'
+04/08/26 10:44:52: GUIDANCE_SMGR: creating guidance session with uuid: 'b7c3d103-9b9a-40f5-9bd9-525262c76057' and name 'v++_compile_pedal'
+04/08/26 10:45:14: Dispatch Server: Accepted socket connection from client
+04/08/26 10:45:14: Starting Socket connection
+04/08/26 10:45:54: SESSION_MGR: closing session for UUID 'b7c3d103-9b9a-40f5-9bd9-525262c76057' with name 'v++_compile_pedal'
+04/08/26 10:45:54: KERNEL_SVC: closing session for UUID 'b7c3d103-9b9a-40f5-9bd9-525262c76057' with name 'v++_compile_pedal'
+04/08/26 10:45:54: GUIDANCE_SMGR: closing session for UUID 'b7c3d103-9b9a-40f5-9bd9-525262c76057' with name 'v++_compile_pedal'
+04/08/26 10:45:56: STOP_SERVER received, server token: f60905c3-7e07-42ec-94ff-9e8038c4fea9, passed token: f60905c3-7e07-42ec-94ff-9e8038c4fea9
+04/08/26 10:45:56: Socket received request to stop server.
+04/08/26 10:45:56: Dispatch Server: do_await_stop
+04/08/26 10:45:56: SERVER: destructor for server bound to port 63043
+04/08/26 10:45:56: Server exiting with status 0.
+04/08/26 10:45:56: Closing log file.
+04/08/26 10:47:00: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 10:47:00: Server was asked to start on port: '53395'
+04/08/26 10:47:00: Server is using token UUID: 'e91213d4-5421-4650-bd01-f2b375d9f44f'
+04/08/26 10:47:00: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 10:47:00: Attempting to start server on port '53395'
+04/08/26 10:47:00: Running Dispatch Server
+04/08/26 10:47:00: Version 2.2.0
+04/08/26 10:47:02: Dispatch Server: Accepted socket connection from client
+04/08/26 10:47:02: Starting Socket connection
+04/08/26 10:47:02: EXCHANGE_TOKEN received, server token: e91213d4-5421-4650-bd01-f2b375d9f44f, passed token: e91213d4-5421-4650-bd01-f2b375d9f44f
+04/08/26 10:47:02: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 10:47:02: SESSION_MGR: creating session with session uuid: '8718349a-348d-4969-ab56-3426cd51b3b9' and name 'v++_compile_pedal'
+04/08/26 10:47:02: KERNEL_SVC: creating session with uuid: '8718349a-348d-4969-ab56-3426cd51b3b9' and name 'v++_compile_pedal'
+04/08/26 10:47:02: GUIDANCE_SMGR: creating guidance session with uuid: '8718349a-348d-4969-ab56-3426cd51b3b9' and name 'v++_compile_pedal'
+04/08/26 10:47:07: Dispatch Server: Accepted socket connection from client
+04/08/26 10:47:07: Starting Socket connection
+04/08/26 10:52:05: SESSION_MGR: closing session for UUID '8718349a-348d-4969-ab56-3426cd51b3b9' with name 'v++_compile_pedal'
+04/08/26 10:52:05: KERNEL_SVC: closing session for UUID '8718349a-348d-4969-ab56-3426cd51b3b9' with name 'v++_compile_pedal'
+04/08/26 10:52:05: GUIDANCE_SMGR: closing session for UUID '8718349a-348d-4969-ab56-3426cd51b3b9' with name 'v++_compile_pedal'
+04/08/26 10:52:06: STOP_SERVER received, server token: e91213d4-5421-4650-bd01-f2b375d9f44f, passed token: e91213d4-5421-4650-bd01-f2b375d9f44f
+04/08/26 10:52:06: Socket received request to stop server.
+04/08/26 10:52:06: Dispatch Server: do_await_stop
+04/08/26 10:52:06: SERVER: destructor for server bound to port 53395
+04/08/26 10:52:06: Server exiting with status 0.
+04/08/26 10:52:06: Closing log file.
+04/08/26 10:55:49: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 10:55:49: Server was asked to start on port: '51905'
+04/08/26 10:55:49: Server is using token UUID: '473d1625-256d-413f-baba-258f8fbe69d3'
+04/08/26 10:55:49: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 10:55:49: Attempting to start server on port '51905'
+04/08/26 10:55:49: Running Dispatch Server
+04/08/26 10:55:49: Version 2.2.0
+04/08/26 10:55:51: Dispatch Server: Accepted socket connection from client
+04/08/26 10:55:51: Starting Socket connection
+04/08/26 10:55:51: EXCHANGE_TOKEN received, server token: 473d1625-256d-413f-baba-258f8fbe69d3, passed token: 473d1625-256d-413f-baba-258f8fbe69d3
+04/08/26 10:55:51: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 10:55:51: SESSION_MGR: creating session with session uuid: 'df8b9235-4e80-467c-85ad-b79c25f660bb' and name 'v++_compile_pedal'
+04/08/26 10:55:51: KERNEL_SVC: creating session with uuid: 'df8b9235-4e80-467c-85ad-b79c25f660bb' and name 'v++_compile_pedal'
+04/08/26 10:55:51: GUIDANCE_SMGR: creating guidance session with uuid: 'df8b9235-4e80-467c-85ad-b79c25f660bb' and name 'v++_compile_pedal'
+04/08/26 10:56:13: Dispatch Server: Accepted socket connection from client
+04/08/26 10:56:13: Starting Socket connection
+04/08/26 11:00:20: SESSION_MGR: closing session for UUID 'df8b9235-4e80-467c-85ad-b79c25f660bb' with name 'v++_compile_pedal'
+04/08/26 11:00:20: KERNEL_SVC: closing session for UUID 'df8b9235-4e80-467c-85ad-b79c25f660bb' with name 'v++_compile_pedal'
+04/08/26 11:00:20: GUIDANCE_SMGR: closing session for UUID 'df8b9235-4e80-467c-85ad-b79c25f660bb' with name 'v++_compile_pedal'
+04/08/26 11:00:24: STOP_SERVER received, server token: 473d1625-256d-413f-baba-258f8fbe69d3, passed token: 473d1625-256d-413f-baba-258f8fbe69d3
+04/08/26 11:00:24: Socket received request to stop server.
+04/08/26 11:00:24: Dispatch Server: do_await_stop
+04/08/26 11:00:24: SERVER: destructor for server bound to port 51905
+04/08/26 11:00:24: Server exiting with status 0.
+04/08/26 11:00:24: Closing log file.
+04/08/26 11:01:47: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 11:01:47: Server was asked to start on port: '49630'
+04/08/26 11:01:47: Server is using token UUID: '9d171978-c7b1-48cc-83a6-18b80f29fed2'
+04/08/26 11:01:47: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 11:01:47: Attempting to start server on port '49630'
+04/08/26 11:01:47: Running Dispatch Server
+04/08/26 11:01:47: Version 2.2.0
+04/08/26 11:01:49: Dispatch Server: Accepted socket connection from client
+04/08/26 11:01:49: Starting Socket connection
+04/08/26 11:01:49: EXCHANGE_TOKEN received, server token: 9d171978-c7b1-48cc-83a6-18b80f29fed2, passed token: 9d171978-c7b1-48cc-83a6-18b80f29fed2
+04/08/26 11:01:49: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 11:01:49: SESSION_MGR: creating session with session uuid: '14f9e8f7-7566-4b8e-9459-a8d821b079fa' and name 'v++_compile_pedal'
+04/08/26 11:01:49: KERNEL_SVC: creating session with uuid: '14f9e8f7-7566-4b8e-9459-a8d821b079fa' and name 'v++_compile_pedal'
+04/08/26 11:01:49: GUIDANCE_SMGR: creating guidance session with uuid: '14f9e8f7-7566-4b8e-9459-a8d821b079fa' and name 'v++_compile_pedal'
+04/08/26 11:02:02: Dispatch Server: Accepted socket connection from client
+04/08/26 11:02:02: Starting Socket connection
+04/08/26 11:06:30: SESSION_MGR: closing session for UUID '14f9e8f7-7566-4b8e-9459-a8d821b079fa' with name 'v++_compile_pedal'
+04/08/26 11:06:30: KERNEL_SVC: closing session for UUID '14f9e8f7-7566-4b8e-9459-a8d821b079fa' with name 'v++_compile_pedal'
+04/08/26 11:06:30: GUIDANCE_SMGR: closing session for UUID '14f9e8f7-7566-4b8e-9459-a8d821b079fa' with name 'v++_compile_pedal'
+04/08/26 11:06:33: STOP_SERVER received, server token: 9d171978-c7b1-48cc-83a6-18b80f29fed2, passed token: 9d171978-c7b1-48cc-83a6-18b80f29fed2
+04/08/26 11:06:33: Socket received request to stop server.
+04/08/26 11:06:33: Dispatch Server: do_await_stop
+04/08/26 11:06:33: SERVER: destructor for server bound to port 49630
+04/08/26 11:06:33: Server exiting with status 0.
+04/08/26 11:06:33: Closing log file.
+04/08/26 11:34:35: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 11:34:35: Server was asked to start on port: '60663'
+04/08/26 11:34:35: Server is using token UUID: 'c2e492ee-0d0b-4ac7-adf6-d2114c031790'
+04/08/26 11:34:35: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 11:34:35: Attempting to start server on port '60663'
+04/08/26 11:34:35: Running Dispatch Server
+04/08/26 11:34:35: Version 2.2.0
+04/08/26 11:34:37: Dispatch Server: Accepted socket connection from client
+04/08/26 11:34:37: Starting Socket connection
+04/08/26 11:34:37: EXCHANGE_TOKEN received, server token: c2e492ee-0d0b-4ac7-adf6-d2114c031790, passed token: c2e492ee-0d0b-4ac7-adf6-d2114c031790
+04/08/26 11:34:37: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 11:34:37: SESSION_MGR: creating session with session uuid: '1f5dcbaa-996a-4fef-ba23-5be2b44ba4c0' and name 'v++_compile_pedal'
+04/08/26 11:34:37: KERNEL_SVC: creating session with uuid: '1f5dcbaa-996a-4fef-ba23-5be2b44ba4c0' and name 'v++_compile_pedal'
+04/08/26 11:34:37: GUIDANCE_SMGR: creating guidance session with uuid: '1f5dcbaa-996a-4fef-ba23-5be2b44ba4c0' and name 'v++_compile_pedal'
+04/08/26 11:34:58: Dispatch Server: Accepted socket connection from client
+04/08/26 11:34:58: Starting Socket connection
+04/08/26 11:40:13: SESSION_MGR: closing session for UUID '1f5dcbaa-996a-4fef-ba23-5be2b44ba4c0' with name 'v++_compile_pedal'
+04/08/26 11:40:13: KERNEL_SVC: closing session for UUID '1f5dcbaa-996a-4fef-ba23-5be2b44ba4c0' with name 'v++_compile_pedal'
+04/08/26 11:40:13: GUIDANCE_SMGR: closing session for UUID '1f5dcbaa-996a-4fef-ba23-5be2b44ba4c0' with name 'v++_compile_pedal'
+04/08/26 11:40:16: STOP_SERVER received, server token: c2e492ee-0d0b-4ac7-adf6-d2114c031790, passed token: c2e492ee-0d0b-4ac7-adf6-d2114c031790
+04/08/26 11:40:16: Socket received request to stop server.
+04/08/26 11:40:16: Dispatch Server: do_await_stop
+04/08/26 11:40:16: SERVER: destructor for server bound to port 60663
+04/08/26 11:40:16: Server exiting with status 0.
+04/08/26 11:40:16: Closing log file.
+04/08/26 11:45:51: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 11:45:51: Server was asked to start on port: '56809'
+04/08/26 11:45:51: Server is using token UUID: '700b5ef7-a48d-44fa-91bd-ffde55bb9725'
+04/08/26 11:45:51: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 11:45:51: Attempting to start server on port '56809'
+04/08/26 11:45:51: Running Dispatch Server
+04/08/26 11:45:51: Version 2.2.0
+04/08/26 11:45:53: Dispatch Server: Accepted socket connection from client
+04/08/26 11:45:53: Starting Socket connection
+04/08/26 11:45:53: EXCHANGE_TOKEN received, server token: 700b5ef7-a48d-44fa-91bd-ffde55bb9725, passed token: 700b5ef7-a48d-44fa-91bd-ffde55bb9725
+04/08/26 11:45:53: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 11:45:53: SESSION_MGR: creating session with session uuid: '83c1c443-5da4-40d2-92f3-85f9c65d47fe' and name 'v++_compile_pedal'
+04/08/26 11:45:53: KERNEL_SVC: creating session with uuid: '83c1c443-5da4-40d2-92f3-85f9c65d47fe' and name 'v++_compile_pedal'
+04/08/26 11:45:53: GUIDANCE_SMGR: creating guidance session with uuid: '83c1c443-5da4-40d2-92f3-85f9c65d47fe' and name 'v++_compile_pedal'
+04/08/26 11:46:14: Dispatch Server: Accepted socket connection from client
+04/08/26 11:46:14: Starting Socket connection
+04/08/26 11:51:11: SESSION_MGR: closing session for UUID '83c1c443-5da4-40d2-92f3-85f9c65d47fe' with name 'v++_compile_pedal'
+04/08/26 11:51:11: KERNEL_SVC: closing session for UUID '83c1c443-5da4-40d2-92f3-85f9c65d47fe' with name 'v++_compile_pedal'
+04/08/26 11:51:11: GUIDANCE_SMGR: closing session for UUID '83c1c443-5da4-40d2-92f3-85f9c65d47fe' with name 'v++_compile_pedal'
+04/08/26 11:51:12: STOP_SERVER received, server token: 700b5ef7-a48d-44fa-91bd-ffde55bb9725, passed token: 700b5ef7-a48d-44fa-91bd-ffde55bb9725
+04/08/26 11:51:12: Socket received request to stop server.
+04/08/26 11:51:12: Dispatch Server: do_await_stop
+04/08/26 11:51:12: SERVER: destructor for server bound to port 56809
+04/08/26 11:51:12: Server exiting with status 0.
+04/08/26 11:51:12: Closing log file.
+04/08/26 11:55:40: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 11:55:40: Server was asked to start on port: '50061'
+04/08/26 11:55:40: Server is using token UUID: 'e1b2e3b4-1dd0-4c7b-9f4d-bd2ae2ca6db2'
+04/08/26 11:55:40: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 11:55:40: Attempting to start server on port '50061'
+04/08/26 11:55:40: Running Dispatch Server
+04/08/26 11:55:40: Version 2.2.0
+04/08/26 11:55:42: Dispatch Server: Accepted socket connection from client
+04/08/26 11:55:42: Starting Socket connection
+04/08/26 11:55:42: EXCHANGE_TOKEN received, server token: e1b2e3b4-1dd0-4c7b-9f4d-bd2ae2ca6db2, passed token: e1b2e3b4-1dd0-4c7b-9f4d-bd2ae2ca6db2
+04/08/26 11:55:42: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 11:55:42: SESSION_MGR: creating session with session uuid: 'd7f2e204-a7df-4223-8678-648118600bdb' and name 'v++_compile_pedal'
+04/08/26 11:55:42: KERNEL_SVC: creating session with uuid: 'd7f2e204-a7df-4223-8678-648118600bdb' and name 'v++_compile_pedal'
+04/08/26 11:55:42: GUIDANCE_SMGR: creating guidance session with uuid: 'd7f2e204-a7df-4223-8678-648118600bdb' and name 'v++_compile_pedal'
+04/08/26 11:56:03: Dispatch Server: Accepted socket connection from client
+04/08/26 11:56:03: Starting Socket connection
+04/08/26 12:01:13: SESSION_MGR: closing session for UUID 'd7f2e204-a7df-4223-8678-648118600bdb' with name 'v++_compile_pedal'
+04/08/26 12:01:13: KERNEL_SVC: closing session for UUID 'd7f2e204-a7df-4223-8678-648118600bdb' with name 'v++_compile_pedal'
+04/08/26 12:01:13: GUIDANCE_SMGR: closing session for UUID 'd7f2e204-a7df-4223-8678-648118600bdb' with name 'v++_compile_pedal'
+04/08/26 12:01:13: STOP_SERVER received, server token: e1b2e3b4-1dd0-4c7b-9f4d-bd2ae2ca6db2, passed token: e1b2e3b4-1dd0-4c7b-9f4d-bd2ae2ca6db2
+04/08/26 12:01:13: Socket received request to stop server.
+04/08/26 12:01:13: Dispatch Server: do_await_stop
+04/08/26 12:01:13: SERVER: destructor for server bound to port 50061
+04/08/26 12:01:13: Server exiting with status 0.
+04/08/26 12:01:13: Closing log file.
+04/08/26 12:04:48: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 12:04:48: Server was asked to start on port: '63353'
+04/08/26 12:04:48: Server is using token UUID: '2ae9cc07-2b00-46e6-834a-c8b7c364fbb1'
+04/08/26 12:04:48: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 12:04:48: Attempting to start server on port '63353'
+04/08/26 12:04:48: Running Dispatch Server
+04/08/26 12:04:48: Version 2.2.0
+04/08/26 12:04:50: Dispatch Server: Accepted socket connection from client
+04/08/26 12:04:50: Starting Socket connection
+04/08/26 12:04:50: EXCHANGE_TOKEN received, server token: 2ae9cc07-2b00-46e6-834a-c8b7c364fbb1, passed token: 2ae9cc07-2b00-46e6-834a-c8b7c364fbb1
+04/08/26 12:04:50: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 12:04:50: SESSION_MGR: creating session with session uuid: '2e8b8291-114f-4575-a4e1-be44a4d10b44' and name 'vitis-run_compile_pedal'
+04/08/26 12:04:50: KERNEL_SVC: creating session with uuid: '2e8b8291-114f-4575-a4e1-be44a4d10b44' and name 'vitis-run_compile_pedal'
+04/08/26 12:04:50: GUIDANCE_SMGR: creating guidance session with uuid: '2e8b8291-114f-4575-a4e1-be44a4d10b44' and name 'vitis-run_compile_pedal'
+04/08/26 12:04:55: Dispatch Server: Accepted socket connection from client
+04/08/26 12:04:55: Starting Socket connection
+04/08/26 12:09:49: SESSION_MGR: closing session for UUID '2e8b8291-114f-4575-a4e1-be44a4d10b44' with name 'vitis-run_compile_pedal'
+04/08/26 12:09:49: KERNEL_SVC: closing session for UUID '2e8b8291-114f-4575-a4e1-be44a4d10b44' with name 'vitis-run_compile_pedal'
+04/08/26 12:09:49: GUIDANCE_SMGR: closing session for UUID '2e8b8291-114f-4575-a4e1-be44a4d10b44' with name 'vitis-run_compile_pedal'
+04/08/26 12:09:49: STOP_SERVER received, server token: 2ae9cc07-2b00-46e6-834a-c8b7c364fbb1, passed token: 2ae9cc07-2b00-46e6-834a-c8b7c364fbb1
+04/08/26 12:09:49: Socket received request to stop server.
+04/08/26 12:09:49: Dispatch Server: do_await_stop
+04/08/26 12:09:49: SERVER: destructor for server bound to port 63353
+04/08/26 12:09:49: Server exiting with status 0.
+04/08/26 12:09:49: Closing log file.
+04/08/26 15:19:03: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 15:19:03: Server was asked to start on port: '53661'
+04/08/26 15:19:03: Server is using token UUID: '6ace8ae7-3fd8-4eb7-86be-1aad4d2fb82b'
+04/08/26 15:19:03: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 15:19:03: Attempting to start server on port '53661'
+04/08/26 15:19:03: Running Dispatch Server
+04/08/26 15:19:03: Version 2.2.0
+04/08/26 15:19:04: Dispatch Server: Accepted socket connection from client
+04/08/26 15:19:04: Starting Socket connection
+04/08/26 15:19:04: EXCHANGE_TOKEN received, server token: 6ace8ae7-3fd8-4eb7-86be-1aad4d2fb82b, passed token: 6ace8ae7-3fd8-4eb7-86be-1aad4d2fb82b
+04/08/26 15:19:04: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 15:19:04: SESSION_MGR: creating session with session uuid: 'b99dfe2d-7141-41b7-91d6-51b4fb24606b' and name 'v++_compile_pedal'
+04/08/26 15:19:04: KERNEL_SVC: creating session with uuid: 'b99dfe2d-7141-41b7-91d6-51b4fb24606b' and name 'v++_compile_pedal'
+04/08/26 15:19:04: GUIDANCE_SMGR: creating guidance session with uuid: 'b99dfe2d-7141-41b7-91d6-51b4fb24606b' and name 'v++_compile_pedal'
+04/08/26 15:19:32: Dispatch Server: Accepted socket connection from client
+04/08/26 15:19:32: Starting Socket connection
+04/08/26 15:23:02: SESSION_MGR: closing session for UUID 'b99dfe2d-7141-41b7-91d6-51b4fb24606b' with name 'v++_compile_pedal'
+04/08/26 15:23:02: KERNEL_SVC: closing session for UUID 'b99dfe2d-7141-41b7-91d6-51b4fb24606b' with name 'v++_compile_pedal'
+04/08/26 15:23:02: GUIDANCE_SMGR: closing session for UUID 'b99dfe2d-7141-41b7-91d6-51b4fb24606b' with name 'v++_compile_pedal'
+04/08/26 15:23:03: STOP_SERVER received, server token: 6ace8ae7-3fd8-4eb7-86be-1aad4d2fb82b, passed token: 6ace8ae7-3fd8-4eb7-86be-1aad4d2fb82b
+04/08/26 15:23:03: Socket received request to stop server.
+04/08/26 15:23:03: Dispatch Server: do_await_stop
+04/08/26 15:23:03: SERVER: destructor for server bound to port 53661
+04/08/26 15:23:03: Server exiting with status 0.
+04/08/26 15:23:03: Closing log file.
+04/08/26 15:24:37: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 15:24:37: Server was asked to start on port: '60693'
+04/08/26 15:24:37: Server is using token UUID: '6fc2978b-6046-4a25-b8f0-5847625d92f3'
+04/08/26 15:24:37: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 15:24:37: Attempting to start server on port '60693'
+04/08/26 15:24:37: Running Dispatch Server
+04/08/26 15:24:37: Version 2.2.0
+04/08/26 15:24:38: Dispatch Server: Accepted socket connection from client
+04/08/26 15:24:38: Starting Socket connection
+04/08/26 15:24:38: EXCHANGE_TOKEN received, server token: 6fc2978b-6046-4a25-b8f0-5847625d92f3, passed token: 6fc2978b-6046-4a25-b8f0-5847625d92f3
+04/08/26 15:24:38: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 15:24:38: SESSION_MGR: creating session with session uuid: '9c59e6e2-1ed4-448f-9db7-f99690cd41a2' and name 'v++_compile_pedal'
+04/08/26 15:24:38: KERNEL_SVC: creating session with uuid: '9c59e6e2-1ed4-448f-9db7-f99690cd41a2' and name 'v++_compile_pedal'
+04/08/26 15:24:38: GUIDANCE_SMGR: creating guidance session with uuid: '9c59e6e2-1ed4-448f-9db7-f99690cd41a2' and name 'v++_compile_pedal'
+04/08/26 15:24:51: Dispatch Server: Accepted socket connection from client
+04/08/26 15:24:51: Starting Socket connection
+04/08/26 15:28:01: SESSION_MGR: closing session for UUID '9c59e6e2-1ed4-448f-9db7-f99690cd41a2' with name 'v++_compile_pedal'
+04/08/26 15:28:01: KERNEL_SVC: closing session for UUID '9c59e6e2-1ed4-448f-9db7-f99690cd41a2' with name 'v++_compile_pedal'
+04/08/26 15:28:01: GUIDANCE_SMGR: closing session for UUID '9c59e6e2-1ed4-448f-9db7-f99690cd41a2' with name 'v++_compile_pedal'
+04/08/26 15:28:02: STOP_SERVER received, server token: 6fc2978b-6046-4a25-b8f0-5847625d92f3, passed token: 6fc2978b-6046-4a25-b8f0-5847625d92f3
+04/08/26 15:28:02: Socket received request to stop server.
+04/08/26 15:28:02: Dispatch Server: do_await_stop
+04/08/26 15:28:02: SERVER: destructor for server bound to port 60693
+04/08/26 15:28:02: Server exiting with status 0.
+04/08/26 15:28:02: Closing log file.
+04/08/26 15:28:07: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 15:28:07: Server was asked to start on port: '52448'
+04/08/26 15:28:07: Server is using token UUID: '3744d8db-2880-43c5-ad40-7831796a1f21'
+04/08/26 15:28:07: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 15:28:07: Attempting to start server on port '52448'
+04/08/26 15:28:07: Running Dispatch Server
+04/08/26 15:28:07: Version 2.2.0
+04/08/26 15:28:09: Dispatch Server: Accepted socket connection from client
+04/08/26 15:28:09: Starting Socket connection
+04/08/26 15:28:09: EXCHANGE_TOKEN received, server token: 3744d8db-2880-43c5-ad40-7831796a1f21, passed token: 3744d8db-2880-43c5-ad40-7831796a1f21
+04/08/26 15:28:09: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 15:28:09: SESSION_MGR: creating session with session uuid: '298454ce-24ca-43e4-bb72-9f929a18e80b' and name 'vitis-run_compile_pedal'
+04/08/26 15:28:09: KERNEL_SVC: creating session with uuid: '298454ce-24ca-43e4-bb72-9f929a18e80b' and name 'vitis-run_compile_pedal'
+04/08/26 15:28:09: GUIDANCE_SMGR: creating guidance session with uuid: '298454ce-24ca-43e4-bb72-9f929a18e80b' and name 'vitis-run_compile_pedal'
+04/08/26 15:28:15: Dispatch Server: Accepted socket connection from client
+04/08/26 15:28:15: Starting Socket connection
+04/08/26 15:31:08: SESSION_MGR: closing session for UUID '298454ce-24ca-43e4-bb72-9f929a18e80b' with name 'vitis-run_compile_pedal'
+04/08/26 15:31:08: KERNEL_SVC: closing session for UUID '298454ce-24ca-43e4-bb72-9f929a18e80b' with name 'vitis-run_compile_pedal'
+04/08/26 15:31:08: GUIDANCE_SMGR: closing session for UUID '298454ce-24ca-43e4-bb72-9f929a18e80b' with name 'vitis-run_compile_pedal'
+04/08/26 15:31:08: STOP_SERVER received, server token: 3744d8db-2880-43c5-ad40-7831796a1f21, passed token: 3744d8db-2880-43c5-ad40-7831796a1f21
+04/08/26 15:31:08: Socket received request to stop server.
+04/08/26 15:31:08: Dispatch Server: do_await_stop
+04/08/26 15:31:08: SERVER: destructor for server bound to port 52448
+04/08/26 15:31:08: Server exiting with status 0.
+04/08/26 15:31:08: Closing log file.
+04/08/26 15:50:40: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 15:50:40: Server was asked to start on port: '60750'
+04/08/26 15:50:40: Server is using token UUID: '199ae98b-6769-4da9-bc21-8ac27e97388e'
+04/08/26 15:50:40: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 15:50:40: Attempting to start server on port '60750'
+04/08/26 15:50:40: Running Dispatch Server
+04/08/26 15:50:40: Version 2.2.0
+04/08/26 15:50:41: Dispatch Server: Accepted socket connection from client
+04/08/26 15:50:41: Starting Socket connection
+04/08/26 15:50:41: EXCHANGE_TOKEN received, server token: 199ae98b-6769-4da9-bc21-8ac27e97388e, passed token: 199ae98b-6769-4da9-bc21-8ac27e97388e
+04/08/26 15:50:41: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 15:50:41: SESSION_MGR: creating session with session uuid: 'dceabd2c-3677-4f39-9729-8fd3744783f2' and name 'vitis-run_compile_pedal'
+04/08/26 15:50:41: KERNEL_SVC: creating session with uuid: 'dceabd2c-3677-4f39-9729-8fd3744783f2' and name 'vitis-run_compile_pedal'
+04/08/26 15:50:41: GUIDANCE_SMGR: creating guidance session with uuid: 'dceabd2c-3677-4f39-9729-8fd3744783f2' and name 'vitis-run_compile_pedal'
+04/08/26 15:50:49: Dispatch Server: Accepted socket connection from client
+04/08/26 15:50:49: Starting Socket connection
+04/08/26 15:51:47: SESSION_MGR: closing session for UUID 'dceabd2c-3677-4f39-9729-8fd3744783f2' with name 'vitis-run_compile_pedal'
+04/08/26 15:51:47: KERNEL_SVC: closing session for UUID 'dceabd2c-3677-4f39-9729-8fd3744783f2' with name 'vitis-run_compile_pedal'
+04/08/26 15:51:47: GUIDANCE_SMGR: closing session for UUID 'dceabd2c-3677-4f39-9729-8fd3744783f2' with name 'vitis-run_compile_pedal'
+04/08/26 15:51:47: STOP_SERVER received, server token: 199ae98b-6769-4da9-bc21-8ac27e97388e, passed token: 199ae98b-6769-4da9-bc21-8ac27e97388e
+04/08/26 15:51:47: Socket received request to stop server.
+04/08/26 15:51:47: Dispatch Server: do_await_stop
+04/08/26 15:51:47: SERVER: destructor for server bound to port 60750
+04/08/26 15:51:47: Server exiting with status 0.
+04/08/26 15:51:47: Closing log file.
+04/08/26 16:15:17: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/08/26 16:15:17: Server was asked to start on port: '56032'
+04/08/26 16:15:17: Server is using token UUID: '5b5a212b-1cf0-4c6a-8dda-42269fa04864'
+04/08/26 16:15:17: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/08/26 16:15:17: Attempting to start server on port '56032'
+04/08/26 16:15:17: Running Dispatch Server
+04/08/26 16:15:17: Version 2.2.0
+04/08/26 16:15:19: Dispatch Server: Accepted socket connection from client
+04/08/26 16:15:19: Starting Socket connection
+04/08/26 16:15:19: EXCHANGE_TOKEN received, server token: 5b5a212b-1cf0-4c6a-8dda-42269fa04864, passed token: 5b5a212b-1cf0-4c6a-8dda-42269fa04864
+04/08/26 16:15:19: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/08/26 16:15:19: SESSION_MGR: creating session with session uuid: 'c8e34506-6004-4b46-8e9b-f10ad00eba46' and name 'v++_compile_pedal'
+04/08/26 16:15:19: KERNEL_SVC: creating session with uuid: 'c8e34506-6004-4b46-8e9b-f10ad00eba46' and name 'v++_compile_pedal'
+04/08/26 16:15:19: GUIDANCE_SMGR: creating guidance session with uuid: 'c8e34506-6004-4b46-8e9b-f10ad00eba46' and name 'v++_compile_pedal'
+04/08/26 16:15:46: Dispatch Server: Accepted socket connection from client
+04/08/26 16:15:46: Starting Socket connection
+04/08/26 16:19:37: SESSION_MGR: closing session for UUID 'c8e34506-6004-4b46-8e9b-f10ad00eba46' with name 'v++_compile_pedal'
+04/08/26 16:19:37: KERNEL_SVC: closing session for UUID 'c8e34506-6004-4b46-8e9b-f10ad00eba46' with name 'v++_compile_pedal'
+04/08/26 16:19:37: GUIDANCE_SMGR: closing session for UUID 'c8e34506-6004-4b46-8e9b-f10ad00eba46' with name 'v++_compile_pedal'
+04/08/26 16:19:38: STOP_SERVER received, server token: 5b5a212b-1cf0-4c6a-8dda-42269fa04864, passed token: 5b5a212b-1cf0-4c6a-8dda-42269fa04864
+04/08/26 16:19:38: Socket received request to stop server.
+04/08/26 16:19:38: Dispatch Server: do_await_stop
+04/08/26 16:19:38: SERVER: destructor for server bound to port 56032
+04/08/26 16:19:38: Server exiting with status 0.
+04/08/26 16:19:38: Closing log file.

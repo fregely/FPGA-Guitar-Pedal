@@ -23,8 +23,8 @@ E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal.pp.0.cpp:39
       ^~~
       VITIS_LOOP_1247_1: 
 E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal.pp.0.cpp:3944:7: note: FIX-IT applied suggested code changes
-E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal.pp.0.cpp:31770:5: warning: Added loop label VITIS_LOOP_15_1:   [xilinx-label-all-loops]
+E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal.pp.0.cpp:31774:5: warning: Added loop label VITIS_LOOP_23_1:   [xilinx-label-all-loops]
     do {
     ^~
-    VITIS_LOOP_15_1: 
-E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal.pp.0.cpp:31770:5: note: FIX-IT applied suggested code changes
+    VITIS_LOOP_23_1: 
+E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal.pp.0.cpp:31774:5: note: FIX-IT applied suggested code changes

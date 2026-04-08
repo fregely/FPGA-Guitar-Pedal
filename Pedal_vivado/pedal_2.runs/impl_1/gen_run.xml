@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xczu3eg-sfvc784-2-e" LaunchTime="1774637954">
+<GenRun Id="impl_1" LaunchPart="xczu3eg-sfvc784-2-e" LaunchTime="1775676830">
   <File Type="ROUTE-PWR" Name="dma_axis_ip_example_wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="dma_axis_ip_example_wrapper.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="dma_axis_ip_example_wrapper_power_summary_routed.pb"/>
@@ -147,11 +147,11 @@
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_axi_dma_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_clk_wiz_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_xbar_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_axis_broadcaster_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_i2s_transmitter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_axi_gpio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_proc_sys_reset_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_zynq_ultra_ps_e_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_rst_ps7_0_100M_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_util_vector_logic_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_axis_data_fifo_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_pedal_top_0_1"/>
 </GenRun>

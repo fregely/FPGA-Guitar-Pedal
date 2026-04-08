@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date         : Fri Mar 27 15:01:02 2026
-| Host         : Theodore running 64-bit major release  (build 9200)
+| Date         : Wed Apr  8 15:44:56 2026
+| Host         : WFXB07B250A3A85 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file dma_axis_ip_example_wrapper_utilization_synth.rpt -pb dma_axis_ip_example_wrapper_utilization_synth.pb
 | Design       : dma_axis_ip_example_wrapper
 | Device       : xczu3eg-sfvc784-2-e
@@ -96,7 +96,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +------------+------+-------+------------+-----------+-------+
 |  Site Type | Used | Fixed | Prohibited | Available | Util% |
 +------------+------+-------+------------+-----------+-------+
-| Bonded IOB |    7 |     0 |          0 |       252 |  2.78 |
+| Bonded IOB |   15 |     0 |          0 |       252 |  5.95 |
 +------------+------+-------+------------+-----------+-------+
 
 
@@ -149,6 +149,9 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
+| OBUFT    |    8 |                 I/O |
+| INBUF    |    8 |                 I/O |
+| IBUFCTRL |    8 |              Others |
 | OBUF     |    7 |                 I/O |
 +----------+------+---------------------+
 
@@ -164,15 +167,14 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | dma_axis_ip_example_util_vector_logic_0_0 |    1 |
 | dma_axis_ip_example_rst_ps7_0_100M_0      |    1 |
 | dma_axis_ip_example_proc_sys_reset_0_0    |    1 |
+| dma_axis_ip_example_pedal_top_0_1         |    1 |
 | dma_axis_ip_example_i2s_transmitter_0_0   |    1 |
 | dma_axis_ip_example_clk_wiz_0_0           |    1 |
-| dma_axis_ip_example_axis_data_fifo_0_0    |    1 |
-| dma_axis_ip_example_axis_broadcaster_0_0  |    1 |
+| dma_axis_ip_example_axi_gpio_0_0          |    1 |
 | dma_axis_ip_example_axi_dma_0             |    1 |
 | dma_axis_ip_example_auto_us_0             |    1 |
 | dma_axis_ip_example_auto_pc_0             |    1 |
 | dma_axis_ip_example_auto_ds_0             |    1 |
-| dma_axis_ip_example_audio_passthrough_0_0 |    1 |
 +-------------------------------------------+------+
 
 

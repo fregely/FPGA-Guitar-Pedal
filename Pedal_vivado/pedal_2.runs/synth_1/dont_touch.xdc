@@ -30,9 +30,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip
 # IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_clk_wiz_0_0 || ORIG_REF_NAME==dma_axis_ip_example_clk_wiz_0_0} -quiet] -quiet
 
-# IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_audio_passthrough_0_0/dma_axis_ip_example_audio_passthrough_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_audio_passthrough_0_0 || ORIG_REF_NAME==dma_axis_ip_example_audio_passthrough_0_0} -quiet] -quiet
-
 # IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_i2s_transmitter_0_0 || ORIG_REF_NAME==dma_axis_ip_example_i2s_transmitter_0_0} -quiet] -quiet
 
@@ -45,11 +42,11 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip
 # IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_xlconstant_0_0/dma_axis_ip_example_xlconstant_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_xlconstant_0_0 || ORIG_REF_NAME==dma_axis_ip_example_xlconstant_0_0} -quiet] -quiet
 
-# IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_axis_broadcaster_0_0/dma_axis_ip_example_axis_broadcaster_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_axis_broadcaster_0_0 || ORIG_REF_NAME==dma_axis_ip_example_axis_broadcaster_0_0} -quiet] -quiet
+# IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_gpio_0_0/dma_axis_ip_example_axi_gpio_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_axi_gpio_0_0 || ORIG_REF_NAME==dma_axis_ip_example_axi_gpio_0_0} -quiet] -quiet
 
-# IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_axis_data_fifo_0_0/dma_axis_ip_example_axis_data_fifo_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_axis_data_fifo_0_0 || ORIG_REF_NAME==dma_axis_ip_example_axis_data_fifo_0_0} -quiet] -quiet
+# IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_pedal_top_0_1/dma_axis_ip_example_pedal_top_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_pedal_top_0_1 || ORIG_REF_NAME==dma_axis_ip_example_pedal_top_0_1} -quiet] -quiet
 
 # IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_auto_us_0 || ORIG_REF_NAME==dma_axis_ip_example_auto_us_0} -quiet] -quiet
@@ -60,4 +57,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip
 # IP: bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dma_axis_ip_example_auto_pc_0 || ORIG_REF_NAME==dma_axis_ip_example_auto_pc_0} -quiet] -quiet
 
-# XDC: d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example_ooc.xdc
+# XDC: e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example_ooc.xdc

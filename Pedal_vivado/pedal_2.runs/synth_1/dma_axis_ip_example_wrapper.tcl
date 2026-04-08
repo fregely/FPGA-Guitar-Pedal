@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/synth_1/dma_axis_ip_example_wrapper.tcl"
+  variable script "E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/synth_1/dma_axis_ip_example_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,8 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
-set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config  -id {xilinx.com:ip:axi_dma:7.1-11}  -string {{CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-11] /axi_dma_0
                    #################################### 
                    S_AXIS_S2MM interface is unconnected
@@ -69,47 +67,48 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.cache/wt [current_project]
-set_property parent.project_path D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.xpr [current_project]
+set_property webtalk.parent_dir E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.cache/wt [current_project]
+set_property parent.project_path E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_repo_paths d:/FPGA-Guitar-Pedal/Pedal_vitis [current_project]
+set_property ip_repo_paths e:/FPGA-Guitar-Pedal/Pedal_vitis [current_project]
 update_ip_catalog
-set_property ip_output_repo d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.cache/ip [current_project]
+set_property ip_output_repo e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v
-add_files D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example.bd
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_audio_passthrough_0_0/constraints/audio_passthrough_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axis_broadcaster_0_0/dma_axis_ip_example_axis_broadcaster_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axis_data_fifo_0_0/dma_axis_ip_example_axis_data_fifo_0_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA-Guitar-Pedal/pedal_2/pedal_2.gen/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example_ooc.xdc]
+read_verilog -library xil_defaultlib E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v
+add_files E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example.bd
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/dma_axis_ip_example_axi_dma_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_zynq_ultra_ps_e_0_0/dma_axis_ip_example_zynq_ultra_ps_e_0_0.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xbar_0/dma_axis_ip_example_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_i2s_transmitter_0_0/dma_axis_ip_example_i2s_transmitter_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_gpio_0_0/dma_axis_ip_example_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_gpio_0_0/dma_axis_ip_example_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_gpio_0_0/dma_axis_ip_example_axi_gpio_0_0.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_pedal_top_0_1/constraints/pedal_top_ooc.xdc]
+set_property used_in_synthesis false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_us_0/dma_axis_ip_example_auto_us_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_ds_0/dma_axis_ip_example_auto_ds_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/dma_axis_ip_example_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.gen/sources_1/bd/dma_axis_ip_example/dma_axis_ip_example_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -120,14 +119,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new/pedal2.xdc
-set_property used_in_implementation false [get_files D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/constrs_1/new/pedal2.xdc]
+read_xdc E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/constrs_1/new/pedal2.xdc
+set_property used_in_implementation false [get_files E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/constrs_1/new/pedal2.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.srcs/utils_1/imports/synth_1/dma_axis_ip_example_wrapper.dcp
+read_checkpoint -auto_incremental -incremental E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.srcs/utils_1/imports/synth_1/dma_axis_ip_example_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

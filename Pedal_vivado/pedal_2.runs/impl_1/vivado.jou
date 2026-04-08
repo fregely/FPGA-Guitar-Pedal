@@ -3,22 +3,22 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Mar 27 15:01:13 2026
-# Process ID: 29332
-# Current directory: D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/impl_1
+# Start of session at: Wed Apr  8 15:45:05 2026
+# Process ID: 22112
+# Current directory: E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/impl_1
 # Command line: vivado.exe -log dma_axis_ip_example_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dma_axis_ip_example_wrapper.tcl -notrace
-# Log file: D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/impl_1/dma_axis_ip_example_wrapper.vdi
-# Journal file: D:/FPGA-Guitar-Pedal/pedal_2/pedal_2.runs/impl_1\vivado.jou
-# Running On        :Theodore
+# Log file: E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/impl_1/dma_axis_ip_example_wrapper.vdi
+# Journal file: E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/impl_1\vivado.jou
+# Running On        :WFXB07B250A3A85
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26200
-# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12650H
-# CPU Frequency     :2688 MHz
-# CPU Physical cores:10
+# Processor Detail  :Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+# CPU Frequency     :2904 MHz
+# CPU Physical cores:8
 # CPU Logical cores :16
-# Host memory       :25441 MB
-# Swap memory       :15032 MB
-# Total Virtual     :40473 MB
-# Available Virtual :7998 MB
+# Host memory       :34059 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36207 MB
+# Available Virtual :20584 MB
 #-----------------------------------------------------------
 source dma_axis_ip_example_wrapper.tcl -notrace

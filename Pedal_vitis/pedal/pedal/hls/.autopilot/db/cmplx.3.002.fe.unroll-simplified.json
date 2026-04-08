@@ -1,17 +1,547 @@
 {
   "0": {
-    "basicblocks": 3,
-    "calls": "",
-    "file": "pedal.cpp",
-    "fileloc": 9,
-    "instructions": 65,
+    "basicblocks": 38,
+    "calls": "26 36 39 40 31 19",
+    "file": "pedal_top.cpp",
+    "fileloc": 5,
+    "instructions": 388,
+    "loads": {
+      "G": 6,
+      "L": 6
+    },
+    "name": "pedal_top",
+    "stores": {
+      "G": 7,
+      "L": 4
+    },
+    "total_instructions": 3370
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "15 43",
+    "file": "hls_copysign.h",
+    "fileloc": 10,
+    "instructions": 7,
+    "name": "generic_copysign<float>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 31
+  },
+  "10": {
+    "basicblocks": 11,
+    "calls": "15 42 44 24",
+    "file": "hls_tanh.h",
+    "fileloc": 28,
+    "instructions": 47,
     "loads": {
       "L": 4
     },
-    "name": "audio_passthrough",
-    "stores": {
+    "name": "generic_tanh<float>",
+    "total_instructions": 509
+  },
+  "11": {
+    "basicblocks": 1,
+    "calls": "7",
+    "file": "sincoshotbmfloat.cpp",
+    "fileloc": 9,
+    "instructions": 2,
+    "name": "sin",
+    "total_instructions": 383
+  },
+  "12": {
+    "basicblocks": 24,
+    "calls": "15 43 43 43 43 20 43 43",
+    "file": "hls_fmod_rem_quo.h",
+    "fileloc": 120,
+    "instructions": 153,
+    "loads": {
       "L": 4
     },
-    "total_instructions": 65
+    "name": "generic_fmod_mult<float>",
+    "stores": {
+      "L": 15
+    },
+    "total_instructions": 593
+  },
+  "13": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 349,
+    "instructions": 3,
+    "loads": {
+      "L": 1
+    },
+    "name": "__signbit",
+    "total_instructions": 3
+  },
+  "14": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "hls_hotbm_float.cpp",
+    "fileloc": 8,
+    "instructions": 66,
+    "loads": {
+      "G": 4,
+      "L": 3
+    },
+    "name": "sin_or_cos_approximation<29, 29>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 66
+  },
+  "15": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 283,
+    "instructions": 8,
+    "name": "fp_struct",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 8
+  },
+  "16": {
+    "basicblocks": 1,
+    "calls": "18",
+    "file": "tanhfloat.cpp",
+    "fileloc": 10,
+    "instructions": 2,
+    "name": "tanhf",
+    "total_instructions": 513
+  },
+  "17": {
+    "basicblocks": 19,
+    "calls": "21 34 32 8 8 8 45 25 8 8 8 8",
+    "file": "hls_exp_.h",
+    "fileloc": 156,
+    "instructions": 151,
+    "loads": {
+      "G": 1,
+      "L": 3
+    },
+    "name": "exp_generic<double>",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 379
+  },
+  "18": {
+    "basicblocks": 1,
+    "calls": "10",
+    "file": "tanhfloat.cpp",
+    "fileloc": 6,
+    "instructions": 2,
+    "name": "tanh",
+    "total_instructions": 511
+  },
+  "19": {
+    "basicblocks": 1,
+    "calls": "5",
+    "file": "lib_floatconversion.cpp",
+    "fileloc": 51,
+    "instructions": 2,
+    "name": "__hls_fptosi_float_i32",
+    "total_instructions": 55
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 336,
+    "instructions": 4,
+    "name": "set_mantissa",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 4
+  },
+  "20": {
+    "basicblocks": 25,
+    "calls": "38",
+    "file": "hls_fmod_rem_quo.h",
+    "fileloc": 79,
+    "instructions": 331,
+    "loads": {
+      "L": 1
+    },
+    "name": "mod_rcp_mult<24, 36, 8>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 336
+  },
+  "21": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 456,
+    "instructions": 8,
+    "name": "fp_struct",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 8
+  },
+  "22": {
+    "basicblocks": 1,
+    "calls": "15 29 41 13",
+    "file": "hls_case_IEEE754.h",
+    "fileloc": 12,
+    "instructions": 30,
+    "loads": {
+      "L": 1
+    },
+    "name": "generic_cast_IEEE754<int, AP_TRN_ZERO, float>",
+    "total_instructions": 51
+  },
+  "23": {
+    "basicblocks": 7,
+    "calls": "15 41 27 30",
+    "file": "hls_range_redux.h",
+    "fileloc": 431,
+    "instructions": 69,
+    "loads": {
+      "L": 3
+    },
+    "name": "range_redux_payne_hanek_hotbm<29, float, 29, 29>",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 105
+  },
+  "24": {
+    "basicblocks": 4,
+    "calls": "15 17",
+    "file": "hls_exp_float.cpp",
+    "fileloc": 7,
+    "instructions": 16,
+    "loads": {
+      "L": 1
+    },
+    "name": "expm1",
+    "total_instructions": 403
+  },
+  "25": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "hls_exp_.h",
+    "fileloc": 90,
+    "instructions": 63,
+    "loads": {
+      "G": 3
+    },
+    "name": "exp_Z1P_m_1",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 63
+  },
+  "26": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "pedal_c.cpp",
+    "fileloc": 14,
+    "instructions": 83,
+    "name": "hard_clipping_distortion",
+    "total_instructions": 83
+  },
+  "27": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "hls_range_redux.h",
+    "fileloc": 373,
+    "instructions": 16,
+    "loads": {
+      "G": 1
+    },
+    "name": "table_lookup_4oPi_hotbm<23, 29>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 16
+  },
+  "28": {
+    "basicblocks": 5,
+    "calls": "9 9 2 43",
+    "file": "x_hls_float_utils.h",
+    "fileloc": 256,
+    "instructions": 55,
+    "name": "scaled_fixed2ieee<29, 1>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 85
+  },
+  "29": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 340,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "mantissa",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 6
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "37",
+    "file": "x_hls_utils.h",
+    "fileloc": 322,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "to_float",
+    "total_instructions": 14
+  },
+  "30": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "hls_normalize.h",
+    "fileloc": 69,
+    "instructions": 8,
+    "name": "clz<29, 58, 0>",
+    "total_instructions": 8
+  },
+  "31": {
+    "basicblocks": 1,
+    "calls": "4",
+    "file": "fmodfloat.cpp",
+    "fileloc": 10,
+    "instructions": 2,
+    "name": "fmodf",
+    "total_instructions": 597
+  },
+  "32": {
+    "basicblocks": 1,
+    "calls": "21",
+    "file": "hls_isinf.h",
+    "fileloc": 16,
+    "instructions": 11,
+    "loads": {
+      "L": 2
+    },
+    "name": "generic_isinf<double>",
+    "total_instructions": 19
+  },
+  "33": {
+    "basicblocks": 13,
+    "calls": "15 23 14 28 15 43",
+    "file": "hls_hotbm.h",
+    "fileloc": 209,
+    "instructions": 91,
+    "loads": {
+      "G": 3,
+      "L": 7
+    },
+    "name": "sin_or_cos<float>",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 379
+  },
+  "34": {
+    "basicblocks": 3,
+    "calls": "21",
+    "file": "hls_isnan.h",
+    "fileloc": 16,
+    "instructions": 14,
+    "loads": {
+      "L": 2
+    },
+    "name": "generic_isnan<double>",
+    "total_instructions": 22
+  },
+  "35": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 475,
+    "instructions": 9,
+    "loads": {
+      "L": 3
+    },
+    "name": "data",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 9
+  },
+  "36": {
+    "basicblocks": 20,
+    "calls": "16",
+    "file": "pedal_c.cpp",
+    "fileloc": 26,
+    "instructions": 196,
+    "loads": {
+      "L": 1
+    },
+    "name": "soft_clipping_distortion",
+    "total_instructions": 877
+  },
+  "37": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 309,
+    "instructions": 9,
+    "loads": {
+      "L": 3
+    },
+    "name": "data",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 9
+  },
+  "38": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "hls_fmod_rem_quo.h",
+    "fileloc": 20,
+    "instructions": 5,
+    "name": "rcp_sub<24, 36>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "39": {
+    "basicblocks": 7,
+    "calls": "40",
+    "file": "pedal_c.cpp",
+    "fileloc": 35,
+    "instructions": 96,
+    "loads": {
+      "L": 1
+    },
+    "name": "tremolo",
+    "total_instructions": 649
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "12",
+    "file": "fmodfloat.cpp",
+    "fileloc": 6,
+    "instructions": 2,
+    "name": "fmod",
+    "total_instructions": 595
+  },
+  "40": {
+    "basicblocks": 1,
+    "calls": "11",
+    "file": "sincoshotbmfloat.cpp",
+    "fileloc": 41,
+    "instructions": 2,
+    "name": "sinf",
+    "total_instructions": 385
+  },
+  "41": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 316,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "expv",
+    "total_instructions": 4
+  },
+  "42": {
+    "basicblocks": 1,
+    "calls": "1",
+    "file": "hls_fabs.h",
+    "fileloc": 12,
+    "instructions": 2,
+    "name": "generic_fabs<float>",
+    "total_instructions": 33
+  },
+  "43": {
+    "basicblocks": 1,
+    "calls": "3",
+    "file": "x_hls_utils.h",
+    "fileloc": 346,
+    "instructions": 2,
+    "name": "to_ieee",
+    "total_instructions": 16
+  },
+  "44": {
+    "basicblocks": 1,
+    "calls": "43",
+    "file": "hls_nan.h",
+    "fileloc": 10,
+    "instructions": 2,
+    "name": "generic_nan<float>",
+    "total_instructions": 18
+  },
+  "45": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 485,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "expv",
+    "total_instructions": 4
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "22",
+    "file": "hls_case_IEEE754.h",
+    "fileloc": 116,
+    "instructions": 2,
+    "name": "generic_cast_IEEE754<int, float>",
+    "total_instructions": 53
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "35",
+    "file": "x_hls_utils.h",
+    "fileloc": 494,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "to_double",
+    "total_instructions": 14
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "33",
+    "file": "hls_hotbm_float.cpp",
+    "fileloc": 122,
+    "instructions": 2,
+    "name": "sin",
+    "total_instructions": 381
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "6",
+    "file": "x_hls_utils.h",
+    "fileloc": 509,
+    "instructions": 2,
+    "name": "to_ieee",
+    "total_instructions": 16
+  },
+  "9": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "hls_normalize.h",
+    "fileloc": 79,
+    "instructions": 5,
+    "name": "clz",
+    "total_instructions": 5
   }
 }
