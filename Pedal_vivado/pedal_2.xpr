@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="67" Path="E:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.xpr">
+<Project Product="Vivado" Version="7" Minor="67" Path="D:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="f8c79653c86843c78bda26fcd8012754"/>
@@ -111,9 +111,6 @@
         <CompFileExtendedInfo CompFileName="dma_axis_ip_example.bd" FileRelPathName="ip/dma_axis_ip_example_pedal_top_0_1/dma_axis_ip_example_pedal_top_0_1.xci">
           <Proxy FileSetName="dma_axis_ip_example_pedal_top_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dma_axis_ip_example.bd" FileRelPathName="ip/dma_axis_ip_example_proc_sys_reset_0_0/dma_axis_ip_example_proc_sys_reset_0_0.xci">
-          <Proxy FileSetName="dma_axis_ip_example_proc_sys_reset_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="dma_axis_ip_example.bd" FileRelPathName="ip/dma_axis_ip_example_rst_ps7_0_100M_0/dma_axis_ip_example_rst_ps7_0_100M_0.xci">
           <Proxy FileSetName="dma_axis_ip_example_rst_ps7_0_100M_0"/>
         </CompFileExtendedInfo>
@@ -204,12 +201,6 @@
     <FileSet Name="dma_axis_ip_example_i2s_transmitter_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dma_axis_ip_example_i2s_transmitter_0_0" RelGenDir="$PGENDIR/dma_axis_ip_example_i2s_transmitter_0_0">
       <Config>
         <Option Name="TopModule" Val="dma_axis_ip_example_i2s_transmitter_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="dma_axis_ip_example_proc_sys_reset_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dma_axis_ip_example_proc_sys_reset_0_0" RelGenDir="$PGENDIR/dma_axis_ip_example_proc_sys_reset_0_0">
-      <Config>
-        <Option Name="TopModule" Val="dma_axis_ip_example_proc_sys_reset_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -313,16 +304,6 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dma_axis_ip_example_proc_sys_reset_0_0_synth_1" Type="Ft3:Synth" SrcSet="dma_axis_ip_example_proc_sys_reset_0_0" Part="xczu3eg-sfvc784-2-e" ConstrsSet="dma_axis_ip_example_proc_sys_reset_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dma_axis_ip_example_proc_sys_reset_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_proc_sys_reset_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_proc_sys_reset_0_0_synth_1" ParallelReportGen="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
     <Run Id="dma_axis_ip_example_zynq_ultra_ps_e_0_0_synth_1" Type="Ft3:Synth" SrcSet="dma_axis_ip_example_zynq_ultra_ps_e_0_0" Part="xczu3eg-sfvc784-2-e" ConstrsSet="dma_axis_ip_example_zynq_ultra_ps_e_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dma_axis_ip_example_zynq_ultra_ps_e_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_zynq_ultra_ps_e_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_zynq_ultra_ps_e_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
@@ -365,9 +346,7 @@
     </Run>
     <Run Id="dma_axis_ip_example_pedal_top_0_1_synth_1" Type="Ft3:Synth" SrcSet="dma_axis_ip_example_pedal_top_0_1" Part="xczu3eg-sfvc784-2-e" ConstrsSet="dma_axis_ip_example_pedal_top_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dma_axis_ip_example_pedal_top_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_pedal_top_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_pedal_top_0_1_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -461,23 +440,6 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dma_axis_ip_example_proc_sys_reset_0_0_impl_1" Type="Ft2:EntireDesign" Part="xczu3eg-sfvc784-2-e" ConstrsSet="dma_axis_ip_example_proc_sys_reset_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dma_axis_ip_example_proc_sys_reset_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_proc_sys_reset_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_proc_sys_reset_0_0_impl_1" ParallelReportGen="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
     <Run Id="dma_axis_ip_example_zynq_ultra_ps_e_0_0_impl_1" Type="Ft2:EntireDesign" Part="xczu3eg-sfvc784-2-e" ConstrsSet="dma_axis_ip_example_zynq_ultra_ps_e_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dma_axis_ip_example_zynq_ultra_ps_e_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_zynq_ultra_ps_e_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_zynq_ultra_ps_e_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
@@ -548,9 +510,7 @@
     </Run>
     <Run Id="dma_axis_ip_example_pedal_top_0_1_impl_1" Type="Ft2:EntireDesign" Part="xczu3eg-sfvc784-2-e" ConstrsSet="dma_axis_ip_example_pedal_top_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dma_axis_ip_example_pedal_top_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_pedal_top_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/dma_axis_ip_example_pedal_top_0_1_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
