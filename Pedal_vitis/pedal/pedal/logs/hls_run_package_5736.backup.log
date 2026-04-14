@@ -1,0 +1,147 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal\pedal.hlsrun_package_summary, at 04/01/26 16:15:13
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run package -work_dir E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal -config E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg -cmdlineconfig E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Apr  1 16:15:15 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'noble.dav' on host 'wfxb07b250a3a85.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Wed Apr 01 16:15:16 -0400 2026
+INFO: [HLS 200-10] In directory 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal'
+INFO: [HLS 200-2005] Using work_dir E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal 
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.h' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_top.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_top.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=pedal_c_tb.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=pedal_top' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(5)
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Apr  1 16:15:25 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/hls_data.json outdir=E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip srcdir=E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls sort_interfaces_ports=false
+INFO: Copied 1 ipmisc file(s) to E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/misc
+INFO: Copied 34 verilog file(s) to E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/hdl/verilog
+INFO: Copied 29 vhdl file(s) to E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/drivers
+Generating 11 subcores in E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/hdl/ip.tmp:
+impl/misc/pedal_top_dadd_64ns_64ns_64_5_full_dsp_0_ip.tcl
+impl/misc/pedal_top_dcmp_64ns_64ns_1_2_no_dsp_0_ip.tcl
+impl/misc/pedal_top_ddiv_64ns_64ns_64_22_no_dsp_0_ip.tcl
+impl/misc/pedal_top_dmul_64ns_64ns_64_5_max_dsp_0_ip.tcl
+impl/misc/pedal_top_dmul_64ns_64ns_64_5_max_dsp_1_ip.tcl
+impl/misc/pedal_top_dsub_64ns_64ns_64_5_full_dsp_0_ip.tcl
+impl/misc/pedal_top_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+impl/misc/pedal_top_fdiv_32ns_32ns_32_9_no_dsp_1_ip.tcl
+impl/misc/pedal_top_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
+impl/misc/pedal_top_fpext_32ns_64_2_no_dsp_1_ip.tcl
+impl/misc/pedal_top_sitofp_32ns_32_4_no_dsp_1_ip.tcl
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 650.008 ; gain = 205.020
+INFO: Using COE_DIR=E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/hdl/verilog
+INFO: Generating pedal_top_dadd_64ns_64ns_64_5_full_dsp_0_ip via file impl/misc/pedal_top_dadd_64ns_64ns_64_5_full_dsp_0_ip.tcl
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_dadd_64ns_64ns_64_5_full_dsp_0_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_dadd_64ns_64ns_64_5_full_dsp_0_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_dadd_64ns_64ns_64_5_full_dsp_0_ip'...
+generate_target: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 701.152 ; gain = 0.000
+INFO: Done generating pedal_top_dadd_64ns_64ns_64_5_full_dsp_0_ip via file impl/misc/pedal_top_dadd_64ns_64ns_64_5_full_dsp_0_ip.tcl
+INFO: Generating pedal_top_dcmp_64ns_64ns_1_2_no_dsp_0_ip via file impl/misc/pedal_top_dcmp_64ns_64ns_1_2_no_dsp_0_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_dcmp_64ns_64ns_1_2_no_dsp_0_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_dcmp_64ns_64ns_1_2_no_dsp_0_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_dcmp_64ns_64ns_1_2_no_dsp_0_ip'...
+generate_target: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 701.152 ; gain = 0.000
+INFO: Done generating pedal_top_dcmp_64ns_64ns_1_2_no_dsp_0_ip via file impl/misc/pedal_top_dcmp_64ns_64ns_1_2_no_dsp_0_ip.tcl
+INFO: Generating pedal_top_ddiv_64ns_64ns_64_22_no_dsp_0_ip via file impl/misc/pedal_top_ddiv_64ns_64ns_64_22_no_dsp_0_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_ddiv_64ns_64ns_64_22_no_dsp_0_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_ddiv_64ns_64ns_64_22_no_dsp_0_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_ddiv_64ns_64ns_64_22_no_dsp_0_ip'...
+INFO: Done generating pedal_top_ddiv_64ns_64ns_64_22_no_dsp_0_ip via file impl/misc/pedal_top_ddiv_64ns_64ns_64_22_no_dsp_0_ip.tcl
+INFO: Generating pedal_top_dmul_64ns_64ns_64_5_max_dsp_0_ip via file impl/misc/pedal_top_dmul_64ns_64ns_64_5_max_dsp_0_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_dmul_64ns_64ns_64_5_max_dsp_0_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_dmul_64ns_64ns_64_5_max_dsp_0_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_dmul_64ns_64ns_64_5_max_dsp_0_ip'...
+INFO: Done generating pedal_top_dmul_64ns_64ns_64_5_max_dsp_0_ip via file impl/misc/pedal_top_dmul_64ns_64ns_64_5_max_dsp_0_ip.tcl
+INFO: Generating pedal_top_dmul_64ns_64ns_64_5_max_dsp_1_ip via file impl/misc/pedal_top_dmul_64ns_64ns_64_5_max_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_dmul_64ns_64ns_64_5_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_dmul_64ns_64ns_64_5_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_dmul_64ns_64ns_64_5_max_dsp_1_ip'...
+generate_target: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 701.152 ; gain = 0.000
+INFO: Done generating pedal_top_dmul_64ns_64ns_64_5_max_dsp_1_ip via file impl/misc/pedal_top_dmul_64ns_64ns_64_5_max_dsp_1_ip.tcl
+INFO: Generating pedal_top_dsub_64ns_64ns_64_5_full_dsp_0_ip via file impl/misc/pedal_top_dsub_64ns_64ns_64_5_full_dsp_0_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_dsub_64ns_64ns_64_5_full_dsp_0_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_dsub_64ns_64ns_64_5_full_dsp_0_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_dsub_64ns_64ns_64_5_full_dsp_0_ip'...
+INFO: Done generating pedal_top_dsub_64ns_64ns_64_5_full_dsp_0_ip via file impl/misc/pedal_top_dsub_64ns_64ns_64_5_full_dsp_0_ip.tcl
+INFO: Generating pedal_top_fcmp_32ns_32ns_1_2_no_dsp_1_ip via file impl/misc/pedal_top_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_fcmp_32ns_32ns_1_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: Done generating pedal_top_fcmp_32ns_32ns_1_2_no_dsp_1_ip via file impl/misc/pedal_top_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+INFO: Generating pedal_top_fdiv_32ns_32ns_32_9_no_dsp_1_ip via file impl/misc/pedal_top_fdiv_32ns_32ns_32_9_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_fdiv_32ns_32ns_32_9_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_fdiv_32ns_32ns_32_9_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_fdiv_32ns_32ns_32_9_no_dsp_1_ip'...
+generate_target: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 713.160 ; gain = 0.000
+INFO: Done generating pedal_top_fdiv_32ns_32ns_32_9_no_dsp_1_ip via file impl/misc/pedal_top_fdiv_32ns_32ns_32_9_no_dsp_1_ip.tcl
+INFO: Generating pedal_top_fmul_32ns_32ns_32_3_max_dsp_1_ip via file impl/misc/pedal_top_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_fmul_32ns_32ns_32_3_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_fmul_32ns_32ns_32_3_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_fmul_32ns_32ns_32_3_max_dsp_1_ip'...
+INFO: Done generating pedal_top_fmul_32ns_32ns_32_3_max_dsp_1_ip via file impl/misc/pedal_top_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
+INFO: Generating pedal_top_fpext_32ns_64_2_no_dsp_1_ip via file impl/misc/pedal_top_fpext_32ns_64_2_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_fpext_32ns_64_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: Done generating pedal_top_fpext_32ns_64_2_no_dsp_1_ip via file impl/misc/pedal_top_fpext_32ns_64_2_no_dsp_1_ip.tcl
+INFO: Generating pedal_top_sitofp_32ns_32_4_no_dsp_1_ip via file impl/misc/pedal_top_sitofp_32ns_32_4_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'pedal_top_sitofp_32ns_32_4_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pedal_top_sitofp_32ns_32_4_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pedal_top_sitofp_32ns_32_4_no_dsp_1_ip'...
+generate_target: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 729.184 ; gain = 0.000
+INFO: Done generating pedal_top_sitofp_32ns_32_4_no_dsp_1_ip via file impl/misc/pedal_top_sitofp_32ns_32_4_no_dsp_1_ip.tcl
+INFO: Import ports from HDL: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/hdl/vhdl/pedal_top.vhd (pedal_top)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add axi4lite interface s_axi_ctrl
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+INFO: Add axi4stream interface in_stream
+INFO: Add axi4stream interface out_stream
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/component.xml
+INFO: Created IP archive E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/impl/ip/xilinx_com_hls_pedal_top_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  1 16:17:20 2026...
+INFO: [HLS 200-802] Generated output file pedal/pedal_top.zip
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 2 seconds. Total elapsed time: 125.084 seconds; peak allocated memory: 304.891 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 2m 9s

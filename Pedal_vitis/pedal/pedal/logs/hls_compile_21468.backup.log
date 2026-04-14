@@ -1,0 +1,214 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal\pedal.hlscompile_summary, at 04/01/26 16:20:01
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal -config E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg -cmdlineconfig E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Apr  1 16:20:03 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'noble.dav' on host 'wfxb07b250a3a85.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Wed Apr 01 16:20:03 -0400 2026
+INFO: [HLS 200-10] In directory 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal'
+INFO: [HLS 200-2005] Using work_dir E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.h' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_top.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_top.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=pedal_c_tb.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=pedal_top' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 18.62 seconds; current allocated memory: 246.008 MB.
+INFO: [HLS 200-10] Analyzing design file 'pedal_top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'pedal_c.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'pedal.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 22.934 seconds; current allocated memory: 249.312 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 21,105 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,635 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 780 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 725 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 377 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 374 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 374 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 374 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 374 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 438 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 446 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 438 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 382 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 382 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 352 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 348 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::mantissa() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::expv() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::__signbit() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' into 'int generic_cast_IEEE754<int, float>(float, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116:0)
+INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, float>(float, bool)' into '__hls_fptosi_float_i32' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51:0)
+INFO: [HLS 214-178] Inlining function '__hls_fptosi_float_i32' into 'hard_clipping_distortion(int, float, float)' (pedal_c.cpp:20:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::data() const (.83.93.102.113)' into 'fp_struct<double>::to_double() const (.80.90.99.110)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:494:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_double() const (.80.90.99.110)' into 'fp_struct<double>::to_ieee() const' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:509:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'double generic_copysign<double>(double, double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_ieee() const' into 'double generic_copysign<double>(double, double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'double generic_copysign<double>(double, double)' into 'double generic_fabs<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_fabs.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_ieee() const' into 'double generic_nan<double>(char const*)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_nan.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_isnan<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isnan.h:16:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_isinf<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isinf.h:16:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'double exp_reduce_::exp_generic<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isnan<double>(double)' into 'double exp_reduce_::exp_generic<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isinf<double>(double)' into 'double exp_reduce_::exp_generic<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_ieee() const' into 'double exp_reduce_::exp_generic<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::expv() const' into 'double exp_reduce_::exp_generic<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'exp_reduce_::exp_traits<double>::exp_Z1P_m_1(ap_ufixed<51, -8, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'double exp_reduce_::exp_generic<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'exp_reduce_::expm1(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_exp_double.cpp:7:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'double explog_based::generic_tanh<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'double generic_fabs<double>(double)' into 'double explog_based::generic_tanh<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'double generic_nan<double>(char const*)' into 'double explog_based::generic_tanh<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'exp_reduce_::expm1(double)' into 'double explog_based::generic_tanh<double>(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, double>(double, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::mantissa() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, double>(double, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::expv() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, double>(double, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::__signbit() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, double>(double, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, (ap_q_mode)6, double>(double, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' into 'int generic_cast_IEEE754<int, double>(double, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116:0)
+INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, double>(double, bool)' into '__hls_fptosi_double_i32' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:55:0)
+INFO: [HLS 214-178] Inlining function '__hls_fptosi_float_i32' into 'soft_clipping_distortion(int, float, float)' (pedal_c.cpp:35:0)
+INFO: [HLS 214-178] Inlining function 'tanh' into 'soft_clipping_distortion(int, float, float)' (pedal_c.cpp:35:0)
+INFO: [HLS 214-178] Inlining function '__hls_fptosi_double_i32' into 'soft_clipping_distortion(int, float, float)' (pedal_c.cpp:35:0)
+INFO: [HLS 214-178] Inlining function 'hard_clipping_distortion(int, float, float)' into 'pedal_top(hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, ap_uint<8>)' (pedal_top.cpp:34:0)
+INFO: [HLS 214-178] Inlining function 'soft_clipping_distortion(int, float, float)' into 'pedal_top(hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, ap_uint<8>)' (pedal_top.cpp:34:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_52_1> at pedal_top.cpp:52:22 
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 16.958 seconds; current allocated memory: 251.785 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.014 seconds; current allocated memory: 251.789 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.669 seconds; current allocated memory: 262.422 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.252 seconds; current allocated memory: 271.699 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (pedal_top.cpp:53:19) to (pedal_top.cpp:57:12) in function 'pedal_top'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_exp_.h:158:9) to (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_exp_.h:339:3) in function 'exp_reduce_::exp_generic<double>'... converting 10 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.41 seconds; current allocated memory: 299.445 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.257 seconds; current allocated memory: 317.594 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'pedal_top' ...
+WARNING: [SYN 201-103] Legalizing function name 'exp_generic<double>' to 'exp_generic_double_s'.
+WARNING: [SYN 201-103] Legalizing function name 'generic_tanh<double>' to 'generic_tanh_double_s'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'exp_generic_double_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln243) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining function 'exp_generic<double>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 9, function 'exp_generic<double>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.671 seconds; current allocated memory: 321.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.363 seconds; current allocated memory: 323.176 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'generic_tanh_double_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'generic_tanh<double>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 53, function 'generic_tanh<double>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.727 seconds; current allocated memory: 323.895 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.798 seconds; current allocated memory: 324.402 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pedal_top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_52_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 88, loop 'VITIS_LOOP_52_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.352 seconds; current allocated memory: 325.047 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.772 seconds; current allocated memory: 325.656 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'exp_generic_double_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'exp_generic_double_s_table_exp_Z1_ap_ufixed_58_1_ap_q_mode_5_ap_o_mode_3_0_array_ROM_AUTO_1R' to 'exp_generic_double_s_table_exp_Z1_ap_ufixed_58_1_ap_q_mode_5_ap_o_mode_3_0_arbkb' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'exp_generic_double_s_table_f_Z3_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_ROM_AUTO_1R' to 'exp_generic_double_s_table_f_Z3_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_arracud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'exp_generic_double_s_table_f_Z2_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_ROM_AUTO_1R' to 'exp_generic_double_s_table_f_Z2_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_arradEe' due to the length limit 80
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_15ns_19s_31_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_13s_71s_71_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_43ns_36ns_79_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_49ns_44ns_93_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_50ns_50ns_100_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_3_64_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'exp_generic_double_s'.
+INFO: [RTMG 210-279] Implementing memory 'pedal_top_exp_generic_double_s_table_exp_Z1_ap_ufixed_58_1_ap_q_mode_5_ap_o_mode_3_0_arbkb' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'pedal_top_exp_generic_double_s_table_f_Z3_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_arracud' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'pedal_top_exp_generic_double_s_table_f_Z2_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_arradEe' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.796 seconds; current allocated memory: 329.074 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'generic_tanh_double_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-104] Estimated max fanout for 'generic_tanh_double_s' is 6110 from HDL expression: ((1'b1 == ap_ce_reg) & (1'b0 == ap_block_pp0_stage0_11001))
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_5_full_dsp_0': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dcmp_64ns_64ns_1_2_no_dsp_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'ddiv_64ns_64ns_64_22_no_dsp_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dsub_64ns_64ns_64_5_full_dsp_0': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'generic_tanh_double_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.803 seconds; current allocated memory: 335.062 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pedal_top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pedal_top/switches' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'pedal_top' to 's_axilite & ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pedal_top' pipeline 'VITIS_LOOP_52_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Bundling port 'switches' to AXI-Lite port ctrl.
+INFO: [HLS 200-1552] Enabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_52_1' in module 'pedal_top'. Estimated max control fanout for pipeline is 8772.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fdiv_32ns_32ns_32_9_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_3_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitofp_32ns_32_4_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pedal_top'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.353 seconds; current allocated memory: 354.230 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 2 seconds. Elapsed time: 16.838 seconds; current allocated memory: 354.809 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 4.27 seconds; current allocated memory: 354.957 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for pedal_top.
+INFO: [VLOG 209-307] Generating Verilog RTL for pedal_top.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 139.82 MHz
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 6 seconds. Total elapsed time: 106.463 seconds; peak allocated memory: 355.020 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 51s

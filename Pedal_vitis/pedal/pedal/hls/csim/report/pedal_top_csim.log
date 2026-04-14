@@ -1,0 +1,114 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../pedal_c_tb.cpp in debug mode
+   Compiling ../../../../pedal_top.cpp in debug mode
+   Compiling ../../../../pedal_c.cpp in debug mode
+   Compiling ../../../../pedal.cpp in debug mode
+   Generating csim.exe
+--- Generating Input Sine Wave ---
+--- Running pedal_top ---
+--- Checking Results ---
+Sample [0] Output Data: 0
+Sample [1] Output Data: 1174
+Sample [2] Output Data: 2344
+Sample [3] Output Data: 3506
+Sample [4] Output Data: 3753
+Sample [5] Output Data: 3754
+Sample [6] Output Data: 3755
+Sample [7] Output Data: 3756
+Sample [8] Output Data: 3757
+Sample [9] Output Data: 3758
+Sample [10] Output Data: 3758
+Sample [11] Output Data: 3759
+Sample [12] Output Data: 3760
+Sample [13] Output Data: 3761
+Sample [14] Output Data: 3762
+Sample [15] Output Data: 3763
+Sample [16] Output Data: 3764
+Sample [17] Output Data: 3765
+Sample [18] Output Data: 3766
+Sample [19] Output Data: 3766
+Sample [20] Output Data: 3767
+Sample [21] Output Data: 3768
+Sample [22] Output Data: 3769
+Sample [23] Output Data: 3770
+Sample [24] Output Data: 3771
+Sample [25] Output Data: 3772
+Sample [26] Output Data: 3773
+Sample [27] Output Data: 3774
+Sample [28] Output Data: 3774
+Sample [29] Output Data: 3775
+Sample [30] Output Data: 3776
+Sample [31] Output Data: 3777
+Sample [32] Output Data: 3778
+Sample [33] Output Data: 3779
+Sample [34] Output Data: 3780
+Sample [35] Output Data: 3781
+Sample [36] Output Data: 3782
+Sample [37] Output Data: 3782
+Sample [38] Output Data: 3783
+Sample [39] Output Data: 3784
+Sample [40] Output Data: 3785
+Sample [41] Output Data: 3786
+Sample [42] Output Data: 3787
+Sample [43] Output Data: 3788
+Sample [44] Output Data: 3789
+Sample [45] Output Data: 3790
+Sample [46] Output Data: 3790
+Sample [47] Output Data: 3675
+Sample [48] Output Data: 2504
+Sample [49] Output Data: 1321
+Sample [50] Output Data: 134
+Sample [51] Output Data: -1052
+Sample [52] Output Data: -2237
+Sample [53] Output Data: -3415
+Sample [54] Output Data: -3798
+Sample [55] Output Data: -3798
+Sample [56] Output Data: -3799
+Sample [57] Output Data: -3800
+Sample [58] Output Data: -3801
+Sample [59] Output Data: -3802
+Sample [60] Output Data: -3803
+Sample [61] Output Data: -3804
+Sample [62] Output Data: -3805
+Sample [63] Output Data: -3806
+Sample [64] Output Data: -3806
+Sample [65] Output Data: -3807
+Sample [66] Output Data: -3808
+Sample [67] Output Data: -3809
+Sample [68] Output Data: -3810
+Sample [69] Output Data: -3811
+Sample [70] Output Data: -3812
+Sample [71] Output Data: -3813
+Sample [72] Output Data: -3814
+Sample [73] Output Data: -3814
+Sample [74] Output Data: -3815
+Sample [75] Output Data: -3816
+Sample [76] Output Data: -3817
+Sample [77] Output Data: -3818
+Sample [78] Output Data: -3819
+Sample [79] Output Data: -3820
+Sample [80] Output Data: -3821
+Sample [81] Output Data: -3822
+Sample [82] Output Data: -3822
+Sample [83] Output Data: -3823
+Sample [84] Output Data: -3824
+Sample [85] Output Data: -3825
+Sample [86] Output Data: -3826
+Sample [87] Output Data: -3827
+Sample [88] Output Data: -3828
+Sample [89] Output Data: -3829
+Sample [90] Output Data: -3830
+Sample [91] Output Data: -3830
+Sample [92] Output Data: -3831
+Sample [93] Output Data: -3832
+Sample [94] Output Data: -3833
+Sample [95] Output Data: -3834
+Sample [96] Output Data: -3835
+Sample [97] Output Data: -3836
+Sample [98] Output Data: -2668
+Sample [99] Output Data: -1473
+Test Passed: Successfully processed 100 samples.
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 100
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,14 +1,82 @@
 {
-    "0": {
-        "name": "audio_passthrough",
-        "file": "pedal.cpp",
-        "fileloc": "9",
-        "instructions": "25",
-        "total_instructions": "25",
+    "1": {
+        "name": "tremolo",
+        "file": "pedal_c.cpp",
+        "fileloc": "35",
+        "instructions": "315",
+        "total_instructions": "315",
         "calls": "",
-        "basicblocks": "3",
+        "basicblocks": "1",
+        "loads": {
+            "G": "4"
+        }
+    },
+    "0": {
+        "name": "pedal_top",
+        "file": "pedal_top.cpp",
+        "fileloc": "5",
+        "instructions": "858",
+        "total_instructions": "1981",
+        "calls": "5 1 2",
+        "basicblocks": "14",
+        "loads": {
+            "G": "12",
+            "L": "3"
+        },
+        "stores": {
+            "G": "6",
+            "L": "2"
+        },
         "loops": {
             "L": "1"
+        }
+    },
+    "2": {
+        "name": "generic_fmod_mult<float>",
+        "file": "hls_fmod_rem_quo.h",
+        "fileloc": "120",
+        "instructions": "72",
+        "total_instructions": "331",
+        "calls": "4",
+        "basicblocks": "11"
+    },
+    "3": {
+        "name": "generic_tanh<float>",
+        "file": "hls_tanh.h",
+        "fileloc": "28",
+        "instructions": "64",
+        "total_instructions": "209",
+        "calls": "6",
+        "basicblocks": "13"
+    },
+    "4": {
+        "name": "mod_rcp_mult<24, 36, 8>",
+        "file": "C:\\scratch\\2024.1\\hls_product\\545\\2024.1\\src\\shared\\hls\\clib\/hlsmath\/include\/FloatingPoint\\hls_fmod_rem_quo.h",
+        "fileloc": "83",
+        "instructions": "259",
+        "total_instructions": "259",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "5": {
+        "name": "soft_clipping_distortion",
+        "file": "pedal_c.cpp",
+        "fileloc": "26",
+        "instructions": "268",
+        "total_instructions": "477",
+        "calls": "3",
+        "basicblocks": "1"
+    },
+    "6": {
+        "name": "exp_generic<double>",
+        "file": "hls_exp_.h",
+        "fileloc": "156",
+        "instructions": "145",
+        "total_instructions": "145",
+        "calls": "",
+        "basicblocks": "1",
+        "loads": {
+            "G": "4"
         }
     }
 }

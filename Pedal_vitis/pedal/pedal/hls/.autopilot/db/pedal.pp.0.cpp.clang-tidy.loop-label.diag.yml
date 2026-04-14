@@ -47,12 +47,12 @@ Diagnostics:
         Length:          0
         ReplacementText: 'VITIS_LOOP_1247_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_15_1:  '
-    FileOffset:      15
+    Message:         'Added loop label VITIS_LOOP_23_1:  '
+    FileOffset:      23
     FilePath:        pedal.cpp
     Replacements:    
       - FilePath:        'E:\FPGA-Guitar-Pedal\Pedal_vitis\pedal\pedal\hls\.autopilot\db\pedal.pp.0.cpp'
-        Offset:          1697959
+        Offset:          1698056
         Length:          0
-        ReplacementText: 'VITIS_LOOP_15_1: '
+        ReplacementText: 'VITIS_LOOP_23_1: '
 ...

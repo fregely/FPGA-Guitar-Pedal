@@ -1,0 +1,216 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal\pedal.hlsrun_csim_summary, at 04/08/26 15:50:41
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal -config E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg -cmdlineconfig E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Apr  8 15:50:43 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'noble.dav' on host 'wfxb07b250a3a85.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Wed Apr 08 15:50:44 -0400 2026
+INFO: [HLS 200-10] In directory 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal'
+INFO: [HLS 200-2005] Using work_dir E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_c.h' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=pedal_top.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_top.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=pedal_c_tb.cpp' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding test bench file 'E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/pedal_c_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=pedal_top' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'clock=15ns' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(13)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 15ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from E:/FPGA-Guitar-Pedal/Pedal_vitis/pedal/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../pedal_c_tb.cpp in debug mode
+   Compiling ../../../../pedal_top.cpp in debug mode
+   Compiling ../../../../pedal_c.cpp in debug mode
+   Compiling ../../../../pedal.cpp in debug mode
+   Generating csim.exe
+In file included from ../../../../pedal_c_tb.cpp:3:
+In file included from ../../../../pedal_c.h:3:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h:15:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h:10:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h:658:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../pedal_top.cpp:2:
+In file included from ../../../../pedal_c.h:3:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h:15:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h:10:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h:658:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../pedal_c.cpp:5:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_math.h:27:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../pedal.cpp:1:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h:15:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h:10:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h:658:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+--- Generating Input Sine Wave ---
+--- Running pedal_top ---
+--- Checking Results ---
+Sample [0] Output Data: 0
+Sample [1] Output Data: 1174
+Sample [2] Output Data: 2344
+Sample [3] Output Data: 3506
+Sample [4] Output Data: 3753
+Sample [5] Output Data: 3754
+Sample [6] Output Data: 3755
+Sample [7] Output Data: 3756
+Sample [8] Output Data: 3757
+Sample [9] Output Data: 3758
+Sample [10] Output Data: 3758
+Sample [11] Output Data: 3759
+Sample [12] Output Data: 3760
+Sample [13] Output Data: 3761
+Sample [14] Output Data: 3762
+Sample [15] Output Data: 3763
+Sample [16] Output Data: 3764
+Sample [17] Output Data: 3765
+Sample [18] Output Data: 3766
+Sample [19] Output Data: 3766
+Sample [20] Output Data: 3767
+Sample [21] Output Data: 3768
+Sample [22] Output Data: 3769
+Sample [23] Output Data: 3770
+Sample [24] Output Data: 3771
+Sample [25] Output Data: 3772
+Sample [26] Output Data: 3773
+Sample [27] Output Data: 3774
+Sample [28] Output Data: 3774
+Sample [29] Output Data: 3775
+Sample [30] Output Data: 3776
+Sample [31] Output Data: 3777
+Sample [32] Output Data: 3778
+Sample [33] Output Data: 3779
+Sample [34] Output Data: 3780
+Sample [35] Output Data: 3781
+Sample [36] Output Data: 3782
+Sample [37] Output Data: 3782
+Sample [38] Output Data: 3783
+Sample [39] Output Data: 3784
+Sample [40] Output Data: 3785
+Sample [41] Output Data: 3786
+Sample [42] Output Data: 3787
+Sample [43] Output Data: 3788
+Sample [44] Output Data: 3789
+Sample [45] Output Data: 3790
+Sample [46] Output Data: 3790
+Sample [47] Output Data: 3675
+Sample [48] Output Data: 2504
+Sample [49] Output Data: 1321
+Sample [50] Output Data: 134
+Sample [51] Output Data: -1052
+Sample [52] Output Data: -2237
+Sample [53] Output Data: -3415
+Sample [54] Output Data: -3798
+Sample [55] Output Data: -3798
+Sample [56] Output Data: -3799
+Sample [57] Output Data: -3800
+Sample [58] Output Data: -3801
+Sample [59] Output Data: -3802
+Sample [60] Output Data: -3803
+Sample [61] Output Data: -3804
+Sample [62] Output Data: -3805
+Sample [63] Output Data: -3806
+Sample [64] Output Data: -3806
+Sample [65] Output Data: -3807
+Sample [66] Output Data: -3808
+Sample [67] Output Data: -3809
+Sample [68] Output Data: -3810
+Sample [69] Output Data: -3811
+Sample [70] Output Data: -3812
+Sample [71] Output Data: -3813
+Sample [72] Output Data: -3814
+Sample [73] Output Data: -3814
+Sample [74] Output Data: -3815
+Sample [75] Output Data: -3816
+Sample [76] Output Data: -3817
+Sample [77] Output Data: -3818
+Sample [78] Output Data: -3819
+Sample [79] Output Data: -3820
+Sample [80] Output Data: -3821
+Sample [81] Output Data: -3822
+Sample [82] Output Data: -3822
+Sample [83] Output Data: -3823
+Sample [84] Output Data: -3824
+Sample [85] Output Data: -3825
+Sample [86] Output Data: -3826
+Sample [87] Output Data: -3827
+Sample [88] Output Data: -3828
+Sample [89] Output Data: -3829
+Sample [90] Output Data: -3830
+Sample [91] Output Data: -3830
+Sample [92] Output Data: -3831
+Sample [93] Output Data: -3832
+Sample [94] Output Data: -3833
+Sample [95] Output Data: -3834
+Sample [96] Output Data: -3835
+Sample [97] Output Data: -3836
+Sample [98] Output Data: -2668
+Sample [99] Output Data: -1473
+Test Passed: Successfully processed 100 samples.
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 100
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 63.567 seconds; peak allocated memory: 246.199 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 1m 8s

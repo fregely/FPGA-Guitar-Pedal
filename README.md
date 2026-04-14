@@ -54,17 +54,43 @@ Combines the original signal with a slightly delayed and pitch-modulated copy of
 
 ---
 
-# Vitis and Vivado Project
+# Project Directory 
 
-## Vitis
-The Vitis project currently contains simple passthrough code for audio, allowing us to test sound playback on the board. It also serves as a template that we will build the rest of the project on top of.
+## Pedal_Vitis
+Currently holds the all the code for how our guitar pedal works. Has working hard and Soft Clipping, Echo, Tremolo and Chorus. 
 
-## Vivado
-Holds a block diagram that connects the Vitis program to the audio codec. It is able to fully generate a bitstream and we believe it will work, but have not yet had a chance to test it on the board.
+## Pedal_Vivado
+Holds a block diagram that allows the code to run on a board. Including Axi Stream, and allows for direct access to the board switches to be integrated to control which effect is being done. 
 
----
+## Audio_output
+Contains .wav files for each of the effects, recorded directly from the board as an example of what each effect does. 
 
-# AI Usage
-AI was used to help learn how to set up Vivado, using it as a better google, to figure out which IP blocks to use, and to help debug and set up the constraints file.
+## Final_bitstream
+Contains all files need to upload to the board and run the program
 
-It was also used to help format and clean up this README, because I (David) am really bad at writing them.
+## audio_test jupyter Notebook 
+The python code ran on the board
+
+## software_implemention 
+The python Software implementation 
+
+# Project Time Results
+
+## Software times:
+Hard Clip: 0.75417 s
+Soft Clipped: 0.61680 s
+Delay: 0.36252 s
+Sin Tremolo: 0.60201 s
+Chorus: 1.47538 s
+
+## Hardware times:
+Hard clipping 0.038399 s
+Soft clipping 0.038667 s
+Echo 0.038138 s
+Chorus 0.039254 s
+Tremolo 0.038160 s
+Hard + echo 0.037932 s
+Soft + chorus 0.037990 s
+Echo + chorus 0.037910 s
+All of them  0.038021 s
+All - tremolo 0.038304 s

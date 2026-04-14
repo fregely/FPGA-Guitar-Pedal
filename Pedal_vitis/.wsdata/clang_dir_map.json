@@ -1,6 +1,10 @@
 {
   "workspaceRoot": "E:\\FPGA-Guitar-Pedal\\Pedal_vitis",
   "mapping": {
-    "pedal\\pedal.cpp": "pedal"
+    "pedal\\pedal_c.cpp": "pedal",
+    "pedal\\pedal_c_tb.cpp": "pedal",
+    "pedal\\pedal_c.h": "pedal",
+    "pedal\\pedal.cpp": "pedal",
+    "pedal\\pedal_top.cpp": "pedal"
   }
 }

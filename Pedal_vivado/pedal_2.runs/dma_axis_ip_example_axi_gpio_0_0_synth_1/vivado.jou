@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Mar 31 15:53:03 2026
+# Process ID: 23664
+# Current directory: D:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_gpio_0_0_synth_1
+# Command line: vivado.exe -log dma_axis_ip_example_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_axis_ip_example_axi_gpio_0_0.tcl
+# Log file: D:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_gpio_0_0_synth_1/dma_axis_ip_example_axi_gpio_0_0.vds
+# Journal file: D:/FPGA-Guitar-Pedal/pedal_vivado/pedal_2.runs/dma_axis_ip_example_axi_gpio_0_0_synth_1\vivado.jou
+# Running On        :Theodore
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12650H
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :25441 MB
+# Swap memory       :15032 MB
+# Total Virtual     :40473 MB
+# Available Virtual :9274 MB
+#-----------------------------------------------------------
+source dma_axis_ip_example_axi_gpio_0_0.tcl -notrace
