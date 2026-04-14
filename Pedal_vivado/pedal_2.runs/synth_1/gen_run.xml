@@ -62,8 +62,8 @@
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_clk_wiz_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_i2s_transmitter_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_proc_sys_reset_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_proc_sys_reset_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_zynq_ultra_ps_e_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_rst_ps7_0_100M_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_util_vector_logic_0_0"/>

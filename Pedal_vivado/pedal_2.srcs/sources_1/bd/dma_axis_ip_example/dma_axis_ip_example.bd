@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xDEEC84D9CC722D5B",
+      "boundary_crc": "0xDEEC84D9578E54F3",
       "device": "xczu3eg-sfvc784-2-e",
       "gen_directory": "../../../../pedal_2.gen/sources_1/bd/dma_axis_ip_example",
       "name": "dma_axis_ip_example",
@@ -33,12 +33,12 @@
         "m04_couplers": {}
       },
       "rst_ps7_0_100M": "",
-      "clk_wiz_0": "",
-      "i2s_transmitter_0": "",
-      "util_vector_logic_0": "",
-      "xlconstant_0": "",
       "axi_gpio_0": "",
-      "pedal_top_0": ""
+      "pedal_top_0": "",
+      "i2s_transmitter_0": "",
+      "xlconstant_0": "",
+      "clk_wiz_0": "",
+      "util_vector_logic_0": ""
     },
     "interface_ports": {
       "switches": {
@@ -68,30 +68,30 @@
       }
     },
     "ports": {
-      "irq_0": {
-        "type": "intr",
-        "direction": "O"
-      },
-      "lrclk_out_0": {
-        "direction": "O"
-      },
-      "sclk_out_0": {
-        "direction": "O"
-      },
-      "sdata_0_out_0": {
-        "direction": "O"
-      },
       "locked_0": {
-        "direction": "O"
-      },
-      "clk_out1_0": {
-        "type": "clk",
         "direction": "O"
       },
       "AIC_nRST": {
         "direction": "O",
         "left": "0",
         "right": "0"
+      },
+      "clk_out1_0": {
+        "type": "clk",
+        "direction": "O"
+      },
+      "sdata_0_out_0": {
+        "direction": "O"
+      },
+      "sclk_out_0": {
+        "direction": "O"
+      },
+      "irq_0": {
+        "type": "intr",
+        "direction": "O"
+      },
+      "lrclk_out_0": {
+        "direction": "O"
       }
     },
     "components": {
@@ -2204,6 +2204,39 @@
         "xci_path": "ip\\dma_axis_ip_example_rst_ps7_0_100M_0\\dma_axis_ip_example_rst_ps7_0_100M_0.xci",
         "inst_hier_path": "rst_ps7_0_100M"
       },
+      "axi_gpio_0": {
+        "vlnv": "xilinx.com:ip:axi_gpio:2.0",
+        "ip_revision": "33",
+        "xci_name": "dma_axis_ip_example_axi_gpio_0_0",
+        "xci_path": "ip\\dma_axis_ip_example_axi_gpio_0_0\\dma_axis_ip_example_axi_gpio_0_0.xci",
+        "inst_hier_path": "axi_gpio_0",
+        "parameters": {
+          "C_GPIO_WIDTH": {
+            "value": "8"
+          }
+        }
+      },
+      "pedal_top_0": {
+        "vlnv": "xilinx.com:hls:pedal_top:1.0",
+        "ip_revision": "2114556748",
+        "xci_name": "dma_axis_ip_example_pedal_top_0_1",
+        "xci_path": "ip\\dma_axis_ip_example_pedal_top_0_1\\dma_axis_ip_example_pedal_top_0_1.xci",
+        "inst_hier_path": "pedal_top_0"
+      },
+      "i2s_transmitter_0": {
+        "vlnv": "xilinx.com:ip:i2s_transmitter:1.0",
+        "ip_revision": "8",
+        "xci_name": "dma_axis_ip_example_i2s_transmitter_0_0",
+        "xci_path": "ip\\dma_axis_ip_example_i2s_transmitter_0_0\\dma_axis_ip_example_i2s_transmitter_0_0.xci",
+        "inst_hier_path": "i2s_transmitter_0"
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "ip_revision": "9",
+        "xci_name": "dma_axis_ip_example_xlconstant_0_0",
+        "xci_path": "ip\\dma_axis_ip_example_xlconstant_0_0\\dma_axis_ip_example_xlconstant_0_0.xci",
+        "inst_hier_path": "xlconstant_0"
+      },
       "clk_wiz_0": {
         "vlnv": "xilinx.com:ip:clk_wiz:6.0",
         "ip_revision": "14",
@@ -2231,13 +2264,6 @@
           }
         }
       },
-      "i2s_transmitter_0": {
-        "vlnv": "xilinx.com:ip:i2s_transmitter:1.0",
-        "ip_revision": "8",
-        "xci_name": "dma_axis_ip_example_i2s_transmitter_0_0",
-        "xci_path": "ip\\dma_axis_ip_example_i2s_transmitter_0_0\\dma_axis_ip_example_i2s_transmitter_0_0.xci",
-        "inst_hier_path": "i2s_transmitter_0"
-      },
       "util_vector_logic_0": {
         "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
         "ip_revision": "4",
@@ -2252,32 +2278,6 @@
             "value": "1"
           }
         }
-      },
-      "xlconstant_0": {
-        "vlnv": "xilinx.com:ip:xlconstant:1.1",
-        "ip_revision": "9",
-        "xci_name": "dma_axis_ip_example_xlconstant_0_0",
-        "xci_path": "ip\\dma_axis_ip_example_xlconstant_0_0\\dma_axis_ip_example_xlconstant_0_0.xci",
-        "inst_hier_path": "xlconstant_0"
-      },
-      "axi_gpio_0": {
-        "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "ip_revision": "33",
-        "xci_name": "dma_axis_ip_example_axi_gpio_0_0",
-        "xci_path": "ip\\dma_axis_ip_example_axi_gpio_0_0\\dma_axis_ip_example_axi_gpio_0_0.xci",
-        "inst_hier_path": "axi_gpio_0",
-        "parameters": {
-          "C_GPIO_WIDTH": {
-            "value": "8"
-          }
-        }
-      },
-      "pedal_top_0": {
-        "vlnv": "xilinx.com:hls:pedal_top:1.0",
-        "ip_revision": "2114556748",
-        "xci_name": "dma_axis_ip_example_pedal_top_0_1",
-        "xci_path": "ip\\dma_axis_ip_example_pedal_top_0_1\\dma_axis_ip_example_pedal_top_0_1.xci",
-        "inst_hier_path": "pedal_top_0"
       }
     },
     "interface_nets": {
@@ -2406,14 +2406,14 @@
           "ps7_0_axi_periph/M00_ARESETN",
           "ps7_0_axi_periph/S00_ARESETN",
           "ps7_0_axi_periph/M01_ARESETN",
-          "i2s_transmitter_0/s_axi_ctrl_aresetn",
           "ps7_0_axi_periph/M02_ARESETN",
-          "i2s_transmitter_0/s_axis_aud_aresetn",
-          "util_vector_logic_0/Op1",
           "axi_gpio_0/s_axi_aresetn",
           "ps7_0_axi_periph/M03_ARESETN",
           "ps7_0_axi_periph/M04_ARESETN",
-          "pedal_top_0/ap_rst_n"
+          "pedal_top_0/ap_rst_n",
+          "i2s_transmitter_0/s_axi_ctrl_aresetn",
+          "i2s_transmitter_0/s_axis_aud_aresetn",
+          "util_vector_logic_0/Op1"
         ]
       },
       "rst_ps7_0_100M_peripheral_reset": {
@@ -2454,14 +2454,14 @@
           "zynq_ultra_ps_e_0/maxihpm0_fpd_aclk",
           "zynq_ultra_ps_e_0/saxihp2_fpd_aclk",
           "ps7_0_axi_periph/M01_ACLK",
-          "clk_wiz_0/clk_in1",
-          "i2s_transmitter_0/s_axi_ctrl_aclk",
           "ps7_0_axi_periph/M02_ACLK",
-          "i2s_transmitter_0/s_axis_aud_aclk",
           "axi_gpio_0/s_axi_aclk",
           "ps7_0_axi_periph/M03_ACLK",
           "ps7_0_axi_periph/M04_ACLK",
-          "pedal_top_0/ap_clk"
+          "pedal_top_0/ap_clk",
+          "i2s_transmitter_0/s_axi_ctrl_aclk",
+          "i2s_transmitter_0/s_axis_aud_aclk",
+          "clk_wiz_0/clk_in1"
         ]
       },
       "zynq_ultra_ps_e_0_pl_resetn0": {

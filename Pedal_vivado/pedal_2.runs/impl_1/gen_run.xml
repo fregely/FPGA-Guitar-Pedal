@@ -18,10 +18,14 @@
   <File Type="BITSTR-MMI" Name="dma_axis_ip_example_wrapper.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="dma_axis_ip_example_wrapper_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-SYSDEF" Name="dma_axis_ip_example_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="dma_axis_ip_example_wrapper_methodology_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="dma_axis_ip_example_wrapper.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="dma_axis_ip_example_wrapper_boot.pdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="dma_axis_ip_example_wrapper.npi"/>
   <File Type="OPT-DRC" Name="dma_axis_ip_example_wrapper_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="dma_axis_ip_example_wrapper.rbd"/>
   <File Type="OPT-HWDEF" Name="dma_axis_ip_example_wrapper.hwdef"/>
   <File Type="PLACE-IO" Name="dma_axis_ip_example_wrapper_io_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="dma_axis_ip_example_wrapper_utilization_placed.rpt"/>
@@ -55,17 +59,13 @@
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="dma_axis_ip_example_wrapper_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="dma_axis_ip_example_wrapper_bus_skew_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="dma_axis_ip_example_wrapper_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="dma_axis_ip_example_wrapper_methodology_drc_routed.pb"/>
   <File Type="ROUTE-DRC-RPX" Name="dma_axis_ip_example_wrapper_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="dma_axis_ip_example_wrapper_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="dma_axis_ip_example_wrapper.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="dma_axis_ip_example_wrapper_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="dma_axis_ip_example_wrapper_pld.pdi"/>
   <File Type="RCFI_FILE" Name="dma_axis_ip_example_wrapper.rcfi"/>
   <File Type="CFI_FILE" Name="dma_axis_ip_example_wrapper.cfi"/>
   <File Type="RNPI_FILE" Name="dma_axis_ip_example_wrapper.rnpi"/>
-  <File Type="NPI_FILE" Name="dma_axis_ip_example_wrapper.npi"/>
-  <File Type="RBD_FILE" Name="dma_axis_ip_example_wrapper.rbd"/>
   <File Type="ROUTE-RQS" Name="dma_axis_ip_example_wrapper_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="dma_axis_ip_example_wrapper_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -135,8 +135,8 @@
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_clk_wiz_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_i2s_transmitter_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_proc_sys_reset_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_proc_sys_reset_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_zynq_ultra_ps_e_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_rst_ps7_0_100M_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dma_axis_ip_example_util_vector_logic_0_0"/>
